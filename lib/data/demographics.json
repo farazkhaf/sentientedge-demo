@@ -1,0 +1,884 @@
+[
+  {
+    "neighborhood_id": "brickell",
+    "score": 0.85,
+    "demographic_desirability_score": 0.85,
+    "data_quality": 0.95,
+    "last_updated": "2026-05-14T00:00:00Z",
+    "metrics": {
+      "population_density": 60304,
+      "median_income": 96317,
+      "age_distribution": {
+        "under_18": 11,
+        "18_34": 35,
+        "35_54": 44,
+        "55_plus": 10
+      },
+      "education": {
+        "high_school": 10,
+        "bachelors": 43,
+        "graduate": 47
+      },
+      "homeownership": 28
+    },
+    "trend": {
+      "cadence": "quarterly",
+      "window": "90d",
+      "points": [
+        {"date": "2026-02-15", "score": 0.83},
+        {"date": "2026-03-01", "score": 0.83},
+        {"date": "2026-03-16", "score": 0.84},
+        {"date": "2026-03-31", "score": 0.84},
+        {"date": "2026-04-15", "score": 0.85},
+        {"date": "2026-05-14", "score": 0.85}
+      ],
+      "delta": 0.02,
+      "delta_pct": 2.4,
+      "direction": "up"
+    }
+  },
+  {
+    "neighborhood_id": "wynwood",
+    "score": 0.45,
+    "demographic_desirability_score": 0.45,
+    "data_quality": 0.88,
+    "last_updated": "2026-05-14T00:00:00Z",
+    "metrics": {
+      "population_density": 8633,
+      "median_income": 45301,
+      "age_distribution": {
+        "under_18": 22,
+        "18_34": 38,
+        "35_54": 26,
+        "55_plus": 14
+      },
+      "education": {
+        "high_school": 65,
+        "bachelors": 24,
+        "graduate": 11
+      },
+      "homeownership": 18
+    },
+    "trend": {
+      "cadence": "quarterly",
+      "window": "90d",
+      "points": [
+        {"date": "2026-02-15", "score": 0.42},
+        {"date": "2026-03-01", "score": 0.43},
+        {"date": "2026-03-16", "score": 0.43},
+        {"date": "2026-03-31", "score": 0.44},
+        {"date": "2026-04-15", "score": 0.45},
+        {"date": "2026-05-14", "score": 0.45}
+      ],
+      "delta": 0.03,
+      "delta_pct": 7.1,
+      "direction": "up"
+    }
+  },
+  {
+    "neighborhood_id": "design_district",
+    "score": 0.68,
+    "demographic_desirability_score": 0.68,
+    "data_quality": 0.84,
+    "last_updated": "2026-05-14T00:00:00Z",
+    "metrics": {
+      "population_density": 4512,
+      "median_income": 86072,
+      "age_distribution": {
+        "under_18": 15,
+        "18_34": 33,
+        "35_54": 35,
+        "55_plus": 17
+      },
+      "education": {
+        "high_school": 22,
+        "bachelors": 48,
+        "graduate": 30
+      },
+      "homeownership": 21
+    },
+    "trend": {
+      "cadence": "quarterly",
+      "window": "90d",
+      "points": [
+        {"date": "2026-02-15", "score": 0.68},
+        {"date": "2026-03-01", "score": 0.68},
+        {"date": "2026-03-16", "score": 0.68},
+        {"date": "2026-03-31", "score": 0.68},
+        {"date": "2026-04-15", "score": 0.68},
+        {"date": "2026-05-14", "score": 0.68}
+      ],
+      "delta": 0.00,
+      "delta_pct": 0.0,
+      "direction": "stable"
+    }
+  },
+  {
+    "neighborhood_id": "edgewater",
+    "score": 0.72,
+    "demographic_desirability_score": 0.72,
+    "data_quality": 0.92,
+    "last_updated": "2026-05-14T00:00:00Z",
+    "metrics": {
+      "population_density": 50521,
+      "median_income": 78499,
+      "age_distribution": {
+        "under_18": 13,
+        "18_34": 30,
+        "35_54": 41,
+        "55_plus": 16
+      },
+      "education": {
+        "high_school": 14,
+        "bachelors": 45,
+        "graduate": 41
+      },
+      "homeownership": 34
+    },
+    "trend": {
+      "cadence": "quarterly",
+      "window": "90d",
+      "points": [
+        {"date": "2026-02-15", "score": 0.70},
+        {"date": "2026-03-01", "score": 0.71},
+        {"date": "2026-03-16", "score": 0.71},
+        {"date": "2026-03-31", "score": 0.72},
+        {"date": "2026-04-15", "score": 0.72},
+        {"date": "2026-05-14", "score": 0.72}
+      ],
+      "delta": 0.02,
+      "delta_pct": 2.9,
+      "direction": "up"
+    }
+  }
+,
+
+  {
+    "neighborhood_id": "midtown",
+    "score": 0.48,
+    "demographic_desirability_score": 0.48,
+    "data_quality": 0.91,
+    "last_updated": "2026-05-14T00:00:00Z",
+    "metrics": {
+      "population_density": 33140,
+      "median_income": 68450,
+      "age_distribution": {
+        "under_18": 12,
+        "18_34": 42,
+        "35_54": 31,
+        "55_plus": 15
+      },
+      "education": {
+        "high_school": 18,
+        "bachelors": 52,
+        "graduate": 30
+      },
+      "homeownership": 24
+    },
+    "trend": {
+      "cadence": "quarterly",
+      "window": "90d",
+      "points": [
+        {"date": "2026-02-15", "score": 0.46},
+        {"date": "2026-03-01", "score": 0.46},
+        {"date": "2026-03-16", "score": 0.47},
+        {"date": "2026-03-31", "score": 0.47},
+        {"date": "2026-04-15", "score": 0.48},
+        {"date": "2026-05-14", "score": 0.48}
+      ],
+      "delta": 0.02,
+      "delta_pct": 4.3,
+      "direction": "up"
+    }
+  },
+  {
+    "neighborhood_id": "upper_eastside",
+    "score": 0.38,
+    "demographic_desirability_score": 0.38,
+    "data_quality": 0.89,
+    "last_updated": "2026-05-14T00:00:00Z",
+    "metrics": {
+      "population_density": 7120,
+      "median_income": 62130,
+      "age_distribution": {
+        "under_18": 16,
+        "18_34": 28,
+        "35_54": 32,
+        "55_plus": 24
+      },
+      "education": {
+        "high_school": 34,
+        "bachelors": 41,
+        "graduate": 25
+      },
+      "homeownership": 47
+    },
+    "trend": {
+      "cadence": "quarterly",
+      "window": "90d",
+      "points": [
+        {"date": "2026-02-15", "score": 0.37},
+        {"date": "2026-03-01", "score": 0.37},
+        {"date": "2026-03-16", "score": 0.38},
+        {"date": "2026-03-31", "score": 0.38},
+        {"date": "2026-04-15", "score": 0.38},
+        {"date": "2026-05-14", "score": 0.38}
+      ],
+      "delta": 0.01,
+      "delta_pct": 2.7,
+      "direction": "up"
+    }
+  },
+  {
+    "neighborhood_id": "little_haiti",
+    "score": -0.05,
+    "demographic_desirability_score": -0.05,
+    "data_quality": 0.86,
+    "last_updated": "2026-05-14T00:00:00Z",
+    "metrics": {
+      "population_density": 10450,
+      "median_income": 31420,
+      "age_distribution": {
+        "under_18": 24,
+        "18_34": 27,
+        "35_54": 28,
+        "55_plus": 21
+      },
+      "education": {
+        "high_school": 68,
+        "bachelors": 22,
+        "graduate": 10
+      },
+      "homeownership": 29
+    },
+    "trend": {
+      "cadence": "quarterly",
+      "window": "90d",
+      "points": [
+        {"date": "2026-02-15", "score": -0.08},
+        {"date": "2026-03-01", "score": -0.07},
+        {"date": "2026-03-16", "score": -0.07},
+        {"date": "2026-03-31", "score": -0.06},
+        {"date": "2026-04-15", "score": -0.05},
+        {"date": "2026-05-14", "score": -0.05}
+      ],
+      "delta": 0.03,
+      "delta_pct": 37.5,
+      "direction": "up"
+    }
+  },
+  {
+    "neighborhood_id": "little_river",
+    "score": 0.05,
+    "demographic_desirability_score": 0.05,
+    "data_quality": 0.84,
+    "last_updated": "2026-05-14T00:00:00Z",
+    "metrics": {
+      "population_density": 6890,
+      "median_income": 36800,
+      "age_distribution": {
+        "under_18": 23,
+        "18_34": 31,
+        "35_54": 27,
+        "55_plus": 19
+      },
+      "education": {
+        "high_school": 64,
+        "bachelors": 25,
+        "graduate": 11
+      },
+      "homeownership": 32
+    },
+    "trend": {
+      "cadence": "quarterly",
+      "window": "90d",
+      "points": [
+        {"date": "2026-02-15", "score": 0.02},
+        {"date": "2026-03-01", "score": 0.03},
+        {"date": "2026-03-16", "score": 0.04},
+        {"date": "2026-03-31", "score": 0.04},
+        {"date": "2026-04-15", "score": 0.05},
+        {"date": "2026-05-14", "score": 0.05}
+      ],
+      "delta": 0.03,
+      "delta_pct": 150.0,
+      "direction": "up"
+    }
+  },
+  {
+    "neighborhood_id": "buena_vista",
+    "score": 0.28,
+    "demographic_desirability_score": 0.28,
+    "data_quality": 0.85,
+    "last_updated": "2026-05-14T00:00:00Z",
+    "metrics": {
+      "population_density": 8150,
+      "median_income": 51200,
+      "age_distribution": {
+        "under_18": 19,
+        "18_34": 33,
+        "35_54": 29,
+        "55_plus": 19
+      },
+      "education": {
+        "high_school": 45,
+        "bachelors": 36,
+        "graduate": 19
+      },
+      "homeownership": 39
+    },
+    "trend": {
+      "cadence": "quarterly",
+      "window": "90d",
+      "points": [
+        {"date": "2026-02-15", "score": 0.26},
+        {"date": "2026-03-01", "score": 0.26},
+        {"date": "2026-03-16", "score": 0.27},
+        {"date": "2026-03-31", "score": 0.27},
+        {"date": "2026-04-15", "score": 0.28},
+        {"date": "2026-05-14", "score": 0.28}
+      ],
+      "delta": 0.02,
+      "delta_pct": 7.7,
+      "direction": "up"
+    }
+  }
+,
+
+  {
+    "neighborhood_id": "allapattah",
+    "score": 0.12,
+    "demographic_desirability_score": 0.12,
+    "data_quality": 0.88,
+    "last_updated": "2026-05-14T00:00:00Z",
+    "metrics": {
+      "population_density": 11520,
+      "median_income": 43036,
+      "age_distribution": {
+        "under_18": 21,
+        "18_34": 29,
+        "35_54": 28,
+        "55_plus": 22
+      },
+      "education": {
+        "high_school": 72,
+        "bachelors": 11,
+        "graduate": 4
+      },
+      "homeownership": 26
+    },
+    "trend": {
+      "cadence": "quarterly",
+      "window": "90d",
+      "points": [
+        {"date": "2026-02-15", "score": 0.10},
+        {"date": "2026-03-01", "score": 0.10},
+        {"date": "2026-03-16", "score": 0.11},
+        {"date": "2026-03-31", "score": 0.11},
+        {"date": "2026-04-15", "score": 0.12},
+        {"date": "2026-05-14", "score": 0.12}
+      ],
+      "delta": 0.02,
+      "delta_pct": 20.0,
+      "direction": "up"
+    }
+  },
+  {
+    "neighborhood_id": "overtown",
+    "score": -0.04,
+    "demographic_desirability_score": -0.04,
+    "data_quality": 0.89,
+    "last_updated": "2026-05-14T00:00:00Z",
+    "metrics": {
+      "population_density": 13440,
+      "median_income": 27796,
+      "age_distribution": {
+        "under_18": 27,
+        "18_34": 25,
+        "35_54": 26,
+        "55_plus": 22
+      },
+      "education": {
+        "high_school": 73,
+        "bachelors": 17,
+        "graduate": 10
+      },
+      "homeownership": 15
+    },
+    "trend": {
+      "cadence": "quarterly",
+      "window": "90d",
+      "points": [
+        {"date": "2026-02-15", "score": -0.06},
+        {"date": "2026-03-01", "score": -0.05},
+        {"date": "2026-03-16", "score": -0.05},
+        {"date": "2026-03-31", "score": -0.04},
+        {"date": "2026-04-15", "score": -0.04},
+        {"date": "2026-05-14", "score": -0.04}
+      ],
+      "delta": 0.02,
+      "delta_pct": 33.3,
+      "direction": "up"
+    }
+  },
+  {
+    "neighborhood_id": "health_district_/_civic_center",
+    "score": 0.08,
+    "demographic_desirability_score": 0.08,
+    "data_quality": 0.85,
+    "last_updated": "2026-05-14T00:00:00Z",
+    "metrics": {
+      "population_density": 5830,
+      "median_income": 25608,
+      "age_distribution": {
+        "under_18": 16,
+        "18_34": 34,
+        "35_54": 27,
+        "55_plus": 23
+      },
+      "education": {
+        "high_school": 62,
+        "bachelors": 24,
+        "graduate": 14
+      },
+      "homeownership": 11
+    },
+    "trend": {
+      "cadence": "quarterly",
+      "window": "90d",
+      "points": [
+        {"date": "2026-02-15", "score": 0.08},
+        {"date": "2026-03-01", "score": 0.08},
+        {"date": "2026-03-16", "score": 0.08},
+        {"date": "2026-03-31", "score": 0.08},
+        {"date": "2026-04-15", "score": 0.08},
+        {"date": "2026-05-14", "score": 0.08}
+      ],
+      "delta": 0.00,
+      "delta_pct": 0.0,
+      "direction": "stable"
+    }
+  },
+  {
+    "neighborhood_id": "liberty_city",
+    "score": -0.15,
+    "demographic_desirability_score": -0.15,
+    "data_quality": 0.87,
+    "last_updated": "2026-05-14T00:00:00Z",
+    "metrics": {
+      "population_density": 10880,
+      "median_income": 41052,
+      "age_distribution": {
+        "under_18": 29,
+        "18_34": 26,
+        "35_54": 24,
+        "55_plus": 21
+      },
+      "education": {
+        "high_school": 89,
+        "bachelors": 9,
+        "graduate": 2
+      },
+      "homeownership": 36
+    },
+    "trend": {
+      "cadence": "quarterly",
+      "window": "90d",
+      "points": [
+        {"date": "2026-02-15", "score": -0.16},
+        {"date": "2026-03-01", "score": -0.16},
+        {"date": "2026-03-16", "score": -0.15},
+        {"date": "2026-03-31", "score": -0.15},
+        {"date": "2026-04-15", "score": -0.15},
+        {"date": "2026-05-14", "score": -0.15}
+      ],
+      "delta": 0.01,
+      "delta_pct": 6.3,
+      "direction": "up"
+    }
+  },
+
+  {
+    "neighborhood_id": "coconut_grove",
+    "score": 0.88,
+    "demographic_desirability_score": 0.88,
+    "data_quality": 0.94,
+    "last_updated": "2026-05-14T00:00:00Z",
+    "metrics": {
+      "population_density": 6720,
+      "median_income": 107070,
+      "age_distribution": {
+        "under_18": 18,
+        "18_34": 22,
+        "35_54": 34,
+        "55_plus": 26
+      },
+      "education": {
+        "high_school": 12,
+        "bachelors": 51,
+        "graduate": 37
+      },
+      "homeownership": 62
+    },
+    "trend": {
+      "cadence": "quarterly",
+      "window": "90d",
+      "points": [
+        {"date": "2026-02-15", "score": 0.86},
+        {"date": "2026-03-01", "score": 0.86},
+        {"date": "2026-03-16", "score": 0.87},
+        {"date": "2026-03-31", "score": 0.87},
+        {"date": "2026-04-15", "score": 0.88},
+        {"date": "2026-05-14", "score": 0.88}
+      ],
+      "delta": 0.02,
+      "delta_pct": 2.3,
+      "direction": "up"
+    }
+  },
+  {
+    "neighborhood_id": "little_havana",
+    "score": 0.32,
+    "demographic_desirability_score": 0.32,
+    "data_quality": 0.91,
+    "last_updated": "2026-05-14T00:00:00Z",
+    "metrics": {
+      "population_density": 16850,
+      "median_income": 43850,
+      "age_distribution": {
+        "under_18": 17,
+        "18_34": 29,
+        "35_54": 28,
+        "55_plus": 26
+      },
+      "education": {
+        "high_school": 68,
+        "bachelors": 23,
+        "graduate": 9
+      },
+      "homeownership": 19
+    },
+    "trend": {
+      "cadence": "quarterly",
+      "window": "90d",
+      "points": [
+        {"date": "2026-02-15", "score": 0.30},
+        {"date": "2026-03-01", "score": 0.30},
+        {"date": "2026-03-16", "score": 0.31},
+        {"date": "2026-03-31", "score": 0.31},
+        {"date": "2026-04-15", "score": 0.32},
+        {"date": "2026-05-14", "score": 0.32}
+      ],
+      "delta": 0.02,
+      "delta_pct": 6.7,
+      "direction": "up"
+    }
+  },
+  {
+    "neighborhood_id": "coral_way",
+    "score": 0.78,
+    "demographic_desirability_score": 0.78,
+    "data_quality": 0.93,
+    "last_updated": "2026-05-14T00:00:00Z",
+    "metrics": {
+      "population_density": 10880,
+      "median_income": 81081,
+      "age_distribution": {
+        "under_18": 19,
+        "18_34": 23,
+        "35_54": 31,
+        "55_plus": 27
+      },
+      "education": {
+        "high_school": 28,
+        "bachelors": 46,
+        "graduate": 26
+      },
+      "homeownership": 48
+    },
+    "trend": {
+      "cadence": "quarterly",
+      "window": "90d",
+      "points": [
+        {"date": "2026-02-15", "score": 0.77},
+        {"date": "2026-03-01", "score": 0.77},
+        {"date": "2026-03-16", "score": 0.78},
+        {"date": "2026-03-31", "score": 0.78},
+        {"date": "2026-04-15", "score": 0.78},
+        {"date": "2026-05-14", "score": 0.78}
+      ],
+      "delta": 0.01,
+      "delta_pct": 1.3,
+      "direction": "up"
+    }
+  },
+  {
+    "neighborhood_id": "the_roads",
+    "score": 0.82,
+    "demographic_desirability_score": 0.82,
+    "data_quality": 0.89,
+    "last_updated": "2026-05-14T00:00:00Z",
+    "metrics": {
+      "population_density": 9210,
+      "median_income": 113367,
+      "age_distribution": {
+        "under_18": 16,
+        "18_34": 27,
+        "35_54": 36,
+        "55_plus": 21
+      },
+      "education": {
+        "high_school": 21,
+        "bachelors": 49,
+        "graduate": 30
+      },
+      "homeownership": 54
+    },
+    "trend": {
+      "cadence": "quarterly",
+      "window": "90d",
+      "points": [
+        {"date": "2026-02-15", "score": 0.81},
+        {"date": "2026-03-01", "score": 0.81},
+        {"date": "2026-03-16", "score": 0.82},
+        {"date": "2026-03-31", "score": 0.82},
+        {"date": "2026-04-15", "score": 0.82},
+        {"date": "2026-05-14", "score": 0.82}
+      ],
+      "delta": 0.01,
+      "delta_pct": 1.2,
+      "direction": "up"
+    }
+  },
+
+  {
+    "neighborhood_id": "flagami_/_grapeland",
+    "score": 0.35,
+    "demographic_desirability_score": 0.35,
+    "data_quality": 0.89,
+    "last_updated": "2026-05-14T00:00:00Z",
+    "metrics": {
+      "population_density": 12840,
+      "median_income": 49820,
+      "age_distribution": {
+        "under_18": 18,
+        "18_34": 26,
+        "35_54": 29,
+        "55_plus": 27
+      },
+      "education": {
+        "high_school": 70,
+        "bachelors": 21,
+        "graduate": 9
+      },
+      "homeownership": 38
+    },
+    "trend": {
+      "cadence": "quarterly",
+      "window": "90d",
+      "points": [
+        {"date": "2026-02-15", "score": 0.34},
+        {"date": "2026-03-01", "score": 0.34},
+        {"date": "2026-03-16", "score": 0.35},
+        {"date": "2026-03-31", "score": 0.35},
+        {"date": "2026-04-15", "score": 0.35},
+        {"date": "2026-05-14", "score": 0.35}
+      ],
+      "delta": 0.01,
+      "delta_pct": 2.9,
+      "direction": "up"
+    }
+  },
+  {
+    "neighborhood_id": "downtown_miami",
+    "score": 0.65,
+    "demographic_desirability_score": 0.65,
+    "data_quality": 0.93,
+    "last_updated": "2026-05-14T00:00:00Z",
+    "metrics": {
+      "population_density": 29450,
+      "median_income": 72150,
+      "age_distribution": {
+        "under_18": 10,
+        "18_34": 44,
+        "35_54": 32,
+        "55_plus": 14
+      },
+      "education": {
+        "high_school": 18,
+        "bachelors": 50,
+        "graduate": 32
+      },
+      "homeownership": 22
+    },
+    "trend": {
+      "cadence": "quarterly",
+      "window": "90d",
+      "points": [
+        {"date": "2026-02-15", "score": 0.63},
+        {"date": "2026-03-01", "score": 0.64},
+        {"date": "2026-03-16", "score": 0.64},
+        {"date": "2026-03-31", "score": 0.65},
+        {"date": "2026-04-15", "score": 0.65},
+        {"date": "2026-05-14", "score": 0.65}
+      ],
+      "delta": 0.02,
+      "delta_pct": 3.2,
+      "direction": "up"
+    }
+  },
+  {
+    "neighborhood_id": "venetian_islands",
+    "score": 0.92,
+    "demographic_desirability_score": 0.92,
+    "data_quality": 0.88,
+    "last_updated": "2026-05-14T00:00:00Z",
+    "metrics": {
+      "population_density": 3810,
+      "median_income": 164200,
+      "age_distribution": {
+        "under_18": 14,
+        "18_34": 19,
+        "35_54": 37,
+        "55_plus": 30
+      },
+      "education": {
+        "high_school": 6,
+        "bachelors": 49,
+        "graduate": 45
+      },
+      "homeownership": 74
+    },
+    "trend": {
+      "cadence": "quarterly",
+      "window": "90d",
+      "points": [
+        {"date": "2026-02-15", "score": 0.91},
+        {"date": "2026-03-01", "score": 0.91},
+        {"date": "2026-03-16", "score": 0.92},
+        {"date": "2026-03-31", "score": 0.92},
+        {"date": "2026-04-15", "score": 0.92},
+        {"date": "2026-05-14", "score": 0.92}
+      ],
+      "delta": 0.01,
+      "delta_pct": 1.1,
+      "direction": "up"
+    }
+  },
+  {
+    "neighborhood_id": "virginia_key",
+    "score": 0.75,
+    "demographic_desirability_score": 0.75,
+    "data_quality": 0.81,
+    "last_updated": "2026-05-14T00:00:00Z",
+    "metrics": {
+      "population_density": 45,
+      "median_income": 98500,
+      "age_distribution": {
+        "under_18": 12,
+        "18_34": 35,
+        "35_54": 33,
+        "55_plus": 20
+      },
+      "education": {
+        "high_school": 15,
+        "bachelors": 52,
+        "graduate": 33
+      },
+      "homeownership": 40
+    },
+    "trend": {
+      "cadence": "quarterly",
+      "window": "90d",
+      "points": [
+        {"date": "2026-02-15", "score": 0.75},
+        {"date": "2026-03-01", "score": 0.75},
+        {"date": "2026-03-16", "score": 0.75},
+        {"date": "2026-03-31", "score": 0.75},
+        {"date": "2026-04-15", "score": 0.75},
+        {"date": "2026-05-14", "score": 0.75}
+      ],
+      "delta": 0.00,
+      "delta_pct": 0.0,
+      "direction": "stable"
+    }
+  }
+,
+
+  {
+    "neighborhood_id": "watson_island",
+    "score": 0.72,
+    "demographic_desirability_score": 0.72,
+    "data_quality": 0.80,
+    "last_updated": "2026-05-14T00:00:00Z",
+    "metrics": {
+      "population_density": 85,
+      "median_income": 92300,
+      "age_distribution": {
+        "under_18": 11,
+        "18_34": 38,
+        "35_54": 34,
+        "55_plus": 17
+      },
+      "education": {
+        "high_school": 14,
+        "bachelors": 55,
+        "graduate": 31
+      },
+      "homeownership": 25
+    },
+    "trend": {
+      "cadence": "quarterly",
+      "window": "90d",
+      "points": [
+        {"date": "2026-02-15", "score": 0.72},
+        {"date": "2026-03-01", "score": 0.72},
+        {"date": "2026-03-16", "score": 0.72},
+        {"date": "2026-03-31", "score": 0.72},
+        {"date": "2026-04-15", "score": 0.72},
+        {"date": "2026-05-14", "score": 0.72}
+      ],
+      "delta": 0.00,
+      "delta_pct": 0.0,
+      "direction": "stable"
+    }
+  },
+  {
+    "neighborhood_id": "port_of_miami",
+    "score": 0.78,
+    "demographic_desirability_score": 0.78,
+    "data_quality": 0.82,
+    "last_updated": "2026-05-14T00:00:00Z",
+    "metrics": {
+      "population_density": 12,
+      "median_income": 105000,
+      "age_distribution": {
+        "under_18": 10,
+        "18_34": 40,
+        "35_54": 35,
+        "55_plus": 15
+      },
+      "education": {
+        "high_school": 12,
+        "bachelors": 58,
+        "graduate": 30
+      },
+      "homeownership": 0
+    },
+    "trend": {
+      "cadence": "quarterly",
+      "window": "90d",
+      "points": [
+        {"date": "2026-02-15", "score": 0.78},
+        {"date": "2026-03-01", "score": 0.78},
+        {"date": "2026-03-16", "score": 0.78},
+        {"date": "2026-03-31", "score": 0.78},
+        {"date": "2026-04-15", "score": 0.78},
+        {"date": "2026-05-14", "score": 0.78}
+      ],
+      "delta": 0.00,
+      "delta_pct": 0.0,
+      "direction": "stable"
+    }
+  }
+]

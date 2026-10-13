@@ -1,0 +1,439 @@
+[
+{
+"neighborhood_id": "allapattah",
+"score": 0.574,
+"data_quality": 0.85,
+"last_updated": "2026-05-14T16:54:54.566117Z",
+"permit_count_30d": 30,
+"total_value_30d": 3532633.2,
+"residential_ratio": 0.3,
+"avg_project_size": 117754.44,
+"anomaly": {
+"flagged": false,
+"severity": "low",
+"interpretation": "Permit activity within expected range",
+"count_zscore": 1.268,
+"value_zscore": 0.04,
+"max_zscore": 1.268,
+"direction": "up"
+}
+},
+{
+"neighborhood_id": "brickell",
+"score": 1.0,
+"data_quality": 0.95,
+"last_updated": "2026-05-14T16:54:54.390150Z",
+"permit_count_30d": 299,
+"total_value_30d": 21780979.07,
+"residential_ratio": 0.02,
+"avg_project_size": 74380.76,
+"anomaly": {
+"flagged": true,
+"severity": "high",
+"interpretation": "Massive increase in permits, typical values",
+"count_zscore": 12.11,
+"value_zscore": -0.191,
+"max_zscore": 12.11,
+"direction": "up"
+}
+},
+{
+"neighborhood_id": "buena_vista",
+"score": 1.0,
+"data_quality": 0.95,
+"last_updated": "2026-05-14T16:54:54.392150Z",
+"permit_count_30d": 71,
+"total_value_30d": 2448107.0,
+"residential_ratio": 0.82,
+"avg_project_size": 23753.5,
+"anomaly": {
+"flagged": true,
+"severity": "high",
+"interpretation": "Sharp rise in both permit count and total value",
+"count_zscore": 8.85,
+"value_zscore": 2.708,
+"max_zscore": 8.85,
+"direction": "up"
+}
+},
+{
+"neighborhood_id": "coconut_grove",
+"score": 1.0,
+"data_quality": 0.95,
+"last_updated": "2026-05-14T16:54:54.393150Z",
+"permit_count_30d": 307,
+"total_value_30d": 102596695.9,
+"residential_ratio": 0.66,
+"avg_project_size": 784392.16,
+"anomaly": {
+"flagged": true,
+"severity": "high",
+"interpretation": "Exceptional surge in luxury residential permits",
+"count_zscore": 11.49,
+"value_zscore": 3.731,
+"max_zscore": 11.49,
+"direction": "up"
+}
+},
+{
+"neighborhood_id": "coral_way",
+"score": 0.261,
+"data_quality": 0.85,
+"last_updated": "2026-05-14T16:54:54.566117Z",
+"permit_count_30d": 55,
+"total_value_30d": 1272150.0,
+"residential_ratio": 0.84,
+"avg_project_size": 23130.0,
+"anomaly": {
+"flagged": false,
+"severity": "low",
+"interpretation": "Permit activity within expected range",
+"count_zscore": 0.763,
+"value_zscore": -0.228,
+"max_zscore": 0.763,
+"direction": "up"
+}
+},
+{
+"neighborhood_id": "design_district",
+"score": 0.991,
+"data_quality": 0.95,
+"last_updated": "2026-05-14T16:54:54.396153Z",
+"permit_count_30d": 24,
+"total_value_30d": 1391510.0,
+"residential_ratio": 0.0,
+"avg_project_size": 62337.56,
+"anomaly": {
+"flagged": true,
+"severity": "high",
+"interpretation": "Significant uptick in design-focused commercial permits",
+"count_zscore": 4.69,
+"value_zscore": 0.681,
+"max_zscore": 4.69,
+"direction": "up"
+}
+},
+{
+"neighborhood_id": "downtown_miami",
+"score": 1.0,
+"data_quality": 0.95,
+"last_updated": "2026-05-14T16:54:54.398463Z",
+"permit_count_30d": 172,
+"total_value_30d": 24258553.44,
+"residential_ratio": 0.0,
+"avg_project_size": 124910.34,
+"anomaly": {
+"flagged": true,
+"severity": "high",
+"interpretation": "Sharp increase in high-rise residential and commercial permits",
+"count_zscore": 8.97,
+"value_zscore": 0.035,
+"max_zscore": 8.97,
+"direction": "up"
+}
+},
+{
+"neighborhood_id": "edgewater",
+"score": 1.0,
+"data_quality": 0.95,
+"last_updated": "2026-05-14T16:54:54.399502Z",
+"permit_count_30d": 80,
+"total_value_30d": 15792532.1,
+"residential_ratio": 0.1,
+"avg_project_size": 184899.68,
+"anomaly": {
+"flagged": true,
+"severity": "high",
+"interpretation": "Strong rise in waterfront condo projects",
+"count_zscore": 7.36,
+"value_zscore": 0.502,
+"max_zscore": 7.36,
+"direction": "up"
+}
+},
+{
+"neighborhood_id": "flagami/grapeland",
+"score": 0.155,
+"data_quality": 0.85,
+"last_updated": "2026-05-14T16:54:54.566117Z",
+"permit_count_30d": 50,
+"total_value_30d": 2981316.0,
+"residential_ratio": 0.62,
+"avg_project_size": 59626.32,
+"anomaly": {
+"flagged": false,
+"severity": "low",
+"interpretation": "Permit activity within expected range",
+"count_zscore": 0.548,
+"value_zscore": -0.236,
+"max_zscore": 0.548,
+"direction": "up"
+}
+},
+{
+"neighborhood_id": "health_district/_civic_center",
+"score": 1.0,
+"data_quality": 0.95,
+"last_updated": "2026-05-14T16:54:54.402501Z",
+"permit_count_30d": 74,
+"total_value_30d": 12127123.0,
+"residential_ratio": 0.18,
+"avg_project_size": 147709.33,
+"anomaly": {
+"flagged": true,
+"severity": "high",
+"interpretation": "Major institutional expansion with large-scale projects",
+"count_zscore": 11.14,
+"value_zscore": 2.602,
+"max_zscore": 11.14,
+"direction": "up"
+}
+},
+{
+"neighborhood_id": "liberty_city",
+"score": 0.247,
+"data_quality": 0.85,
+"last_updated": "2026-05-14T16:54:54.566117Z",
+"permit_count_30d": 30,
+"total_value_30d": 1997934.0,
+"residential_ratio": 0.55,
+"avg_project_size": 66597.8,
+"anomaly": {
+"flagged": false,
+"severity": "low",
+"interpretation": "Permit activity within expected range",
+"count_zscore": 0.61,
+"value_zscore": -0.105,
+"max_zscore": 0.61,
+"direction": "up"
+}
+},
+{
+"neighborhood_id": "little_haiti",
+"score": 0.092,
+"data_quality": 0.85,
+"last_updated": "2026-05-14T16:54:54.566117Z",
+"permit_count_30d": 20,
+"total_value_30d": 512774.0,
+"residential_ratio": 0.41,
+"avg_project_size": 25638.7,
+"anomaly": {
+"flagged": false,
+"severity": "low",
+"interpretation": "Permit activity within expected range",
+"count_zscore": 0.346,
+"value_zscore": -0.161,
+"max_zscore": 0.346,
+"direction": "up"
+}
+},
+{
+"neighborhood_id": "little_havana",
+"score": 0.103,
+"data_quality": 0.85,
+"last_updated": "2026-05-14T16:54:54.566117Z",
+"permit_count_30d": 45,
+"total_value_30d": 1338613.2,
+"residential_ratio": 0.24,
+"avg_project_size": 29746.96,
+"anomaly": {
+"flagged": false,
+"severity": "low",
+"interpretation": "Permit activity within expected range",
+"count_zscore": 0.483,
+"value_zscore": -0.276,
+"max_zscore": 0.483,
+"direction": "up"
+}
+},
+{
+"neighborhood_id": "little_river",
+"score": 0.311,
+"data_quality": 0.85,
+"last_updated": "2026-05-14T16:54:54.566117Z",
+"permit_count_30d": 10,
+"total_value_30d": 241197.4,
+"residential_ratio": 0.11,
+"avg_project_size": 24119.74,
+"anomaly": {
+"flagged": false,
+"severity": "low",
+"interpretation": "Permit activity within expected range",
+"count_zscore": 0.897,
+"value_zscore": -0.253,
+"max_zscore": 0.897,
+"direction": "up"
+}
+},
+{
+"neighborhood_id": "midtown",
+"score": 0.487,
+"data_quality": 0.85,
+"last_updated": "2026-05-14T16:54:54.566117Z",
+"permit_count_30d": 8,
+"total_value_30d": 124722.8,
+"residential_ratio": 0.0,
+"avg_project_size": 15590.35,
+"anomaly": {
+"flagged": false,
+"severity": "low",
+"interpretation": "Permit activity within expected range",
+"count_zscore": 1.264,
+"value_zscore": -0.207,
+"max_zscore": 1.264,
+"direction": "up"
+}
+},
+{
+"neighborhood_id": "overtown",
+"score": 0.968,
+"data_quality": 0.95,
+"last_updated": "2026-05-14T16:54:54.415499Z",
+"permit_count_30d": 18,
+"total_value_30d": 458788.0,
+"residential_ratio": 0.14,
+"avg_project_size": 24573.57,
+"anomaly": {
+"flagged": true,
+"severity": "high",
+"interpretation": "Unusual spike in small-scale commercial and residential permits",
+"count_zscore": 4.27,
+"value_zscore": -0.135,
+"max_zscore": 4.27,
+"direction": "up"
+}
+},
+{
+"neighborhood_id": "port_of_miami",
+"score": -0.95,
+"data_quality": 0.85,
+"last_updated": "2026-05-14T16:54:54.566117Z",
+"permit_count_30d": 0,
+"total_value_30d": 0.0,
+"residential_ratio": 0.0,
+"avg_project_size": 0.0,
+"anomaly": {
+"flagged": true,
+"severity": "high",
+"interpretation": "Complete halt in port-related permits",
+"count_zscore": -3.0,
+"value_zscore": -0.687,
+"max_zscore": 3.0,
+"direction": "down"
+}
+},
+{
+"neighborhood_id": "the_roads",
+"score": 0.09,
+"data_quality": 0.85,
+"last_updated": "2026-05-14T16:54:54.566117Z",
+"permit_count_30d": 15,
+"total_value_30d": 1263399.0,
+"residential_ratio": 0.72,
+"avg_project_size": 84226.6,
+"anomaly": {
+"flagged": false,
+"severity": "low",
+"interpretation": "Permit activity within expected range",
+"count_zscore": 0.216,
+"value_zscore": -0.035,
+"max_zscore": 0.216,
+"direction": "up"
+}
+},
+{
+"neighborhood_id": "upper_eastside",
+"score": 0.523,
+"data_quality": 0.85,
+"last_updated": "2026-05-14T16:54:54.566117Z",
+"permit_count_30d": 40,
+"total_value_30d": 2636495.2,
+"residential_ratio": 0.77,
+"avg_project_size": 65912.38,
+"anomaly": {
+"flagged": false,
+"severity": "low",
+"interpretation": "Permit activity within expected range",
+"count_zscore": 0.9,
+"value_zscore": 0.262,
+"max_zscore": 0.9,
+"direction": "up"
+}
+},
+{
+"neighborhood_id": "venetian_islands",
+"score": 0.767,
+"data_quality": 0.85,
+"last_updated": "2026-05-14T16:54:54.566117Z",
+"permit_count_30d": 5,
+"total_value_30d": 1585379.15,
+"residential_ratio": 0.48,
+"avg_project_size": 317075.83,
+"anomaly": {
+"flagged": false,
+"severity": "low",
+"interpretation": "Permit activity within expected range",
+"count_zscore": 0.9,
+"value_zscore": 1.129,
+"max_zscore": 1.129,
+"direction": "up"
+}
+},
+{
+"neighborhood_id": "virginia_key",
+"score": -0.454,
+"data_quality": 0.85,
+"last_updated": "2026-05-14T16:54:54.566117Z",
+"permit_count_30d": 1,
+"total_value_30d": 78160.0,
+"residential_ratio": 0.0,
+"avg_project_size": 78160.0,
+"anomaly": {
+"flagged": false,
+"severity": "low",
+"interpretation": "Permit activity within expected range",
+"count_zscore": -0.773,
+"value_zscore": -0.208,
+"max_zscore": 0.773,
+"direction": "down"
+}
+},
+{
+"neighborhood_id": "watson_island",
+"score": -0.765,
+"data_quality": 0.85,
+"last_updated": "2026-05-14T16:54:54.566117Z",
+"permit_count_30d": 0,
+"total_value_30d": 0.0,
+"residential_ratio": 0.0,
+"avg_project_size": 0.0,
+"anomaly": {
+"flagged": false,
+"severity": "low",
+"interpretation": "Permit activity within expected range",
+"count_zscore": -1.595,
+"value_zscore": -0.422,
+"max_zscore": 1.595,
+"direction": "down"
+}
+},
+{
+"neighborhood_id": "wynwood",
+"score": 1.0,
+"data_quality": 0.95,
+"last_updated": "2026-05-14T16:54:54.430496Z",
+"permit_count_30d": 90,
+"total_value_30d": 8210073.0,
+"residential_ratio": 0.02,
+"avg_project_size": 115610.56,
+"anomaly": {
+"flagged": true,
+"severity": "high",
+"interpretation": "Surge in permits driven by arts and hospitality projects",
+"count_zscore": 7.187,
+"value_zscore": 0.065,
+"max_zscore": 7.187,
+"direction": "up"
+}
+}
+]

@@ -1,0 +1,1657 @@
+[
+  {
+    "neighborhood_id": "brickell",
+    "score": 0.91,
+    "event_density_score": 0.93,
+    "event_count_delta": 3,
+    "data_quality": 0.94,
+    "last_updated": "2026-05-15T00:00:00Z",
+    "events": [
+      {
+        "id": "brickell-001",
+        "category": "Economic",
+        "summary": "Ken Griffin has expanded the office footprint at the planned 54-story Citadel/Citadel Securities headquarters at 1201 Brickell Bay Drive, scrapping the hotel component entirely to produce a standalone 1.7 million sq ft all-office supertall. Site work is already underway and Griffin filed permits to add several hundred thousand additional sq ft following a public dispute with New York Mayor Zohran Mamdani. Related Companies is development partner on the ~$1 billion project.",
+        "sources": [
+          {
+            "name": "Commercial Observer",
+            "url": "https://commercialobserver.com/2026/04/ken-griffin-zohran-mamdani-miami-nyc-citadel-1201-brickell/"
+          },
+          {
+            "name": "The Real Deal Miami",
+            "url": "https://therealdeal.com/miami/2026/04/28/ken-griffin-expands-office-space-at-planned-brickell-tower/"
+          },
+          {
+            "name": "World Red Eye",
+            "url": "https://worldredeye.com/2026/05/wre-news-ken-griffin-doubles-down-on-miami-with-major-expansion-at-1201-brickell-bay-drive/"
+          },
+          {
+            "name": "Fortune",
+            "url": "https://fortune.com/2026/05/06/ken-griffin-zohran-mamdani-video-billionaires-real-estate-tax-miami-florida/"
+          }
+        ],
+        "timestamp": "2026-05-10T00:00:00Z",
+        "significance_score": 0.96
+      },
+      {
+        "id": "brickell-002",
+        "category": "Construction",
+        "summary": "Viceroy Brickell – The Residences, a 45-story, 420-unit condominium tower at the gateway of Brickell Avenue and the Miami River, has completed construction and begun welcoming its first residents. Developed by Related Group and GTIS Partners and designed by Arquitectonica, it is Viceroy Hotels & Resorts' first standalone residential concept globally, with no adjacent hotel component.",
+        "sources": [
+          {
+            "name": "Florida YIMBY",
+            "url": "https://floridayimby.com/2026/05/viceroy-brickell-the-residences-opens-in-miamis-brickell-district-as-brands-first-standalone-residential-tower-globally.html"
+          }
+        ],
+        "timestamp": "2026-05-06T06:30:00Z",
+        "significance_score": 0.82
+      },
+      {
+        "id": "brickell-003",
+        "category": "Environmental",
+        "summary": "Brickell residents and the Brickell Homeowners Association are raising alarm over chronic littering into Biscayne Bay from the baywalk area near 15th Road on Brickell Bay Drive. HOA president Ernesto Cuesta flagged a lack of prohibitory signage and reports of non-residents parking and dumping trash over the seawall. The state's largest estuary is an important habitat for numerous species.",
+        "sources": [
+          {
+            "name": "CBS Miami",
+            "url": "https://www.cbsnews.com/miami/news/brickell-littering-problem-biscayne-bay/"
+          }
+        ],
+        "timestamp": "2026-05-08T20:46:00Z",
+        "significance_score": 0.67
+      }
+    ],
+    "trend": {
+      "cadence": "weekly",
+      "window": "7d",
+      "points": [
+        {"date": "2026-05-08", "score": 0.81},
+        {"date": "2026-05-09", "score": 0.83},
+        {"date": "2026-05-10", "score": 0.91},
+        {"date": "2026-05-11", "score": 0.90},
+        {"date": "2026-05-12", "score": 0.91},
+        {"date": "2026-05-13", "score": 0.92},
+        {"date": "2026-05-14", "score": 0.93}
+      ],
+      "delta": 0.12,
+      "delta_pct": 14.8,
+      "direction": "up"
+    }
+  },
+  {
+    "neighborhood_id": "wynwood",
+    "score": 0.87,
+    "event_density_score": 0.89,
+    "event_count_delta": 2,
+    "data_quality": 0.92,
+    "last_updated": "2026-05-15T00:00:00Z",
+    "events": [
+      {
+        "id": "wynwood-001",
+        "category": "Construction",
+        "summary": "PMG and Lndmrk Development have broken ground on Twenty Sixth & 2nd Wynwood Residences at 2600 NW 2nd Avenue after securing a $126 million construction loan from Madison Realty Capital and Siguler Guff. The eight-story, 233-unit Airbnb-friendly condo building includes 26,000 sq ft of ground-floor retail and 32,000 sq ft of amenity space. The project is 73% presold and is expected to complete in Q2 2028.",
+        "sources": [
+          {
+            "name": "Florida YIMBY",
+            "url": "https://floridayimby.com/2026/05/developers-secure-126-million-construction-loan-and-break-ground-on-twenty-sixth-2nd-wynwood-residences-in-miami.html"
+          },
+          {
+            "name": "The Real Deal Miami",
+            "url": "https://therealdeal.com/miami/2026/05/01/pmg-lndmrk-score-126-million-loan-for-wynwood-condos/"
+          },
+          {
+            "name": "Wynwood Business Improvement District",
+            "url": "https://wynwoodmiami.com/developers-secure-126-million-construction-loan-for-airbnb-backed-wynwood-condo-project/"
+          }
+        ],
+        "timestamp": "2026-05-02T08:00:00Z",
+        "significance_score": 0.85
+      },
+      {
+        "id": "wynwood-002",
+        "category": "Economic",
+        "summary": "WeWork co-founder Adam Neumann, through his Miami-based firm Flow, acquired a 50% stake in the Society Wynwood apartment complex at 2700 NW Second Ave, which is being rebranded as Flow Wynwood. Separately, Related Group, Tricap, and Sydell Group opened NoMad Residences Wynwood at the same address — the first residential concept under the NoMad Hotels brand — with over 90% of units already sold at opening.",
+        "sources": [
+          {
+            "name": "Bisnow South Florida",
+            "url": "https://www.bisnow.com/south-florida/news/deal-sheet/wework-co-founder-adam-neumann-buys-into-wynwood-apartment-building-south-florida-deal-sheet-134524"
+          }
+        ],
+        "timestamp": "2026-05-11T20:42:00Z",
+        "significance_score": 0.78
+      }
+    ],
+    "trend": {
+      "cadence": "weekly",
+      "window": "7d",
+      "points": [
+        {"date": "2026-05-08", "score": 0.75},
+        {"date": "2026-05-09", "score": 0.77},
+        {"date": "2026-05-10", "score": 0.80},
+        {"date": "2026-05-11", "score": 0.85},
+        {"date": "2026-05-12", "score": 0.86},
+        {"date": "2026-05-13", "score": 0.88},
+        {"date": "2026-05-14", "score": 0.89}
+      ],
+      "delta": 0.14,
+      "delta_pct": 18.7,
+      "direction": "up"
+    }
+  },
+  {
+    "neighborhood_id": "midtown",
+    "score": 0.78,
+    "event_density_score": 0.80,
+    "event_count_delta": 1,
+    "data_quality": 0.82,
+    "last_updated": "2026-05-15T00:00:00Z",
+    "events": [
+      {
+        "id": "midtown-001",
+        "category": "Construction",
+        "summary": "Rosso Development, Midtown Development, and Proper Hospitality received City of Miami Urban Development Review Board approvals for the $2 billion Midtown Park master-planned development on five acres in Midtown Miami. The project includes 924 condominiums, 60,000 sq ft of office space, and over 120,000 sq ft of retail across four buildings with public plazas. Phase 1 — a 288-unit, 28-story condo at 3055 N. Miami Ave — is actively advancing toward a 2028 target. An ULTRA Club Midtown pop-up padel venue with 11 courts has already launched on-site.",
+        "sources": [
+          {
+            "name": "Multi-Housing News",
+            "url": "https://www.multihousingnews.com/green-light-for-2b-miami-mixed-use-project/"
+          },
+          {
+            "name": "Hospitality Design",
+            "url": "https://hospitalitydesign.com/news/development-destinations/midtown-park-development-miami/"
+          }
+        ],
+        "timestamp": "2026-05-01T00:00:00Z",
+        "significance_score": 0.88
+      },
+      {
+        "id": "midtown-002",
+        "category": "Economic",
+        "summary": "Motek, the Miami-born Mediterranean restaurant from Happy Corner Hospitality, has opened its ninth location in Midtown Miami, debuting alongside a conjoined Sesame Bakery. The Midtown outpost marks the group's latest South Florida expansion and features an evolved Mediterranean-inspired design with a 100% seed oil-free, kosher-style menu.",
+        "sources": [
+          {
+            "name": "Resident Miami",
+            "url": "https://resident.com/press-releases/2026/04/04/happy-corner-hospitality-expands-acclaimed-motek-to-midtown-miami-location"
+          }
+        ],
+        "timestamp": "2026-05-08T00:00:00Z",
+        "significance_score": 0.52
+      }
+    ],
+    "trend": {
+      "cadence": "weekly",
+      "window": "7d",
+      "points": [
+        {"date": "2026-05-08", "score": 0.68},
+        {"date": "2026-05-09", "score": 0.70},
+        {"date": "2026-05-10", "score": 0.72},
+        {"date": "2026-05-11", "score": 0.74},
+        {"date": "2026-05-12", "score": 0.76},
+        {"date": "2026-05-13", "score": 0.78},
+        {"date": "2026-05-14", "score": 0.80}
+      ],
+      "delta": 0.12,
+      "delta_pct": 17.6,
+      "direction": "up"
+    }
+  },
+  {
+    "neighborhood_id": "design_district",
+    "score": 0.82,
+    "event_density_score": 0.80,
+    "event_count_delta": 2,
+    "data_quality": 0.85,
+    "last_updated": "2026-05-15T00:00:00Z",
+    "events": [
+      {
+        "id": "event-DD-001",
+        "category": "Economic",
+        "summary": "Jaeger-LeCoultre announced its first-ever Miami pop-up experience ('Reverso Stories') opening May 21-31, 2026 at Sweet Bird North (95 NE 40th St), previewing the brand's upcoming permanent boutique in the Design District scheduled for Summer 2026. The Maison is also operating a private client lounge 'The Salon' at The Moore Miami.",
+        "sources": [
+          {
+            "name": "Haute Living",
+            "url": "https://hauteliving.com/2026/05/jaeger-lecoultre-reverso-stories-miami-design-district/789026/"
+          },
+          {
+            "name": "Watch Collecting Lifestyle",
+            "url": "https://www.watchcollectinglifestyle.com/home/jaeger-lecoultre-reverso-stories-exhibition-miami-design-district-2026"
+          }
+        ],
+        "timestamp": "2026-05-07T00:00:00Z",
+        "significance_score": 0.62
+      },
+      {
+        "id": "event-DD-002",
+        "category": "Construction",
+        "summary": "The Real Deal reported nearly 1,000 residential units now in the pipeline for the Design District. Key projects underway include Cassi, a 20-story 107-unit rental building at 91-93 NE 36th St (secured $125M construction loan, completion 2027), and the Kempinski Residences Miami Design District, a 132-unit luxury condo with prices starting at $3.7M (expected 2029). Retail rents in the district rose 67% to $500 PSF, highest growth among luxury retail destinations in the Americas.",
+        "sources": [
+          {
+            "name": "The Real Deal Miami",
+            "url": "https://therealdeal.com/miami/2026/04/06/miamis-design-district-has-1000-resi-units-in-the-pipeline/"
+          },
+          {
+            "name": "CRE Daily",
+            "url": "https://www.credaily.com/briefs/miamis-design-district-emerges-as-a-luxury-retail-powerhouse/"
+          }
+        ],
+        "timestamp": "2026-05-06T00:00:00Z",
+        "significance_score": 0.88
+      }
+    ],
+    "trend": {
+      "cadence": "weekly",
+      "window": "7d",
+      "points": [
+        {"date": "2026-05-01", "score": 0.70},
+        {"date": "2026-05-03", "score": 0.72},
+        {"date": "2026-05-05", "score": 0.75},
+        {"date": "2026-05-07", "score": 0.78},
+        {"date": "2026-05-09", "score": 0.79},
+        {"date": "2026-05-12", "score": 0.80},
+        {"date": "2026-05-15", "score": 0.80}
+      ],
+      "delta": 0.10,
+      "delta_pct": 14.3,
+      "direction": "up"
+    }
+  },
+  {
+    "neighborhood_id": "edgewater",
+    "score": 0.91,
+    "event_density_score": 0.92,
+    "event_count_delta": 3,
+    "data_quality": 0.93,
+    "last_updated": "2026-05-15T00:00:00Z",
+    "events": [
+      {
+        "id": "event-EW-001",
+        "category": "Construction",
+        "summary": "Construction is continuing on Villa Miami, a 56-story waterfront condominium tower at 710 NE 29th Street in Edgewater. Developed by Terra and One Thousand Group with ODP Architects, the 650-foot structure will yield 70 half-floor and full-floor residences. The reinforced concrete superstructure has climbed rapidly since the 28th floor milestone in March 2026.",
+        "sources": [
+          {
+            "name": "Florida YIMBY",
+            "url": "https://floridayimby.com/2026/05/56-story-villa-miami-continues-ascent-at-710-ne-29th-street-in-edgewater-miami.html"
+          }
+        ],
+        "timestamp": "2026-05-12T08:00:00Z",
+        "significance_score": 0.80
+      },
+      {
+        "id": "event-EW-002",
+        "category": "Construction",
+        "summary": "Foundation work is advancing at Edge House Miami, a 57-story residential tower at 1825 NE 4th Avenue in Edgewater. Developed by Grupo T&C and designed by Kobi Karp Architecture, the 649-foot structure will yield 608 turnkey residential units. Thornton Construction Company confirmed pile work within the mat foundation area has been completed.",
+        "sources": [
+          {
+            "name": "Florida YIMBY",
+            "url": "https://floridayimby.com/2026/05/foundation-work-advances-for-edge-house-miami-at-1825-ne-4th-avenue-in-edgewater.html"
+          }
+        ],
+        "timestamp": "2026-05-07T07:30:00Z",
+        "significance_score": 0.75
+      },
+      {
+        "id": "event-EW-003",
+        "category": "Economic",
+        "summary": "Cain International and Kushner Companies formed a new South Florida joint venture, launching with a planned 364-unit luxury residential tower in Edgewater on Cain's 1.5-acre site. Construction is expected to commence in late 2027.",
+        "sources": [
+          {
+            "name": "Multifamily Dive",
+            "url": "https://www.multifamilydive.com/news/kushner-cain-multifamily-development-joint-ventu/818352/"
+          }
+        ],
+        "timestamp": "2026-05-01T00:00:00Z",
+        "significance_score": 0.72
+      }
+    ],
+    "trend": {
+      "cadence": "weekly",
+      "window": "7d",
+      "points": [
+        {"date": "2026-05-01", "score": 0.82},
+        {"date": "2026-05-03", "score": 0.84},
+        {"date": "2026-05-05", "score": 0.86},
+        {"date": "2026-05-07", "score": 0.88},
+        {"date": "2026-05-09", "score": 0.89},
+        {"date": "2026-05-12", "score": 0.92},
+        {"date": "2026-05-15", "score": 0.92}
+      ],
+      "delta": 0.10,
+      "delta_pct": 12.2,
+      "direction": "up"
+    }
+  },
+  {
+    "neighborhood_id": "upper_eastside",
+    "score": 0.62,
+    "event_density_score": 0.60,
+    "event_count_delta": 0,
+    "data_quality": 0.72,
+    "last_updated": "2026-05-15T00:00:00Z",
+    "events": [
+      {
+        "id": "event-UES-001",
+        "category": "Economic",
+        "summary": "Miami Ironside in the Upper East Side hosted a Regency-inspired Mother's Day garden market on May 3, 2026, featuring local vendors, live music, and themed activities — reflecting continued community activation in the district's creative hub.",
+        "sources": [
+          {
+            "name": "Miami & Miami Beach (Official Tourism)",
+            "url": "https://www.miamiandbeaches.com/neighborhoods/upper-east-side"
+          }
+        ],
+        "timestamp": "2026-05-03T00:00:00Z",
+        "significance_score": 0.35
+      },
+      {
+        "id": "event-UES-002",
+        "category": "Government Policy",
+        "summary": "The Live Local Act is reshaping development along Biscayne Boulevard through the Upper East Side. A proposed dual-tower project called 'Legends' (50 stories, 1,307 apartments) at 3180 Biscayne Blvd. by Crescent Heights is proceeding under administrative approval, bypassing public hearings — raising resident concerns about neighborhood-scale impacts and loss of local review authority in the corridor.",
+        "sources": [
+          {
+            "name": "Miami Today News",
+            "url": "https://www.miamitodaynews.com/2026/03/25/live-local-act-alters-paths-of-allapattah-biscayne-boulevard-developments/"
+          }
+        ],
+        "timestamp": "2026-05-01T00:00:00Z",
+        "significance_score": 0.70
+      }
+    ],
+    "trend": {
+      "cadence": "weekly",
+      "window": "7d",
+      "points": [
+        {"date": "2026-05-01", "score": 0.55},
+        {"date": "2026-05-03", "score": 0.57},
+        {"date": "2026-05-05", "score": 0.58},
+        {"date": "2026-05-07", "score": 0.58},
+        {"date": "2026-05-09", "score": 0.59},
+        {"date": "2026-05-12", "score": 0.60},
+        {"date": "2026-05-15", "score": 0.60}
+      ],
+      "delta": 0.05,
+      "delta_pct": 9.1,
+      "direction": "stable"
+    }
+  },
+  {
+    "neighborhood_id": "little_haiti",
+    "score": 0.88,
+    "event_density_score": 0.90,
+    "event_count_delta": 4,
+    "data_quality": 0.90,
+    "last_updated": "2026-05-15T00:00:00Z",
+    "events": [
+      {
+        "id": "event-LH-001",
+        "category": "Government Policy",
+        "summary": "The $3 billion Little River District — the largest affordable housing initiative in Miami-Dade County history — is confirmed to begin construction in 2026. Approved unanimously by the Miami-Dade County Commission, the 63-acre project by SG Holdings (Swerdlow Group, SJM Partners, Alben Duffie) will deliver 5,730+ housing units (2,284 affordable at 60% AMI), 370,000 sq ft of retail, and a new Tri-Rail station. Current public housing residents are guaranteed return rights with no rent increases.",
+        "sources": [
+          {
+            "name": "CoStar",
+            "url": "https://www.costar.com/article/1063620115/miami-dade-approves-largest-affordable-housing-project-in-county-history"
+          },
+          {
+            "name": "Miami Times",
+            "url": "https://www.miamitimesonline.com/news/local/miami-dade-commissioners-approve-2-6b-revitalization-plan-for-little-haiti-with-community-benefits-in/article_1e8131ac-106b-4f62-aee6-eb46db667fdb.html"
+          },
+          {
+            "name": "RE Business Online",
+            "url": "https://rebusinessonline.com/miami-dade-county-commission-approves-3b-little-river-district-mixed-use-development/"
+          }
+        ],
+        "timestamp": "2026-05-01T00:00:00Z",
+        "significance_score": 0.97
+      },
+      {
+        "id": "event-LH-002",
+        "category": "Demographic",
+        "summary": "Bisnow's 'Future of Little River and Little Haiti' industry event (April 26, 2026) convened developers and city officials to address displacement fears as over 10,000 apartments and 1M+ sq ft of commercial space are planned in the corridor. Average one-bedroom rent in Little Haiti is ~$1,700/month vs Miami's $2,558 average, making it one of the city's last affordable pockets. The CEO of the Little Haiti Revitalization Trust emphasized keeping residents as participants, not bystanders.",
+        "sources": [
+          {
+            "name": "Bisnow South Florida",
+            "url": "https://www.bisnow.com/south-florida/news/multifamily/developers-are-bringing-the-biggest-changes-to-little-river-haiti-134273"
+          }
+        ],
+        "timestamp": "2026-05-01T00:00:00Z",
+        "significance_score": 0.88
+      },
+      {
+        "id": "event-LH-003",
+        "category": "Economic",
+        "summary": "Cultural and economic displacement concerns are intensifying in Little Haiti as both the Magic City Innovation District ($2.6B, 8.5M sq ft mixed-use) and the Little River District advance simultaneously. Le Floridien reported that iconic Haitian-owned businesses like Libreri Mapou face existential pressure from rising property values and commercial lease rents driven by investor land acquisitions throughout the neighborhood.",
+        "sources": [
+          {
+            "name": "Le Floridien",
+            "url": "https://lefloridien.com/who-is-little-haiti-still-for-development-pressure-raises-fears-of-displacement"
+          }
+        ],
+        "timestamp": "2026-05-01T00:00:00Z",
+        "significance_score": 0.82
+      }
+    ],
+    "trend": {
+      "cadence": "weekly",
+      "window": "7d",
+      "points": [
+        {"date": "2026-05-01", "score": 0.78},
+        {"date": "2026-05-03", "score": 0.80},
+        {"date": "2026-05-05", "score": 0.82},
+        {"date": "2026-05-07", "score": 0.84},
+        {"date": "2026-05-09", "score": 0.86},
+        {"date": "2026-05-12", "score": 0.89},
+        {"date": "2026-05-15", "score": 0.90}
+      ],
+      "delta": 0.12,
+      "delta_pct": 15.4,
+      "direction": "up"
+    }
+  },
+    {
+    "neighborhood_id": "little_river",
+    "score": 0.82,
+    "event_density_score": 0.84,
+    "event_count_delta": 2,
+    "data_quality": 0.88,
+    "last_updated": "2026-05-15T00:00:00Z",
+    "events": [
+      {
+        "id": "event-lr-001",
+        "category": "Economic",
+        "summary": "Artist Romero Britto announced plans to expand his compound in Miami's Little River neighborhood, adding to the area's growing arts-and-culture profile amid a broader development wave. AJ Capital, which paid $80 million for a Little River portfolio in 2021, continues to plan repositioning of its holdings. The coverage notes Little River is experiencing accelerating investor activity in May 2026.",
+        "sources": [
+          {
+            "name": "Commercial Observer",
+            "url": "https://commercialobserver.com/2026/05/romero-britto-miami-little-river/"
+          }
+        ],
+        "timestamp": "2026-05-13T00:00:00Z",
+        "significance_score": 0.65
+      },
+      {
+        "id": "event-lr-002",
+        "category": "Construction",
+        "summary": "Developer Pablo Castro faces a second lawsuit in Miami-Dade Circuit Court over the HueHub project — a proposed $880 million, 4,032-unit mixed-use development across seven 35-story towers on 12 acres in West Little River. D'Lola Design & Construction sued Castro and his affiliates claiming unpaid work, adding legal uncertainty to Florida's largest Live Local Act project. Demolition at the 8395 NW 27th Ave. site began in early March 2026.",
+        "sources": [
+          {
+            "name": "The Real Deal Miami",
+            "url": "https://therealdeal.com/miami/2026/05/12/pablo-castro-faces-second-suit-over-live-local-act-project/"
+          },
+          {
+            "name": "Multi-Housing News",
+            "url": "https://www.multihousingnews.com/4000-unit-miami-mixed-use-project-starts-demolition/"
+          }
+        ],
+        "timestamp": "2026-05-12T00:00:00Z",
+        "significance_score": 0.82
+      },
+      {
+        "id": "event-lr-003",
+        "category": "Construction",
+        "summary": "Little River Plaza, a 12-story, 250-unit affordable housing development at 7952 NE 3rd Avenue by the Healthy Housing Foundation, broke ground on January 23, 2026. Units are reserved for households earning up to 50% of Miami's area median income (~$61,950 for a family of four). The building includes micro-studios and one-bedrooms of 380–540 sq ft, plus 2,890 sq ft of ground-floor retail. Construction remains active through 2026.",
+        "sources": [
+          {
+            "name": "Florida YIMBY",
+            "url": "https://floridayimby.com/2026/01/little-river-plaza-breaks-ground-at-7952-ne-3rd-avenue-miami-florida.html"
+          }
+        ],
+        "timestamp": "2026-01-25T00:00:00Z",
+        "significance_score": 0.78
+      },
+      {
+        "id": "event-lr-004",
+        "category": "Government Policy",
+        "summary": "Florida's Live Local Act 2026 amendments, signed into law this month, further expand state control over workforce housing approvals — directly impacting Little River, where the 3,233-unit Pablo Castro project and the HueHub tower cluster both rely on the statute for height and density overrides. The amendments accelerate approvals but have drawn legal challenges in Broward County courts.",
+        "sources": [
+          {
+            "name": "Urbanize Miami",
+            "url": "https://miami.urbanize.city/post/floridas-live-local-act-enters-new-phase-2026-amendments-expanding-state-control-over"
+          }
+        ],
+        "timestamp": "2026-05-08T00:00:00Z",
+        "significance_score": 0.75
+      }
+    ],
+    "trend": {
+      "cadence": "weekly",
+      "window": "7d",
+      "points": [
+        {"date": "2026-05-02", "score": 0.71},
+        {"date": "2026-05-04", "score": 0.73},
+        {"date": "2026-05-06", "score": 0.75},
+        {"date": "2026-05-08", "score": 0.77},
+        {"date": "2026-05-10", "score": 0.79},
+        {"date": "2026-05-12", "score": 0.82},
+        {"date": "2026-05-15", "score": 0.84}
+      ],
+      "delta": 0.13,
+      "delta_pct": 18.3,
+      "direction": "up"
+    }
+  },
+  {
+    "neighborhood_id": "buena_vista",
+    "score": 0.61,
+    "event_density_score": 0.63,
+    "event_count_delta": 0,
+    "data_quality": 0.68,
+    "last_updated": "2026-05-15T00:00:00Z",
+    "events": [
+      {
+        "id": "event-bv-001",
+        "category": "Government Policy",
+        "summary": "BVM Development LLC and Design District Studios have a pending rezoning application with the City of Miami Planning Department to upzone the NE 2nd Avenue frontage of Upper Buena Vista from three stories to five stories for multistory residential use. Miami Jewish Health also seeks to build an eight-story facility along NE 50th Terrace. Residents raised displacement concerns at a community meeting; City Commission Chair Christine King assured their voices would be heard. The application remains under review as of May 2026.",
+        "sources": [
+          {
+            "name": "The Miami Times",
+            "url": "https://www.miamitimesonline.com/news/local/buena-vista-residents-resist-proposed-development/article_643d796e-cb47-11ee-8f7d-97271e8869cc.html"
+          },
+          {
+            "name": "Biscayne Times",
+            "url": "https://www.biscaynetimes.com/news/buena-vista-residents-resist-proposed-developments/"
+          }
+        ],
+        "timestamp": "2026-03-01T00:00:00Z",
+        "significance_score": 0.70
+      },
+      {
+        "id": "event-bv-002",
+        "category": "Construction",
+        "summary": "New construction activity in Buena Vista continues with two-story single-family homes and townhouses being built near the Miami Design District border, according to MLS data current through May 9, 2026. The neighborhood's T4L zoning allows mixed commercial and residential use on certain corner lots, fueling infill development. No major public groundbreakings were reported specifically within the Buena Vista boundaries during the May 1–15, 2026 window.",
+        "sources": [
+          {
+            "name": "Redfin / MLS GRID",
+            "url": "https://www.redfin.com/neighborhood/496967/FL/Miami/Buena-Vista"
+          }
+        ],
+        "timestamp": "2026-05-09T00:00:00Z",
+        "significance_score": 0.40
+      }
+    ],
+    "trend": {
+      "cadence": "weekly",
+      "window": "7d",
+      "points": [
+        {"date": "2026-05-02", "score": 0.60},
+        {"date": "2026-05-04", "score": 0.60},
+        {"date": "2026-05-06", "score": 0.61},
+        {"date": "2026-05-08", "score": 0.61},
+        {"date": "2026-05-10", "score": 0.62},
+        {"date": "2026-05-12", "score": 0.63},
+        {"date": "2026-05-15", "score": 0.63}
+      ],
+      "delta": 0.03,
+      "delta_pct": 5.0,
+      "direction": "stable"
+    }
+  },
+  {
+    "neighborhood_id": "allapattah",
+    "score": 0.85,
+    "event_density_score": 0.87,
+    "event_count_delta": 3,
+    "data_quality": 0.90,
+    "last_updated": "2026-05-15T00:00:00Z",
+    "events": [
+      {
+        "id": "event-al-001",
+        "category": "Construction",
+        "summary": "A Doral-based developer filed a pre-application with Miami-Dade County to demolish the Exotic Motors of Florida auto-body shop at 2825 NW 35th St. and replace it with a nine-story, 383-unit apartment complex. Approximately 40% of units would be reserved for households earning up to 120% AMI. The proposal includes studios through two-bedrooms across 280,000+ sq ft, a pool, and several hundred parking spaces — adding to the cluster of Live Local Act projects along the NW 35th Street corridor.",
+        "sources": [
+          {
+            "name": "Hoodline",
+            "url": "https://hoodline.com/2026/05/allapattah-auto-shop-faces-wrecking-ball-for-9-story-affordable-housing-tower/"
+          }
+        ],
+        "timestamp": "2026-05-12T00:00:00Z",
+        "significance_score": 0.78
+      },
+      {
+        "id": "event-al-002",
+        "category": "Government Policy",
+        "summary": "The City of Miami is moving to formally issue a competitive Request for Proposals (RFP) for the 18-acre GSA lot at 1950 NW 12th Ave./1970 NW 13th Ave. after three prior unsolicited proposals failed to meet operational requirements. City Manager James Reyes told commissioners on April 9 that a drafted RFP was under review in District 1 Commissioner Miguel Gabela's office. The site could yield 1,000–2,500 housing units including affordable and workforce tiers, and is eligible for Tax Increment Financing through the Omni CRA.",
+        "sources": [
+          {
+            "name": "Miami Today News",
+            "url": "https://www.miamitodaynews.com/breaking/miami-looks-for-a-deal-to-redevelop-its-18-acres-in-allapattah/"
+          }
+        ],
+        "timestamp": "2026-04-09T00:00:00Z",
+        "significance_score": 0.85
+      },
+      {
+        "id": "event-al-003",
+        "category": "Construction",
+        "summary": "The $89.2 million Dulce Vida mixed-income housing development at 1785 NW 35th St. broke ground on February 13, 2026, marking one of Miami's first Live Local Act projects to enter construction. The eight-story building by Coral Rock Development Group will deliver 230 rental units (92 at 60% AMI, 78 at 100% AMI, 60 at 120% AMI) and a new 8,500 sq ft public library replacing one that was demolished. Financed with a $54M Citibank construction loan and $15M from the Miami Forever Bond, the project is expected to complete in 2028. Construction activity is ongoing through May 2026.",
+        "sources": [
+          {
+            "name": "WLRN Public Media",
+            "url": "https://www.wlrn.org/light/development/2026-02-13/affordable-housing-allapattah-live-local-act-housing"
+          },
+          {
+            "name": "The Miami Times",
+            "url": "https://www.miamitimesonline.com/news/local/new-development-breaks-ground-in-allapattah-as-miami-advances-first-live-local-act-housing-projects/article_8b6a505c-b7fc-4dca-8ffe-ef4385c965f9.html"
+          }
+        ],
+        "timestamp": "2026-02-13T00:00:00Z",
+        "significance_score": 0.90
+      },
+      {
+        "id": "event-al-004",
+        "category": "Government Policy",
+        "summary": "Florida's Live Local Act 2026 amendments expand state preemption over local zoning for qualifying affordable and workforce housing projects. In Allapattah, the Anatomia project has already received high-rise residential approval under the Act. The amendments, reported this week, are expected to accelerate additional Allapattah proposals currently in the pipeline.",
+        "sources": [
+          {
+            "name": "Urbanize Miami",
+            "url": "https://miami.urbanize.city/post/floridas-live-local-act-enters-new-phase-2026-amendments-expanding-state-control-over"
+          }
+        ],
+        "timestamp": "2026-05-08T00:00:00Z",
+        "significance_score": 0.72
+      }
+    ],
+    "trend": {
+      "cadence": "weekly",
+      "window": "7d",
+      "points": [
+        {"date": "2026-05-02", "score": 0.75},
+        {"date": "2026-05-04", "score": 0.77},
+        {"date": "2026-05-06", "score": 0.79},
+        {"date": "2026-05-08", "score": 0.81},
+        {"date": "2026-05-10", "score": 0.83},
+        {"date": "2026-05-12", "score": 0.86},
+        {"date": "2026-05-15", "score": 0.87}
+      ],
+      "delta": 0.12,
+      "delta_pct": 16.0,
+      "direction": "up"
+    }
+  },
+  {
+    "neighborhood_id": "overtown",
+    "score": 0.79,
+    "event_density_score": 0.80,
+    "event_count_delta": 2,
+    "data_quality": 0.85,
+    "last_updated": "2026-05-15T00:00:00Z",
+    "events": [
+      {
+        "id": "event-ot-001",
+        "category": "Infrastructure",
+        "summary": "A Visa/Bank of America-sponsored 'Street Soccer Park' is under construction in Overtown and expected to open in late May 2026, timed ahead of the FIFA World Cup 2026. The field will host free soccer camps, pick-up games, and financial literacy programs, part of a national Visa Street Soccer Parks initiative that has opened similar facilities in San Francisco, Denver, and Kansas City. The project converts an underutilized space into a community sports and education hub.",
+        "sources": [
+          {
+            "name": "WSVN 7News Miami",
+            "url": "https://wsvn.com/news/local/miami-dade/plans-underway-to-build-soccer-field-in-overtown-ahead-of-fifa-world-cup-2026/"
+          }
+        ],
+        "timestamp": "2026-03-28T00:00:00Z",
+        "significance_score": 0.68
+      },
+      {
+        "id": "event-ot-002",
+        "category": "Demographic",
+        "summary": "The Miami Times published a May 6, 2026 opinion piece documenting accelerating demographic change in Overtown, noting that new high-rise apartment towers have attracted non-Black residents to what has historically been a predominantly African-American neighborhood. The piece cites visible gentrification pressure along NW 8th Street and near the Historic Lyric Theater, raising concerns about displacement of long-term Black residents.",
+        "sources": [
+          {
+            "name": "The Miami Times",
+            "url": "https://www.miamitimesonline.com/opinion/where-are-all-the-black-people-going/article_add8712a-febb-11ef-b4d6-4f29dd0da9ed.html"
+          }
+        ],
+        "timestamp": "2026-05-06T00:00:00Z",
+        "significance_score": 0.74
+      },
+      {
+        "id": "event-ot-003",
+        "category": "Construction",
+        "summary": "The 16 Corner affordable housing project in Overtown — a phased renovation of four existing residential buildings without demolition or resident displacement — was celebrated at a completion event in January 2026. Miami-Dade County COO Jimmy Morales noted that county-wide, over 3,400 new housing units were delivered in 2025, with 12,000 more in the pipeline. District 5 Commissioner Christine King called the project a model for preserving Overtown's identity.",
+        "sources": [
+          {
+            "name": "WLRN Public Media",
+            "url": "https://www.wlrn.org/development/2026-01-21/overtown-affordable-housing-project"
+          }
+        ],
+        "timestamp": "2026-01-21T00:00:00Z",
+        "significance_score": 0.77
+      },
+      {
+        "id": "event-ot-004",
+        "category": "Economic",
+        "summary": "The University of Miami School of Architecture and Pratt Institute's joint 'Urban Intersections for a Growing City' studio presented midterm master plans on March 4, 2026 for reimagining a land swath south of Overtown abutting downtown. Studio head Teymour Khoury said completed plans will be submitted to City of Miami officials for potential implementation. All student teams identified highway and rail barriers as limiting Overtown's connectivity to adjacent areas.",
+        "sources": [
+          {
+            "name": "University of Miami News",
+            "url": "https://news.miami.edu/stories/2026/03/overtown-reimagined.html"
+          }
+        ],
+        "timestamp": "2026-03-23T00:00:00Z",
+        "significance_score": 0.55
+      }
+    ],
+    "trend": {
+      "cadence": "weekly",
+      "window": "7d",
+      "points": [
+        {"date": "2026-05-02", "score": 0.73},
+        {"date": "2026-05-04", "score": 0.74},
+        {"date": "2026-05-06", "score": 0.76},
+        {"date": "2026-05-08", "score": 0.77},
+        {"date": "2026-05-10", "score": 0.78},
+        {"date": "2026-05-12", "score": 0.79},
+        {"date": "2026-05-15", "score": 0.80}
+      ],
+      "delta": 0.07,
+      "delta_pct": 9.6,
+      "direction": "up"
+    }
+  },
+
+  {
+    "neighborhood_id": "health_district_/_civic_center",
+    "score": 0.82,
+    "event_density_score": 0.84,
+    "event_count_delta": 2,
+    "data_quality": 0.88,
+    "last_updated": "2026-05-14T00:00:00Z",
+    "events": [
+      {
+        "id": "event-hd-001",
+        "category": "Construction",
+        "summary": "Jackson Memorial Hospital's landmark $400 million emergency department expansion opened in phases in late April 2026. The new 178,000-square-foot ER — roughly three times the size of the previous facility and one of the largest in the United States — features 134 rooms in phase one, a 57-bed observation unit, and dual adult/pediatric entrances. Phase two will bring capacity to over 200 beds, with pediatric completion expected in 2026.",
+        "sources": [
+          {
+            "name": "Local 10 News (WPLG)",
+            "url": "https://www.local10.com/news/local/2026/04/19/400m-er-expansion-at-jackson-memorial-hospital-set-to-open-this-week/"
+          },
+          {
+            "name": "VINnews",
+            "url": "https://vinnews.com/2026/04/19/one-of-largest-ers-in-u-s-to-open-in-miami-after-400m-expansion-at-jackson-memorial-hospital/"
+          },
+          {
+            "name": "South Florida Hospital News",
+            "url": "https://southfloridahospitalnews.com/greater-miami-chamber-of-commerce-2026-health-care-heroes/"
+          }
+        ],
+        "timestamp": "2026-04-19T09:00:00Z",
+        "significance_score": 0.93
+      },
+      {
+        "id": "event-hd-002",
+        "category": "Infrastructure",
+        "summary": "The UHealth | Jackson Metrorail Station (formerly Civic Center Station) continues to serve as a central transit anchor for the Health District, supporting an estimated 90,000 annual boardings. The station's 2024 public-private naming rights deal — generating nearly $3 million in non-tax revenue — remains a model partnership between Miami-Dade County, the University of Miami Health System, and Jackson Health System, with ongoing wayfinding and branding improvements underway in 2026.",
+        "sources": [
+          {
+            "name": "Miami-Dade County Official Release",
+            "url": "https://www.miamidade.gov/global/release.page?Mduid_release=rel1720790453179485"
+          },
+          {
+            "name": "South Florida Hospital News",
+            "url": "https://southfloridahospitalnews.com/metrorail-station-in-miami-dades-health-district-is-renamed-uhealth-jackson-to-promote-healthier-living-and-greater-access-to-the-communitys-hub-for-world-class-healthcare/"
+          }
+        ],
+        "timestamp": "2026-05-01T08:00:00Z",
+        "significance_score": 0.65
+      }
+    ],
+    "trend": {
+      "cadence": "weekly",
+      "window": "7d",
+      "points": [
+        {"date": "2026-05-01", "score": 0.78},
+        {"date": "2026-05-02", "score": 0.79},
+        {"date": "2026-05-05", "score": 0.80},
+        {"date": "2026-05-07", "score": 0.81},
+        {"date": "2026-05-09", "score": 0.82},
+        {"date": "2026-05-12", "score": 0.83},
+        {"date": "2026-05-14", "score": 0.84}
+      ],
+      "delta": 0.06,
+      "delta_pct": 7.7,
+      "direction": "up"
+    }
+  },
+  {
+    "neighborhood_id": "liberty_city",
+    "score": 0.79,
+    "event_density_score": 0.81,
+    "event_count_delta": 3,
+    "data_quality": 0.90,
+    "last_updated": "2026-05-14T00:00:00Z",
+    "events": [
+      {
+        "id": "event-lc-001",
+        "category": "Government Policy",
+        "summary": "Miami-Dade County Commissioners approved $10.6 million in funding for a new homeless navigation center in Liberty City on May 7, 2026. The facility, expected to open in June 2026, will provide short-term emergency housing for up to 80 people. The approval comes in response to a 2024 state law banning public camping, requiring local governments to provide shelter alternatives or face lawsuits.",
+        "sources": [
+          {
+            "name": "WLRN Public Radio",
+            "url": "https://www.wlrn.org/news-in-brief/2026-05-07/miami-dade-county-approves-10-6m-for-a-new-homeless-shelter"
+          }
+        ],
+        "timestamp": "2026-05-07T16:38:00Z",
+        "significance_score": 0.80
+      },
+      {
+        "id": "event-lc-002",
+        "category": "Construction",
+        "summary": "Related Urban Development Group and Miami-Dade County broke ground on February 27, 2026, on phases five and six of the Liberty Square redevelopment — 'Oasis at Liberty Square' (408 family units) and 'Soul at Liberty Square' (132 senior units). This phase advances a nine-phase, $390M+ master plan targeting 1,900 total homes on 57 acres, with over $2 million in public art investments and retail on the historic commercial corridor.",
+        "sources": [
+          {
+            "name": "Miami Times",
+            "url": "https://www.miamitimesonline.com/news/local/liberty-square-redevelopment-breaks-ground-on-phases-five-and-six-adding-540-affordable-housing-units/article_4e1b4274-fb8c-48a0-8a7b-f489ec58ced2.html"
+          },
+          {
+            "name": "Hoodline Miami",
+            "url": "https://hoodline.com/2026/02/miami-dade-county-breaks-ground-on-pioneering-affordable-housing-projects-in-liberty-city/"
+          }
+        ],
+        "timestamp": "2026-02-27T10:00:00Z",
+        "significance_score": 0.88
+      },
+      {
+        "id": "event-lc-003",
+        "category": "Economic",
+        "summary": "The City of Miami and The Integral Group broke ground on March 25, 2026, on Yaeger Plaza — a $59 million, 135-unit affordable rental development at 1177 NW 62nd Street in Liberty City. Named after the historic Yaeger Clinic, the project includes a dedicated floor for disabled veterans and seniors, ground-floor retail, green space, STEM programming, and a new healthcare facility. Completion is slated for late 2027.",
+        "sources": [
+          {
+            "name": "WLRN Public Radio",
+            "url": "https://www.wlrn.org/government-politics/2026-04-02/historic-yaeger-clinic-in-liberty-city-to-become-affordable-housing-and-community-hub"
+          },
+          {
+            "name": "Caribbean National Weekly",
+            "url": "https://www.caribbeannationalweekly.com/news/local-news/city-of-miami-officials-to-break-ground-on-135-unit-affordable-housing-project-in-liberty-city/"
+          },
+          {
+            "name": "Axios Miami",
+            "url": "https://www.axios.com/local/miami/2026/03/24/whats-going-up-publix-affordable-homes-liberty-city"
+          }
+        ],
+        "timestamp": "2026-03-25T10:00:00Z",
+        "significance_score": 0.82
+      }
+    ],
+    "trend": {
+      "cadence": "weekly",
+      "window": "7d",
+      "points": [
+        {"date": "2026-05-01", "score": 0.72},
+        {"date": "2026-05-02", "score": 0.73},
+        {"date": "2026-05-05", "score": 0.74},
+        {"date": "2026-05-07", "score": 0.79},
+        {"date": "2026-05-09", "score": 0.79},
+        {"date": "2026-05-12", "score": 0.80},
+        {"date": "2026-05-14", "score": 0.81}
+      ],
+      "delta": 0.09,
+      "delta_pct": 12.5,
+      "direction": "up"
+    }
+  },
+  {
+    "neighborhood_id": "coconut_grove",
+    "score": 0.77,
+    "event_density_score": 0.80,
+    "event_count_delta": 2,
+    "data_quality": 0.89,
+    "last_updated": "2026-05-14T00:00:00Z",
+    "events": [
+      {
+        "id": "event-cg-001",
+        "category": "Infrastructure",
+        "summary": "Coconut Grove launched a new on-demand all-electric microtransit service in partnership with Circuit, with a ribbon-cutting ceremony held on May 11, 2026. The service connects Peacock Park, CocoWalk, Regatta Harbour, and the Coconut Grove Metrorail station, providing free or low-cost rides for residents and visitors throughout the neighborhood. The initiative was sponsored by City Commissioner Damian Pardo, the City of Miami, and the Coconut Grove BID.",
+        "sources": [
+          {
+            "name": "Coconut Grove Official Neighborhood Site",
+            "url": "https://coconutgrove.com/convenient-all-electric-circuit-shuttle-service-arrives-in-coconut-grove/"
+          }
+        ],
+        "timestamp": "2026-05-11T10:00:00Z",
+        "significance_score": 0.75
+      },
+      {
+        "id": "event-cg-002",
+        "category": "Government Policy",
+        "summary": "A City of Miami proposal under active review would allow developers within a quarter mile of greenways (including Coconut Grove's Commodore Trail and the Underline along US-1) to purchase bonus building height and density. In the Grove's central business district this could raise the five-story cap to eight stories; along South Bayshore Drive, heights could reach 20 stories. Community opposition is strong, with residents citing concerns about density creep, gentrification, and infrastructure strain.",
+        "sources": [
+          {
+            "name": "WLRN Public Radio",
+            "url": "https://www.wlrn.org/government-politics/2026-04-01/coconut-grove-pay-to-play-building-bonuses-bike-trails"
+          },
+          {
+            "name": "Coconut Grove Spotlight",
+            "url": "https://coconutgrovespotlight.com/2026/03/16/city-drops-coconut-grove-carve-out-from-density-transfer-program/"
+          }
+        ],
+        "timestamp": "2026-04-01T09:00:00Z",
+        "significance_score": 0.84
+      },
+      {
+        "id": "event-cg-003",
+        "category": "Construction",
+        "summary": "META Development broke ground on OPUS Coconut Grove — a six-story boutique condominium at 3137 SW 27th Avenue featuring 14 residences — after closing a $28 million construction loan from Arixa Capital in April 2026. The project, designed by Kobi Karp with interiors by João Armentano, is more than 50% sold, with residences starting at approximately $2.8 million. Completion is slated for 2027.",
+        "sources": [
+          {
+            "name": "Florida YIMBY",
+            "url": "https://floridayimby.com/2026/04/meta-development-breaks-ground-on-opus-coconut-grove-at-3137-sw-27th-avenue-in-miami.html"
+          }
+        ],
+        "timestamp": "2026-04-15T09:00:00Z",
+        "significance_score": 0.60
+      }
+    ],
+    "trend": {
+      "cadence": "weekly",
+      "window": "7d",
+      "points": [
+        {"date": "2026-05-01", "score": 0.74},
+        {"date": "2026-05-02", "score": 0.74},
+        {"date": "2026-05-05", "score": 0.75},
+        {"date": "2026-05-07", "score": 0.76},
+        {"date": "2026-05-09", "score": 0.77},
+        {"date": "2026-05-11", "score": 0.79},
+        {"date": "2026-05-14", "score": 0.80}
+      ],
+      "delta": 0.06,
+      "delta_pct": 8.1,
+      "direction": "up"
+    }
+  },
+  {
+    "neighborhood_id": "little_havana",
+    "score": 0.76,
+    "event_density_score": 0.78,
+    "event_count_delta": 2,
+    "data_quality": 0.87,
+    "last_updated": "2026-05-14T00:00:00Z",
+    "events": [
+      {
+        "id": "event-lh-001",
+        "category": "Government Policy",
+        "summary": "The Miami City Commission passed a resolution on February 12, 2026, to begin forming a Calle Ocho Business Improvement District (BID), sponsored by newly-elected District 3 Commissioner Rolando Escalona. The BID — modeled on Wynwood and Coconut Grove BIDs — would levy special assessments on property owners for up to 10 years, funding security, beautification, garbage pickup, and visitor-attraction initiatives along the historic SW 8th Street corridor. The city administration is now preparing documentation for a final commission vote.",
+        "sources": [
+          {
+            "name": "WLRN Public Radio",
+            "url": "https://www.wlrn.org/government-politics/2026-02-12/miami-marine-stadium-vote-calle-ocho"
+          },
+          {
+            "name": "WLRN Public Radio",
+            "url": "https://www.wlrn.org/government-politics/2026-03-10/miami-little-havana-pride-escalona"
+          },
+          {
+            "name": "Miami Today News",
+            "url": "https://www.miamitodaynews.com/breaking/new-business-improvement-district-may-fuel-little-havana-upgrades/"
+          }
+        ],
+        "timestamp": "2026-02-12T14:00:00Z",
+        "significance_score": 0.82
+      },
+      {
+        "id": "event-lh-002",
+        "category": "Economic",
+        "summary": "The City of Miami transferred multiple city-owned parcels in Little Havana to three developers — NR Investments, Swerdlow Group, and Mabruk USA — for approximately 500 affordable housing units along and near Calle Ocho (SW 8th Street), as reported in April 2026. The transfers, approved without competitive bidding under 99-year ground leases, include the former Optica Lopez property on SW 8th Street, now slated for an affordable tower by NR Investments. Developers are next seeking up to $4 million each in federal housing funds through Miami's Housing and Commercial Loan Committee.",
+        "sources": [
+          {
+            "name": "Hoodline Miami",
+            "url": "https://hoodline.com/2026/04/little-havana-land-hand-off-miami-sweetens-the-pot-for-developers-on-affordable-towers/"
+          }
+        ],
+        "timestamp": "2026-04-25T10:00:00Z",
+        "significance_score": 0.78
+      },
+      {
+        "id": "event-lh-003",
+        "category": "Construction",
+        "summary": "The Astor Companies pivoted Havana Enclave — a 179-unit project at 315 NW 27th Ave currently under construction since August 2025 — from market-rate rentals to condominiums starting at approximately $300,000, launching condo sales in April 2026. The switch, made more than halfway through construction, targets a gap in the attainable-ownership market amid flattening rents and rising multifamily supply. Completion is expected by end of 2026.",
+        "sources": [
+          {
+            "name": "Bisnow South Florida",
+            "url": "https://www.bisnow.com/south-florida/news/multifamily/developer-switches-little-havana-apartments-to-condos-amid-multifamily-oversupply-pressures-134004"
+          }
+        ],
+        "timestamp": "2026-04-07T17:04:00Z",
+        "significance_score": 0.70
+      }
+    ],
+    "trend": {
+      "cadence": "weekly",
+      "window": "7d",
+      "points": [
+        {"date": "2026-05-01", "score": 0.71},
+        {"date": "2026-05-02", "score": 0.71},
+        {"date": "2026-05-05", "score": 0.73},
+        {"date": "2026-05-07", "score": 0.74},
+        {"date": "2026-05-09", "score": 0.75},
+        {"date": "2026-05-12", "score": 0.77},
+        {"date": "2026-05-14", "score": 0.78}
+      ],
+      "delta": 0.07,
+      "delta_pct": 9.9,
+      "direction": "up"
+    }
+  },
+  {
+    "neighborhood_id": "downtown_miami",
+    "score": 0.87,
+    "event_density_score": 0.88,
+    "event_count_delta": 2,
+    "data_quality": 0.92,
+    "last_updated": "2026-05-15T00:00:00Z",
+    "events": [
+      {
+        "id": "dtm-001",
+        "category": "Government Policy",
+        "summary": "Miami residents, a Miami Dade College student, and a nonprofit co-founder filed a federal lawsuit on May 14, 2026, challenging the transfer of a $67M+ waterfront parcel adjacent to the Freedom Tower to Trump's presidential library foundation. Plaintiffs allege the deal — brokered by Gov. DeSantis in September 2025 — violates the U.S. Constitution's Domestic Emoluments Clause, as the planned skyscraper complex would include a hotel and other commercial features that financially benefit the sitting president.",
+        "sources": [
+          {
+            "name": "NBC News",
+            "url": "https://www.nbcnews.com/politics/donald-trump/miami-residents-sue-stop-presidential-library-waterfront-property-rcna345030"
+          },
+          {
+            "name": "CBS Miami",
+            "url": "https://www.cbsnews.com/miami/news/trump-presidential-library-in-downtown-miami-faces-lawsuit-alleging-it-would-financially-benefit-the-president/"
+          },
+          {
+            "name": "WLRN",
+            "url": "https://www.wlrn.org/law-justice/2026-05-14/trump-and-desantis-sued-over-donation-of-miami-land-for-extravagant-presidential-library"
+          },
+          {
+            "name": "Local10 (WPLG)",
+            "url": "https://www.local10.com/news/politics/2026/05/14/trump-and-desantis-sued-over-donation-of-miami-land-for-extravagant-presidential-library/"
+          }
+        ],
+        "timestamp": "2026-05-14T01:12:00Z",
+        "significance_score": 0.94
+      },
+      {
+        "id": "dtm-002",
+        "category": "Economic",
+        "summary": "CBRE is marketing Downtown Miami's largest remaining development site — a 6.6-acre Park West assemblage at 1151 NW 1st Ave — for $500 million. Owned by Marc Roberts Companies and Lion Development (developers of E11even Hotel & Residences), the site offers over 10 million square feet of development potential under Florida's Live Local Act, including up to 6,602 residential units. The site sits adjacent to the $2B I-395 Signature Bridge and the $6B Miami Worldcenter complex.",
+        "sources": [
+          {
+            "name": "The Real Deal",
+            "url": "https://therealdeal.com/miami/2026/04/15/e11even-residences-developers-list-site-for-500-million/"
+          },
+          {
+            "name": "CRE Sources (CBRE listing)",
+            "url": "https://cre-sources.com/cbre-lists-downtown-miamis-largest-remaining-development-site-for-500-million/"
+          },
+          {
+            "name": "Hawkins CRE News Roundup",
+            "url": "https://www.hawkinscre.com/miami-commercial-real-estate-news-may-6-2026-downtown-development-site-listed-for-500m-wynwood-development-secures-126m-financing-more/"
+          }
+        ],
+        "timestamp": "2026-04-19T18:10:00Z",
+        "significance_score": 0.82
+      },
+      {
+        "id": "dtm-003",
+        "category": "Infrastructure",
+        "summary": "Florida Power & Light's $781 million Andytown-Oasis Transmission Lines Project was approved by the Florida Public Service Commission on May 12, 2026. The project will add four new high-voltage transmission lines from Broward County into Miami-Dade County to address a projected 11% load increase driven by an estimated 220,000 new customers by 2033. FPL plans to begin design in 2026, with construction running 2029–2033. The approval directly supports energy reliability for Downtown Miami's dense urban core.",
+        "sources": [
+          {
+            "name": "Miami Today (FYI Miami May 14, 2026)",
+            "url": "https://www.miamitodaynews.com/2026/05/13/fyi-miami-may-14-2026/"
+          },
+          {
+            "name": "Local10 – Florida regulators hearing",
+            "url": "https://www.local10.com/news/florida/2026/04/23/florida-regulators-meet-on-fpl-proposal-for-broward-miami-dade-project/"
+          }
+        ],
+        "timestamp": "2026-05-12T00:00:00Z",
+        "significance_score": 0.76
+      }
+    ],
+    "trend": {
+      "cadence": "weekly",
+      "window": "7d",
+      "points": [
+        {"date": "2026-05-08", "score": 0.71},
+        {"date": "2026-05-09", "score": 0.73},
+        {"date": "2026-05-10", "score": 0.74},
+        {"date": "2026-05-11", "score": 0.76},
+        {"date": "2026-05-12", "score": 0.80},
+        {"date": "2026-05-13", "score": 0.84},
+        {"date": "2026-05-14", "score": 0.88}
+      ],
+      "delta": 0.17,
+      "delta_pct": 23.9,
+      "direction": "up"
+    }
+  },
+  {
+    "neighborhood_id": "venetian_islands",
+    "score": 0.62,
+    "event_density_score": 0.61,
+    "event_count_delta": 0,
+    "data_quality": 0.74,
+    "last_updated": "2026-05-15T00:00:00Z",
+    "events": [
+      {
+        "id": "vni-001",
+        "category": "Infrastructure",
+        "summary": "Miami-Dade County's Department of Transportation and Public Works (DTPW) held a public meeting on March 18, 2026 at 1000 Venetian Way regarding the final design phase of the $100.5M+ Venetian Causeway Bridge Replacement Project. The project — funded in part by a federal Bridge Investment Program grant — will replace 11 of the 12 historically designated bridges (built 1927) to address severe marine deterioration, increase weight limits, and incorporate sea-level-rise resilience. Final design completion is expected Summer 2026, with a construction advertisement to follow pending permit coordination.",
+        "sources": [
+          {
+            "name": "Miami-Dade DTPW – Official Project Page",
+            "url": "https://www.miamidade.gov/global/transportation/public-works/venetian-causeway.page"
+          },
+          {
+            "name": "FDOT Miami-Dade – Project Study Page",
+            "url": "https://www.fdotmiamidade.com/venetianbridgestudy.html"
+          },
+          {
+            "name": "Federal Permitting Dashboard",
+            "url": "https://www.permits.performance.gov/permitting-project/dot-projects/venetian-causeway-bridges"
+          }
+        ],
+        "timestamp": "2026-03-18T19:00:00Z",
+        "significance_score": 0.88
+      },
+      {
+        "id": "vni-002",
+        "category": "Infrastructure",
+        "summary": "The City of Miami Beach's Venetian Causeway Water and Sewer Main Upgrades Phase II project is approaching substantial completion, anticipated in late spring to early summer 2026. The project replaces aerial water main crossings running along the north and south sides of the Venetian bridges — ranked first on the city's list of critical infrastructure assets — to meet growing capacity demands. Minor road closures near the Venetian Islands corridor are expected between substantial and final completion (late summer 2026).",
+        "sources": [
+          {
+            "name": "City of Miami Beach – Official Project Page",
+            "url": "https://www.miamibeachfl.gov/projects/venetian-causeway-water-and-sewer-main-replacement-project-2/"
+          }
+        ],
+        "timestamp": "2026-03-20T00:00:00Z",
+        "significance_score": 0.72
+      },
+      {
+        "id": "vni-003",
+        "category": "Economic",
+        "summary": "A waterfront property at 845 East Dilido Drive on the Venetian Islands sold for $35 million on May 8, 2026 — the most expensive residential transaction recorded in South Florida for that week. The 6,100 sq ft, five-bedroom home built in 2024 traded at more than $5,700 per square foot. The seller, an LLC managed by Michael Parker, had acquired the property in 2025 for $19.5 million; the buyer was a trust with a San Francisco address.",
+        "sources": [
+          {
+            "name": "The Real Deal – South Florida Top Deals May 8, 2026",
+            "url": "https://therealdeal.com/miami/2026/05/11/south-florida-top-real-estate-deals-may-8-2026/"
+          }
+        ],
+        "timestamp": "2026-05-08T00:00:00Z",
+        "significance_score": 0.65
+      }
+    ],
+    "trend": {
+      "cadence": "weekly",
+      "window": "7d",
+      "points": [
+        {"date": "2026-05-08", "score": 0.58},
+        {"date": "2026-05-09", "score": 0.58},
+        {"date": "2026-05-10", "score": 0.59},
+        {"date": "2026-05-11", "score": 0.60},
+        {"date": "2026-05-12", "score": 0.60},
+        {"date": "2026-05-13", "score": 0.61},
+        {"date": "2026-05-14", "score": 0.61}
+      ],
+      "delta": 0.03,
+      "delta_pct": 5.2,
+      "direction": "stable"
+    }
+  },
+  {
+    "neighborhood_id": "coral_way",
+    "score": 0.72,
+    "event_density_score": 0.74,
+    "event_count_delta": 1,
+    "data_quality": 0.82,
+    "last_updated": "2026-05-14T00:00:00Z",
+    "events": [
+      {
+        "id": "event-cw-001",
+        "category": "Infrastructure",
+        "summary": "FDOT has an active roadway project along SR 972/Coral Way, covering the segment between SW 22 Ave and SW 17 Ave and from SW 12 Ave to Brickell Ave. The Miami-Shenandoah NET Office confirms nightly lane closures and resurfacing work ongoing as part of this multi-block corridor improvement.",
+        "sources": [
+          {
+            "name": "Miami-Shenandoah NET Office – Traffic & Roadway Improvements",
+            "url": "https://www.miamishenandoah.com/neighborhood-projects/traffic-roadways/"
+          },
+          {
+            "name": "FDOT Miami-Dade South Construction Projects",
+            "url": "https://www.fdotmiamidade.com/projects/region/miami-dade-south/construction"
+          }
+        ],
+        "timestamp": "2026-05-01T00:00:00Z",
+        "significance_score": 0.62
+      },
+      {
+        "id": "event-cw-002",
+        "category": "Construction",
+        "summary": "A bomb hoax evacuated the Coral Way Walmart (8400 block of Coral Way) on May 2, 2026. Miami-Dade Sheriff's Office deputies conducted a full security sweep after a threat call; Fire Rescue confirmed the threat was unfounded. The incident was part of a wider wave of phoned-in threats across Miami-Dade County.",
+        "sources": [
+          {
+            "name": "Hoodline – Bomb Hoax Chaos Empties Coral Way Walmart",
+            "url": "https://hoodline.com/2026/05/bomb-hoax-chaos-empties-coral-way-walmart/"
+          }
+        ],
+        "timestamp": "2026-05-02T09:00:00Z",
+        "significance_score": 0.48
+      },
+      {
+        "id": "event-cw-003",
+        "category": "Infrastructure",
+        "summary": "Fire crews responded to a blaze inside the Coral Way Walmart on the morning of May 10, 2026. Firefighters extinguished the fire and the store was temporarily closed for safety. No injuries were reported; cause remains under investigation.",
+        "sources": [
+          {
+            "name": "WSVN 7News – Fire Crews Extinguish Fire Inside Walmart in Southwest Miami-Dade",
+            "url": "https://wsvn.com/news/local/miami-dade/fire-crews-extinguish-fire-inside-walmart-in-southwest-miami-dade-cause-is-unknown/"
+          }
+        ],
+        "timestamp": "2026-05-10T09:00:00Z",
+        "significance_score": 0.45
+      },
+      {
+        "id": "event-cw-004",
+        "category": "Construction",
+        "summary": "Nationally owned developer Kanso Coral Way LLC (an affiliate of AvalonBay Communities) received unanimous recommendation for approval from Miami's Urban Development Review Board for an 8-story, 166-unit residential project at 2340 SW 32nd Ave. The project includes structured parking and a rooftop amenity deck and requested a 10% parking waiver.",
+        "sources": [
+          {
+            "name": "Miami Today – Nationally Owned Apartment Complex to Rise on Coral Way",
+            "url": "https://www.miamitodaynews.com/2026/03/04/nationally-owned-apartment-complex-to-rise-on-coral-way/"
+          }
+        ],
+        "timestamp": "2026-03-04T00:00:00Z",
+        "significance_score": 0.70
+      }
+    ],
+    "trend": {
+      "cadence": "weekly",
+      "window": "7d",
+      "points": [
+        { "date": "2026-05-01", "score": 0.60 },
+        { "date": "2026-05-03", "score": 0.62 },
+        { "date": "2026-05-05", "score": 0.63 },
+        { "date": "2026-05-07", "score": 0.65 },
+        { "date": "2026-05-09", "score": 0.68 },
+        { "date": "2026-05-11", "score": 0.72 },
+        { "date": "2026-05-14", "score": 0.74 }
+      ],
+      "delta": 0.14,
+      "delta_pct": 23.3,
+      "direction": "up"
+    }
+  },
+  {
+    "neighborhood_id": "the_roads",
+    "score": 0.55,
+    "event_density_score": 0.57,
+    "event_count_delta": 0,
+    "data_quality": 0.72,
+    "last_updated": "2026-05-14T00:00:00Z",
+    "events": [
+      {
+        "id": "event-tr-001",
+        "category": "Infrastructure",
+        "summary": "The Underline Phase 2, which opened April 2024, runs 2.14 miles from SW 13th Street through The Roads, Shenandoah, and Silver Bluff neighborhoods to SW 19th Ave, and Phase 3 construction (7.36 miles south to Dadeland South) continues through summer 2026. Segment 6 of the M-Path (through Coral Gables) remains closed for construction through Summer 2026. The City of Miami is contributing $1.57 million toward Underline maintenance in FY 2025–2026.",
+        "sources": [
+          {
+            "name": "Miami-Dade County – The Underline Phase 3",
+            "url": "https://www.miamidade.gov/global/transportation/the-underline-phase-3.page"
+          },
+          {
+            "name": "Miami Today – Miami Asked for $8.7 Million to Maintain Underline",
+            "url": "https://www.miamitodaynews.com/2025/04/09/miami-asked-for-8-7-million-to-maintain-underline/"
+          },
+          {
+            "name": "Coral Gables – Traffic Advisory: M-Path, Underline Phase 3",
+            "url": "https://www.coralgables.com/news/traffic-advisory-m-path-underline-phase-3"
+          }
+        ],
+        "timestamp": "2026-05-01T00:00:00Z",
+        "significance_score": 0.68
+      },
+      {
+        "id": "event-tr-002",
+        "category": "Economic",
+        "summary": "The Roads real estate market showed median listed home prices at $1.59M in May 2026, with homes spending a median of 63 days on market — unchanged from May 2025. The neighborhood is 4% more expensive than the national average, reflecting sustained demand despite broader Miami-Dade market softening.",
+        "sources": [
+          {
+            "name": "Movoto – The Roads Miami Homes For Sale & Real Estate",
+            "url": "https://www.movoto.com/miami-fl/the-roads/"
+          }
+        ],
+        "timestamp": "2026-05-01T00:00:00Z",
+        "significance_score": 0.42
+      }
+    ],
+    "trend": {
+      "cadence": "weekly",
+      "window": "7d",
+      "points": [
+        { "date": "2026-05-01", "score": 0.52 },
+        { "date": "2026-05-03", "score": 0.53 },
+        { "date": "2026-05-05", "score": 0.54 },
+        { "date": "2026-05-07", "score": 0.54 },
+        { "date": "2026-05-09", "score": 0.55 },
+        { "date": "2026-05-11", "score": 0.56 },
+        { "date": "2026-05-14", "score": 0.57 }
+      ],
+      "delta": 0.05,
+      "delta_pct": 9.6,
+      "direction": "stable"
+    }
+  },
+  {
+    "neighborhood_id": "flagami_/_grapeland",
+    "score": 0.78,
+    "event_density_score": 0.80,
+    "event_count_delta": 2,
+    "data_quality": 0.85,
+    "last_updated": "2026-05-14T00:00:00Z",
+    "events": [
+      {
+        "id": "event-fg-001",
+        "category": "Economic",
+        "summary": "Miami Freedom Park's Nu Stadium (on the former Melreese Country Club site adjacent to Flagami/Grapeland) officially opened on April 4, 2026 with Inter Miami hosting Austin FC in a sold-out MLS season opener. The $1 billion, 131-acre development — backed by a $450M JPMorgan construction loan — includes a 25,000-seat stadium, a 58-acre public park, retail, office and hotel phases. Phase 2 entertainment retail (timed for the FIFA World Cup window, late May–July 2026) is now opening, with confirmed tenants including PopStroke (Tiger Woods-backed, 75,000 sq ft) beginning construction May 1, 2026.",
+        "sources": [
+          {
+            "name": "Discover South Florida – Miami Freedom Park Explained",
+            "url": "https://www.discoversouthflorida.com/blog/miami-freedom-park-explained-more-than-the-nu-stadium"
+          },
+          {
+            "name": "Inter Miami CF – We're Coming Home",
+            "url": "https://www.intermiamicf.com/news/we-re-coming-home-inter-miami-to-play-in-miami-in-2026"
+          },
+          {
+            "name": "NBC Miami – Freedom Park: Miami's New Face Heading Toward the 2026 FIFA World Cup",
+            "url": "https://www.nbcmiami.com/news/local/freedom-park-miamis-new-face-as-the-city-heads-toward-the-2026-fifa-world-cup/3787119/"
+          }
+        ],
+        "timestamp": "2026-05-01T00:00:00Z",
+        "significance_score": 0.92
+      },
+      {
+        "id": "event-fg-002",
+        "category": "Government Policy",
+        "summary": "Grapeland Water Park (operated by the City of Miami at NW 20th St & LeJeune Rd) announced its 2026 seasonal opening schedule: May 23–25, May 30–31, then daily June 5 – August 8. The park is a key public amenity for the Flagami/Grapeland community and is operated by the City's Parks and Recreation department.",
+        "sources": [
+          {
+            "name": "Grapeland Water Park – Official Site (City of Miami)",
+            "url": "https://www.grapelandwaterpark.com/"
+          }
+        ],
+        "timestamp": "2026-05-01T00:00:00Z",
+        "significance_score": 0.35
+      },
+      {
+        "id": "event-fg-003",
+        "category": "Infrastructure",
+        "summary": "FDOT's active SR 90/US 41/SW 8 St (Tamiami Trail) Next Steps Phase 2 project directly borders the Flagami neighborhood, involving roadway improvements to one of the area's main arterial corridors. The project is listed as an active Miami-Dade South construction project.",
+        "sources": [
+          {
+            "name": "FDOT Miami-Dade South Construction Projects",
+            "url": "https://www.fdotmiamidade.com/projects/region/miami-dade-south/construction"
+          }
+        ],
+        "timestamp": "2026-05-01T00:00:00Z",
+        "significance_score": 0.55
+      }
+    ],
+    "trend": {
+      "cadence": "weekly",
+      "window": "7d",
+      "points": [
+        { "date": "2026-05-01", "score": 0.68 },
+        { "date": "2026-05-03", "score": 0.71 },
+        { "date": "2026-05-05", "score": 0.73 },
+        { "date": "2026-05-07", "score": 0.75 },
+        { "date": "2026-05-09", "score": 0.77 },
+        { "date": "2026-05-11", "score": 0.79 },
+        { "date": "2026-05-14", "score": 0.80 }
+      ],
+      "delta": 0.12,
+      "delta_pct": 17.6,
+      "direction": "up"
+    }
+  },
+  {
+    "neighborhood_id": "virginia_key",
+    "score": 0.72,
+    "event_density_score": 0.70,
+    "event_count_delta": 0,
+    "data_quality": 0.78,
+    "last_updated": "2026-05-15T00:00:00Z",
+    "events": [
+      {
+        "id": "event-vk-001",
+        "category": "Government Policy",
+        "summary": "Miami Marine Stadium August 2026 referendum confirmed: following a unanimous City Commission vote in February 2026, voters will decide on a 40-year management deal with Global Spectrum L.P. (Oak View Group) to restore the 1963 landmark on Virginia Key, closed since Hurricane Andrew in 1992. The city would receive 93% of gross event revenue and up to $10M toward restoration.",
+        "sources": [
+          {
+            "name": "EDMTunes – Miami Marine Stadium fate on ballot",
+            "url": "https://www.edmtunes.com/2026/02/miami-marine-stadiums-fate-ballot/"
+          },
+          {
+            "name": "Miami Today – Deal to run Miami Marine Stadium sails to city",
+            "url": "https://www.miamitodaynews.com/2026/02/11/deal-to-run-miami-marine-stadium-sails-to-city/"
+          },
+          {
+            "name": "Islander News – Most important day in 18 years",
+            "url": "https://www.islandernews.com/news/keybiscayne/this-is-the-most-important-day-in-18-years/article_cec69d62-51f9-444f-93df-eac6569e862d.html"
+          }
+        ],
+        "timestamp": "2026-02-12T10:00:00Z",
+        "significance_score": 0.90
+      },
+      {
+        "id": "event-vk-002",
+        "category": "Government Policy",
+        "summary": "City of Miami pledged up to $17 million (at $1.7M/year for 10 years post-construction) to fund operations for the long-delayed Black History Museum at Virginia Key Beach Park, authorized at the January 8, 2026 commission meeting. The museum, over two decades in the making, is designed to honor Virginia Key Beach's civil rights legacy.",
+        "sources": [
+          {
+            "name": "Miami Today – Miami pledge fuels Black History Museum on Virginia Key",
+            "url": "https://www.miamitodaynews.com/2026/01/14/miami-pledge-fuels-black-history-museum-on-virginia-key/"
+          }
+        ],
+        "timestamp": "2026-01-14T00:00:00Z",
+        "significance_score": 0.82
+      },
+      {
+        "id": "event-vk-003",
+        "category": "Infrastructure",
+        "summary": "The Virginia Key Bicycle Club held the inaugural Magic City MTB Race on May 7, 2026, a 4-hour mountain bike endurance event on Virginia Key's singletrack trail system. All proceeds fund new trail construction and maintenance by the all-volunteer club, signaling growing recreational infrastructure investment on the island.",
+        "sources": [
+          {
+            "name": "Miami Bike Scene – VKBC Magic City MTB Race",
+            "url": "https://www.themiamibikescene.com/2026/05/virgiunia-key-magic-city-mtb-race.html"
+          }
+        ],
+        "timestamp": "2026-05-07T08:00:00Z",
+        "significance_score": 0.42
+      }
+    ],
+    "trend": {
+      "cadence": "weekly",
+      "window": "7d",
+      "points": [
+        {"date": "2026-05-02", "score": 0.60},
+        {"date": "2026-05-04", "score": 0.62},
+        {"date": "2026-05-06", "score": 0.65},
+        {"date": "2026-05-08", "score": 0.68},
+        {"date": "2026-05-10", "score": 0.68},
+        {"date": "2026-05-12", "score": 0.70},
+        {"date": "2026-05-14", "score": 0.70}
+      ],
+      "delta": 0.10,
+      "delta_pct": 16.7,
+      "direction": "up"
+    }
+  },
+  {
+    "neighborhood_id": "watson_island",
+    "score": 0.85,
+    "event_density_score": 0.88,
+    "event_count_delta": 2,
+    "data_quality": 0.88,
+    "last_updated": "2026-05-15T00:00:00Z",
+    "events": [
+      {
+        "id": "event-wi-001",
+        "category": "Construction",
+        "summary": "Watson Harbour (south side, BH3 Management & Merrimac Ventures): following the December 2025 city approval of a $29M land sale and a January 2026 new-mayor-led review, the project — comprising two towers (40 and 30 stories), 105 condos, two hotels, 97K sq ft retail, and a 2.2-acre bayfront promenade — was advancing through permitting in early 2026, with groundbreaking targeted for 2026. Developers reported over $150M already invested.",
+        "sources": [
+          {
+            "name": "WLRN – City of Miami to consider renegotiating Watson Island sale",
+            "url": "https://www.wlrn.org/government-politics/2026-01-07/miami-watson-island-sale-tower-theater-commission-meeting"
+          },
+          {
+            "name": "Miami Today – Miami sells Watson Island land for mixed-use development",
+            "url": "https://www.miamitodaynews.com/?post_type=breaking&p=85627"
+          },
+          {
+            "name": "Bisnow – Miami Delays Vote On $29M Sale of Watson Island Site",
+            "url": "https://www.bisnow.com/south-florida/news/construction-development/miami-commissioners-hold-off-on-selling-watson-island-site-for-29m-132015"
+          }
+        ],
+        "timestamp": "2026-01-07T00:00:00Z",
+        "significance_score": 0.88
+      },
+      {
+        "id": "event-wi-002",
+        "category": "Economic",
+        "summary": "Terra Group and ESJ Capital Partners (Ecoresiliency Miami) received final city commission approval to allocate $47M in public benefits from the $135M Jungle Island redevelopment deal on Watson Island's north side. The plan converts the theme park into 600 luxury condos across two towers, returns 13.3 acres as a free public waterfront park, and channels $35M to affordable housing across Miami's five districts.",
+        "sources": [
+          {
+            "name": "Traded.co – Terra and ESJ Jungle Island plan gets final greenlight",
+            "url": "https://traded.co/blog/terra-and-esj-capital-s-jungle-island-plan-gets-final-greenlight-from-city-commission/"
+          },
+          {
+            "name": "CondoBlackBook – Watson Island Miami pre-construction",
+            "url": "https://www.condoblackbook.com/blog/watson-island-miami-pre-construction"
+          }
+        ],
+        "timestamp": "2025-07-29T00:00:00Z",
+        "significance_score": 0.92
+      },
+      {
+        "id": "event-wi-003",
+        "category": "Infrastructure",
+        "summary": "Seawall upgrades and utility infrastructure improvements are underway on Watson Island as part of the broader Watson Harbour development agreement. Developers committed to boardwalk upgrades and infrastructure resiliency measures as part of their 99-year ground lease with the City of Miami.",
+        "sources": [
+          {
+            "name": "Miami Condo Investments – Watson Island set for transformation",
+            "url": "https://www.miamicondoinvestments.com/watson-island/watson-island-set-for-transformative-development-with-four-planned-towers"
+          },
+          {
+            "name": "RE Business Online – BH3 Management, Merrimac Ventures to develop Watson Island",
+            "url": "https://rebusinessonline.com/bh3-management-merrimac-ventures-to-develop-mixed-use-project-on-miamis-watson-island/"
+          }
+        ],
+        "timestamp": "2026-01-15T00:00:00Z",
+        "significance_score": 0.72
+      }
+    ],
+    "trend": {
+      "cadence": "weekly",
+      "window": "7d",
+      "points": [
+        {"date": "2026-05-02", "score": 0.80},
+        {"date": "2026-05-04", "score": 0.82},
+        {"date": "2026-05-06", "score": 0.83},
+        {"date": "2026-05-08", "score": 0.85},
+        {"date": "2026-05-10", "score": 0.86},
+        {"date": "2026-05-12", "score": 0.87},
+        {"date": "2026-05-14", "score": 0.88}
+      ],
+      "delta": 0.08,
+      "delta_pct": 10.0,
+      "direction": "up"
+    }
+  },
+  {
+    "neighborhood_id": "port_of_miami",
+    "score": 0.91,
+    "event_density_score": 0.93,
+    "event_count_delta": 3,
+    "data_quality": 0.93,
+    "last_updated": "2026-05-15T00:00:00Z",
+    "events": [
+      {
+        "id": "event-pm-001",
+        "category": "Construction",
+        "summary": "Construction is underway on the $345M Cruise Terminal G at PortMiami, groundbroken January 8, 2026, by Miami-Dade Mayor Levine Cava and Royal Caribbean Group CEO Jason Liberty. Designed by Lemartec–NV2A JV with Perez & Perez Architects, the LEED-certified terminal will accommodate Icon-class vessels with capacity for 7,000 passengers and is targeted for completion in late 2027. Demolition of the old Terminal G began in July 2025.",
+        "sources": [
+          {
+            "name": "Seatrade Cruise – PortMiami, Royal Caribbean break ground for $345M Terminal G",
+            "url": "https://www.seatrade-cruise.com/ports-destinations/portmiami-royal-caribbean-break-ground-for-345m-terminal-g"
+          },
+          {
+            "name": "Cruise Industry News – PortMiami and Royal Caribbean break ground on Cruise Terminal G",
+            "url": "https://cruiseindustrynews.com/cruise-news/2026/01/portmiami-and-royal-caribbean-break-ground-on-cruise-terminal-g/"
+          },
+          {
+            "name": "Caribbean Journal – Royal Caribbean new $345M cruise terminal Miami",
+            "url": "https://www.caribjournal.com/2026/01/11/royal-caribbean-port-miami-new-terminal-g/"
+          }
+        ],
+        "timestamp": "2026-01-08T10:00:00Z",
+        "significance_score": 0.95
+      },
+      {
+        "id": "event-pm-002",
+        "category": "Infrastructure",
+        "summary": "Miami-Dade County officials are actively studying a non-stop rail link between Miami International Airport and PortMiami, part of the MDTPO 2050 Long Range Transportation Plan (published Sept. 2025). Two options are under review: a Metromover extension and a Metrorail expansion, with costs estimated up to $800M. The study gained significant media coverage in late April–early May 2026, driven by PortMiami's record 8.5M cruise passengers in FY2025.",
+        "sources": [
+          {
+            "name": "Time Out Miami – Miami officials looking into direct train from airport to port (May 6, 2026)",
+            "url": "https://www.timeout.com/miami/news/miami-officials-are-looking-into-creating-a-direct-train-from-the-airport-to-the-port-050626"
+          },
+          {
+            "name": "CBS Miami – Non-stop train from Miami International Airport to Port Miami",
+            "url": "https://www.cbsnews.com/miami/news/non-stop-train-from-miami-international-airport-to-port-miami/"
+          },
+          {
+            "name": "Parade – Miami considers direct train between airport and PortMiami",
+            "url": "https://parade.com/news/miami-airport-to-portmiami-cruise-port-non-stop-train-proposal"
+          }
+        ],
+        "timestamp": "2026-05-06T00:00:00Z",
+        "significance_score": 0.85
+      },
+      {
+        "id": "event-pm-003",
+        "category": "Economic",
+        "summary": "PortMiami continues expanding its cargo and cruise operations per an April 2026 Miami Today report: Phase 2 of the Electric Rubber-Tired Gantry Crane (eRTG) program nears completion in the South Florida Container Terminal; new ship-to-shore cranes are being procured; a new cold-storage/phytosanitary hub co-developed with Miami International Airport (groundbroken July 2025) is progressing; and a new MSC Cruises Berth 10 (third berth at Terminal AA) is planned for fall 2028. FY2025 cargo hit 1,115,058 TEUs — the 11th consecutive year over 1M TEUs.",
+        "sources": [
+          {
+            "name": "Miami Today – Major projects flowing toward PortMiami (April 8, 2026)",
+            "url": "https://www.miamitodaynews.com/?p=86491"
+          },
+          {
+            "name": "Miami-Dade County – PortMiami banner year press release",
+            "url": "https://www.miamidade.gov/global/release.page?Mduid_release=rel1764622080449470"
+          }
+        ],
+        "timestamp": "2026-04-08T00:00:00Z",
+        "significance_score": 0.88
+      },
+      {
+        "id": "event-pm-004",
+        "category": "Government Policy",
+        "summary": "Ongoing PortMiami traffic and congestion debate intensified in May 2026: a Cruise Fever analysis published May 12, 2026 highlighted that cruise lines are issuing formal traveler warnings about 1–2 hour port access delays. Officials cite construction on Terminal G, peak multi-ship days, and the lack of public transit as compounding factors, lending urgency to the airport rail link study.",
+        "sources": [
+          {
+            "name": "Cruise Fever – PortMiami Cruise Traffic: 15 Minutes vs. 2 Hours (May 12, 2026)",
+            "url": "https://cruisefever.net/portmiami-cruise-traffic-15-minutes-vs-2-hours-fear-mongering-or-reality/"
+          }
+        ],
+        "timestamp": "2026-05-12T00:00:00Z",
+        "significance_score": 0.65
+      }
+    ],
+    "trend": {
+      "cadence": "weekly",
+      "window": "7d",
+      "points": [
+        {"date": "2026-05-02", "score": 0.85},
+        {"date": "2026-05-04", "score": 0.87},
+        {"date": "2026-05-06", "score": 0.89},
+        {"date": "2026-05-08", "score": 0.90},
+        {"date": "2026-05-10", "score": 0.91},
+        {"date": "2026-05-12", "score": 0.93},
+        {"date": "2026-05-14", "score": 0.93}
+      ],
+      "delta": 0.08,
+      "delta_pct": 9.4,
+      "direction": "up"
+    }
+  }
+
+]

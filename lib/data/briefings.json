@@ -1,0 +1,2111 @@
+{
+  "id": "miami-briefings-2026-05",
+  "label": "May 2026",
+  "areas": [
+    {
+      "id": "brickell",
+      "news": {
+        "headline": "Brickell adds towers while residents press bay cleanup",
+        "summary": "Brickell records center on new office and condo additions, including a standalone Citadel headquarters plan and the completed Viceroy Brickell residences. They also show sustained resident concern about trash dumping into Biscayne Bay near the baywalk, with calls for signs and enforcement.",
+        "themes": [
+          {
+            "title": "Office tower plan expands",
+            "summary": "Citadel’s Brickell headquarters design has shifted to a larger all-office project, with site work underway and permit filings for added square footage.",
+            "recordIds": [
+              "news:brickell-001"
+            ]
+          },
+          {
+            "title": "New residences open",
+            "summary": "Viceroy Brickell has finished construction and started welcoming residents at the Miami River gateway, adding another tower to the neighborhood’s housing stock.",
+            "recordIds": [
+              "news:brickell-002"
+            ]
+          },
+          {
+            "title": "Bay litter draws complaints",
+            "summary": "Residents and the Brickell Homeowners Association say littering into Biscayne Bay near the baywalk remains a recurring problem and want more deterrence and enforcement.",
+            "recordIds": [
+              "news:brickell-003"
+            ]
+          }
+        ]
+      },
+      "social": {
+        "headline": "Residents celebrate new towers and denounce bay trash",
+        "summary": "Community posts echo frustration about litter being thrown into Biscayne Bay and ask for city enforcement. Other posts highlight completed or proposed luxury towers, but those quotes come from developers or promotional accounts, not residents, and should be read as project marketing rather than neighborhood opinion.",
+        "themes": [
+          {
+            "title": "Calls for stronger trash enforcement",
+            "summary": "Residents posting about the baywalk describe ongoing dumping in Biscayne Bay and want the city to act against repeat littering.",
+            "recordIds": [
+              "social:post-bk-001",
+              "social:post-bk-002"
+            ]
+          },
+          {
+            "title": "Viceroy completion promoted",
+            "summary": "Posts celebrate the completed Viceroy Brickell tower and quote the developer, reflecting promotional messaging around the project rather than verified resident sentiment.",
+            "recordIds": [
+              "social:post-bk-003"
+            ]
+          },
+          {
+            "title": "Nobu tower previewed",
+            "summary": "Renderings for the planned Nobu Residences are being circulated as a new branded high-rise proposal on Brickell Bay Drive.",
+            "recordIds": [
+              "social:post-bk-004"
+            ]
+          }
+        ]
+      },
+      "combined": {
+        "headline": "Brickell mixes office growth with waterfront concern",
+        "summary": "Across news and community records, Brickell is seeing more vertical development, from a larger Citadel office plan to new branded residences and the finished Viceroy tower. At the same time, bayfront trash dumping remains a repeated concern, showing tension between ongoing growth and waterfront stewardship.",
+        "themes": [
+          {
+            "title": "High-rise pipeline advances",
+            "summary": "News and social posts together show several large projects moving through construction, sales, or design stages, including office and condominium towers.",
+            "recordIds": [
+              "news:brickell-001",
+              "news:brickell-002",
+              "social:post-bk-003",
+              "social:post-bk-004"
+            ]
+          },
+          {
+            "title": "Waterfront cleanup concerns persist",
+            "summary": "Both records and resident posts describe litter being dumped into Biscayne Bay near the baywalk, with calls for stronger city response.",
+            "recordIds": [
+              "news:brickell-003",
+              "social:post-bk-001",
+              "social:post-bk-002"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "wynwood",
+      "news": {
+        "headline": "Wynwood gains condos, retail and branded housing",
+        "summary": "Wynwood records show two major residential plays: a presold Airbnb-friendly condo project breaking ground and a new NoMad-branded residences opening after a Flow stake in the existing apartment complex. They also point to the neighborhood’s continuing mix of development, retail, and hospitality branding.",
+        "themes": [
+          {
+            "title": "New condo project breaks ground",
+            "summary": "Twenty Sixth & 2nd Wynwood Residences has started construction with financing in place, retail and amenity space, and a large share of units already presold.",
+            "recordIds": [
+              "news:wynwood-001"
+            ]
+          },
+          {
+            "title": "Flow and NoMad reshape address",
+            "summary": "Adam Neumann’s Flow bought into Society Wynwood as it is rebranded, while NoMad Residences Wynwood opened at the same site with most units sold.",
+            "recordIds": [
+              "news:wynwood-002"
+            ]
+          }
+        ]
+      },
+      "social": {
+        "headline": "Wynwood posts mix condo buzz and nightlife",
+        "summary": "Community posts emphasize the new condo project’s financing and Airbnb link, while also spotlighting a rooftop music series and a debate over whether short-term-rental-friendly development changes prices and neighborhood character. The posts present both enthusiasm and concern, but they are not a survey of local opinion.",
+        "themes": [
+          {
+            "title": "Airbnb-friendly condo launch",
+            "summary": "Posts frame Twenty Sixth & 2nd as a funded, sales-active project built around flexible rental use and new retail space.",
+            "recordIds": [
+              "social:post-wy-001",
+              "social:post-wy-002"
+            ]
+          },
+          {
+            "title": "Rooftop music activation",
+            "summary": "A nightlife post highlights a new series at Shiso, including a larger sound and lighting investment and a focus on live music.",
+            "recordIds": [
+              "social:post-wy-003"
+            ]
+          },
+          {
+            "title": "Growth prompts character debate",
+            "summary": "One post captures a split between critics worried about price pressure and character change and supporters who see more foot traffic and services.",
+            "recordIds": [
+              "social:post-wy-004"
+            ]
+          }
+        ]
+      },
+      "combined": {
+        "headline": "Wynwood development pairs rentals with culture debates",
+        "summary": "Wynwood’s records show active condo construction, branded housing changes, and a lively food-and-music scene. At the same time, community discussion questions whether short-term-rental-friendly projects will raise prices or shift neighborhood character, even as supporters point to retail and amenity gains.",
+        "themes": [
+          {
+            "title": "Residential branding accelerates",
+            "summary": "The neighborhood is seeing construction, sales, and rebranding around condos and apartments, with both Flow and NoMad tied to the same address.",
+            "recordIds": [
+              "news:wynwood-001",
+              "news:wynwood-002",
+              "social:post-wy-001",
+              "social:post-wy-002"
+            ]
+          },
+          {
+            "title": "Culture remains part of the pitch",
+            "summary": "Nightlife and event posts show Wynwood’s music and dining scene continuing alongside development activity.",
+            "recordIds": [
+              "social:post-wy-003",
+              "social:post-wy-004"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "midtown",
+      "news": {
+        "headline": "Midtown Park wins approvals as restaurants expand",
+        "summary": "Midtown records focus on city approvals for the large Midtown Park master plan and the opening of Motek’s ninth location with Sesame Bakery. The area is being framed around mixed-use growth, but the records only show approvals and openings, not outcomes.",
+        "themes": [
+          {
+            "title": "Large master plan advances",
+            "summary": "Midtown Park has received city board approvals for a multi-building project with homes, offices, retail, and public plazas, while Phase 1 continues toward a future opening.",
+            "recordIds": [
+              "news:midtown-001"
+            ]
+          },
+          {
+            "title": "Dining adds another outpost",
+            "summary": "Motek has opened a new Midtown location beside Sesame Bakery, extending the restaurant group’s South Florida footprint.",
+            "recordIds": [
+              "news:midtown-002"
+            ]
+          }
+        ]
+      },
+      "social": {
+        "headline": "Midtown Park is pitched as walkable mixed use",
+        "summary": "The community post presents Midtown Park as a walkable neighborhood linking Wynwood and the Design District, but it is still a promoted description of a proposed project rather than a finished place. No separate resident consensus appears in the record.",
+        "themes": [
+          {
+            "title": "Mixed-use vision highlighted",
+            "summary": "The post stresses scale, walkability, and a large mix of housing, office, and retail uses in the planned Midtown Park project.",
+            "recordIds": [
+              "social:post-mt-001"
+            ]
+          }
+        ]
+      },
+      "combined": {
+        "headline": "Midtown links approvals, dining, and a large plan",
+        "summary": "Midtown’s records show a major mixed-use project moving through approvals while restaurant expansion adds to the district’s day-to-day activity. The combined picture is one of planned density and active neighborhood branding, though the project itself remains largely future-facing.",
+        "themes": [
+          {
+            "title": "Midtown Park drives the storyline",
+            "summary": "News and social material both center on the approved Midtown Park plan with homes, office space, retail, and plazas.",
+            "recordIds": [
+              "news:midtown-001",
+              "social:post-mt-001"
+            ]
+          },
+          {
+            "title": "Food scene expands",
+            "summary": "Motek’s new location and Sesame Bakery add another dining stop in the area.",
+            "recordIds": [
+              "news:midtown-002"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "design_district",
+      "news": {
+        "headline": "Design District adds luxury retail and housing pipeline",
+        "summary": "Design District records combine luxury retail expansion with a large residential pipeline. Jaeger-LeCoultre is testing the market with a pop-up ahead of a permanent boutique, while reports say nearly 1,000 units are in development and retail rents have climbed sharply.",
+        "themes": [
+          {
+            "title": "Watchmaker tests Miami market",
+            "summary": "Jaeger-LeCoultre is using a pop-up and client lounge before opening a permanent boutique in the district later in 2026.",
+            "recordIds": [
+              "news:event-DD-001"
+            ]
+          },
+          {
+            "title": "Housing and retail pipeline grows",
+            "summary": "A report points to several residential projects underway, including Cassi and Kempinski Residences, alongside steeply higher luxury retail rents.",
+            "recordIds": [
+              "news:event-DD-002"
+            ]
+          }
+        ]
+      },
+      "social": {
+        "headline": "Design District posts mix luxury retail and public events",
+        "summary": "Community posts highlight the district’s role as a luxury shopping and dining destination, along with branded activations from Jaeger-LeCoultre, Vacheron Constantin, and Cadillac. The posts are promotional but show the district being used for both retail launches and public-facing events.",
+        "themes": [
+          {
+            "title": "Jaeger-LeCoultre pop-up promoted",
+            "summary": "Posts advertise the temporary Reverso Stories experience and note it precedes a future permanent boutique.",
+            "recordIds": [
+              "social:post-dd-001",
+              "social:post-dd-004"
+            ]
+          },
+          {
+            "title": "Luxury brands occupy the district",
+            "summary": "Vacheron Constantin and other high-end names are featured as part of the district’s retail identity.",
+            "recordIds": [
+              "social:post-dd-003"
+            ]
+          },
+          {
+            "title": "Food and gift shopping pitched",
+            "summary": "One post presents the district as a destination for Mother’s Day dining and luxury gift shopping.",
+            "recordIds": [
+              "social:post-dd-002"
+            ]
+          }
+        ]
+      },
+      "combined": {
+        "headline": "Design District pairs luxury retail with new housing",
+        "summary": "The Design District’s records show luxury brands using the area for pop-ups, boutique openings, and public activations while residential development remains active in the background. The mix suggests a district that is both a shopping destination and a continuing housing pipeline, with rising retail rents shaping the backdrop.",
+        "themes": [
+          {
+            "title": "Luxury retail remains central",
+            "summary": "Brand activations from Jaeger-LeCoultre and Vacheron Constantin reinforce the district’s role as a high-end retail node.",
+            "recordIds": [
+              "news:event-DD-001",
+              "social:post-dd-001",
+              "social:post-dd-003",
+              "social:post-dd-004"
+            ]
+          },
+          {
+            "title": "Residential pipeline keeps building",
+            "summary": "News reports describe nearly 1,000 units in planning or construction, including rental and condo projects.",
+            "recordIds": [
+              "news:event-DD-002"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "edgewater",
+      "news": {
+        "headline": "Edgewater sees towers rise and more projects line up",
+        "summary": "Edgewater records track rapid construction on Villa Miami and foundation work at Edge House Miami, alongside a new Edgewater joint venture for a planned luxury tower. The area’s skyline is clearly changing, while the records also show future phases still several years out.",
+        "themes": [
+          {
+            "title": "Waterfront towers progress",
+            "summary": "Villa Miami continues climbing and Edge House Miami is advancing through foundation work, both adding major residential volume to the neighborhood.",
+            "recordIds": [
+              "news:event-EW-001",
+              "news:event-EW-002"
+            ]
+          },
+          {
+            "title": "Another luxury tower planned",
+            "summary": "Cain International and Kushner formed a joint venture that starts with a planned Edgewater residential tower, with construction expected later.",
+            "recordIds": [
+              "news:event-EW-003"
+            ]
+          }
+        ]
+      },
+      "social": {
+        "headline": "Edgewater posts mix market talk and community life",
+        "summary": "Community posts describe construction progress, a waterfront farmers market, and a court ruling that restored the aging Biscayne 21 condominium. The posts mix enthusiasm for local activity with concern about how redevelopment disputes can affect neighborhood outcomes.",
+        "themes": [
+          {
+            "title": "Tower progress celebrated",
+            "summary": "Posts highlight Villa Miami’s climb and the launch of The Cove Residences, framing both as signs of ongoing luxury development.",
+            "recordIds": [
+              "social:post-ew-001",
+              "social:post-ew-002"
+            ]
+          },
+          {
+            "title": "Community markets add local life",
+            "summary": "One post presents the Margaret Pace Park Farmers Market as a place where small businesses and neighbors gather by the bay.",
+            "recordIds": [
+              "social:post-ew-003"
+            ]
+          },
+          {
+            "title": "Redevelopment dispute draws concern",
+            "summary": "A court ruling on Biscayne 21 is described as raising broader questions about property rights and urban planning tradeoffs.",
+            "recordIds": [
+              "social:post-ew-004"
+            ]
+          }
+        ]
+      },
+      "combined": {
+        "headline": "Edgewater balances tower growth and civic questions",
+        "summary": "Edgewater’s records show multiple luxury towers moving ahead, plus a new project planned through a joint venture. Alongside that growth, community posts point to waterfront market activity and concern over the Biscayne 21 ruling, showing a neighborhood where construction and planning disputes share the stage.",
+        "themes": [
+          {
+            "title": "Residential towers dominate",
+            "summary": "News and social posts both focus on Villa Miami, Edge House Miami, and The Cove Residences as major parts of the current pipeline.",
+            "recordIds": [
+              "news:event-EW-001",
+              "news:event-EW-002",
+              "news:event-EW-003",
+              "social:post-ew-001",
+              "social:post-ew-002"
+            ]
+          },
+          {
+            "title": "Local gathering spaces matter",
+            "summary": "The farmers market post suggests neighborhood life is also being shaped by smaller public-facing uses near the bay.",
+            "recordIds": [
+              "social:post-ew-003"
+            ]
+          },
+          {
+            "title": "Planning disputes remain visible",
+            "summary": "The Biscayne 21 ruling is presented as a reminder that redevelopment in Edgewater can also create legal and policy friction.",
+            "recordIds": [
+              "social:post-ew-004"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "upper_eastside",
+      "news": {
+        "headline": "Upper East Side sees events and zoning disputes",
+        "summary": "Upper East Side records combine a neighborhood market event with a major Live Local Act development proposal on Biscayne Boulevard. The district appears to be balancing local activation around Ironside with resident concerns over big projects that can bypass public hearings.",
+        "themes": [
+          {
+            "title": "Neighborhood events continue",
+            "summary": "Miami Ironside hosted a garden market with vendors, music, and themed activities, showing ongoing public programming in the district.",
+            "recordIds": [
+              "news:event-UES-001"
+            ]
+          },
+          {
+            "title": "Large tower plan faces concern",
+            "summary": "A proposed dual-tower project called Legends is moving through administrative approval under Live Local Act rules, prompting worries about lost neighborhood review.",
+            "recordIds": [
+              "news:event-UES-002"
+            ]
+          }
+        ]
+      },
+      "social": {
+        "headline": "Upper East Side posts mix lifestyle and market signals",
+        "summary": "Community posts highlight the Ironside garden market and a local hotel as neighborhood gathering points, while another post describes a split market with stronger demand for single-family homes and newer construction than for mid-tier condos. The posts show both social activity and uneven housing conditions.",
+        "themes": [
+          {
+            "title": "Garden market draws locals",
+            "summary": "The Ironside event is portrayed as a social gathering with vendors, live music, and holiday activities.",
+            "recordIds": [
+              "social:post-ues-001"
+            ]
+          },
+          {
+            "title": "Market conditions differ by segment",
+            "summary": "One post says the Upper East Side market is holding up better at the top end than in mid-tier condos, where buyers may find more room to negotiate.",
+            "recordIds": [
+              "social:post-ues-002"
+            ]
+          }
+        ]
+      },
+      "combined": {
+        "headline": "Upper East Side mixes local events with scale concerns",
+        "summary": "The Upper East Side combines neighborhood-scale events and hospitality activity with a proposed high-rise project that has stirred concern about losing local review. Community posts add a market read showing uneven conditions across housing segments, reinforcing a district split between street-level life and larger planning pressure.",
+        "themes": [
+          {
+            "title": "Local activation stays visible",
+            "summary": "Ironside’s market event and related posts show the area used for community gatherings and lifestyle programming.",
+            "recordIds": [
+              "news:event-UES-001",
+              "social:post-ues-001"
+            ]
+          },
+          {
+            "title": "Large project raises planning questions",
+            "summary": "The Legends proposal illustrates how state-level housing policy can reshape development review along Biscayne Boulevard.",
+            "recordIds": [
+              "news:event-UES-002"
+            ]
+          },
+          {
+            "title": "Housing segments move differently",
+            "summary": "A community post suggests stronger conditions at the top end than in mid-tier condos, indicating a mixed market picture.",
+            "recordIds": [
+              "social:post-ues-002"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "little_haiti",
+      "news": {
+        "headline": "Little Haiti faces growth pressure and culture defense",
+        "summary": "Little Haiti records pair a major affordable-housing plan and a planning discussion with sharper warnings about displacement. They show both policy efforts to keep residents in place and continuing concern that larger development around Little River and Little Haiti may strain long-time businesses and cultural anchors.",
+        "themes": [
+          {
+            "title": "Large affordable project advances",
+            "summary": "The Little River District has been approved with return rights for current public housing residents and a major share of affordable units, along with retail and transit access.",
+            "recordIds": [
+              "news:event-LH-001"
+            ]
+          },
+          {
+            "title": "Displacement fears remain central",
+            "summary": "An industry event focused on keeping residents involved as many new apartments and commercial spaces are planned in the corridor.",
+            "recordIds": [
+              "news:event-LH-002"
+            ]
+          },
+          {
+            "title": "Cultural businesses under pressure",
+            "summary": "Reporting warns that rising land values and rents could put Haitian-owned businesses such as Libreri Mapou at risk as major projects move ahead.",
+            "recordIds": [
+              "news:event-LH-003"
+            ]
+          }
+        ]
+      },
+      "social": {
+        "headline": "Little Haiti celebrates culture amid unease",
+        "summary": "Community posts highlight the Book Festival and a heritage event as signs of local cultural activity, but one post also describes a criminal investigation at a home in the neighborhood. The posts suggest a community centered on culture and gathering, while not ignoring moments of disruption.",
+        "themes": [
+          {
+            "title": "Book Festival draws strong turnout",
+            "summary": "Posts portray the annual festival as enthusiastic and heritage-focused, with authors, musicians, and storytellers.",
+            "recordIds": [
+              "social:post-lh-001",
+              "social:post-lh-002"
+            ]
+          },
+          {
+            "title": "Heritage event planned",
+            "summary": "A free Haitian Heritage Month and Flag Day event is announced at the cultural center with music, food, and family activities.",
+            "recordIds": [
+              "social:post-lh-004"
+            ]
+          },
+          {
+            "title": "Police activity noted",
+            "summary": "One post describes a joint criminal investigation at a home in Little Haiti, adding a cautionary note to the neighborhood picture.",
+            "recordIds": [
+              "social:post-lh-003"
+            ]
+          }
+        ]
+      },
+      "combined": {
+        "headline": "Little Haiti blends heritage events with housing pressure",
+        "summary": "Little Haiti’s records show strong cultural programming alongside a heavy development pipeline that includes large affordable housing plans and other major projects. The combined picture is one of a neighborhood trying to hold onto its cultural identity while facing displacement pressure and more police or planning scrutiny.",
+        "themes": [
+          {
+            "title": "Culture remains active",
+            "summary": "The Book Festival and Haitian Heritage Month event show strong public cultural life.",
+            "recordIds": [
+              "social:post-lh-001",
+              "social:post-lh-002",
+              "social:post-lh-004"
+            ]
+          },
+          {
+            "title": "Housing and displacement are linked",
+            "summary": "News reports emphasize both an affordable housing initiative and ongoing concern over rising rents and land prices.",
+            "recordIds": [
+              "news:event-LH-001",
+              "news:event-LH-002",
+              "news:event-LH-003"
+            ]
+          },
+          {
+            "title": "Safety and disruption appear too",
+            "summary": "The investigation post adds another layer to the neighborhood’s recent coverage.",
+            "recordIds": [
+              "social:post-lh-003"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "little_river",
+      "news": {
+        "headline": "Little River development accelerates amid legal fights",
+        "summary": "Little River records show rising investor attention, affordable housing construction, and major projects moving under the Live Local Act. They also show legal uncertainty around the huge HueHub proposal, making the area a mix of arts expansion, housing delivery, and unresolved development disputes.",
+        "themes": [
+          {
+            "title": "Arts and investment expand",
+            "summary": "Romero Britto’s expansion and AJ Capital’s repositioning plans point to greater investor interest in Little River’s creative corridor.",
+            "recordIds": [
+              "news:event-lr-001"
+            ]
+          },
+          {
+            "title": "Affordable housing breaks ground",
+            "summary": "Little River Plaza is underway with income-restricted units and ground-floor retail as construction continues through 2026.",
+            "recordIds": [
+              "news:event-lr-003"
+            ]
+          },
+          {
+            "title": "Huge project faces lawsuits",
+            "summary": "HueHub’s demolition and financing-related work are proceeding, but the project is now facing another lawsuit that adds legal uncertainty.",
+            "recordIds": [
+              "news:event-lr-002",
+              "news:event-lr-004"
+            ]
+          }
+        ]
+      },
+      "social": {
+        "headline": "Little River posts mix optimism with development anxiety",
+        "summary": "Community posts celebrate Britto’s expansion, Little River Plaza’s groundbreaking, and HueHub demolition, while another post frames the neighborhood as being in a moment of zoning changes and revived restaurants. These are hopeful but promotional accounts, and they coexist with the scale of pending development.",
+        "themes": [
+          {
+            "title": "Creative expansion celebrated",
+            "summary": "Britto’s expansion is presented as evidence that Little River’s arts profile is growing.",
+            "recordIds": [
+              "social:post-lr-001"
+            ]
+          },
+          {
+            "title": "Affordable housing and large towers promoted",
+            "summary": "Posts highlight Little River Plaza’s affordability and HueHub’s large scale and worker-focused marketing.",
+            "recordIds": [
+              "social:post-lr-002",
+              "social:post-lr-003"
+            ]
+          },
+          {
+            "title": "Neighborhood momentum narrative",
+            "summary": "One post describes new restaurants, zoning changes, and a future park as signs the area is moving forward.",
+            "recordIds": [
+              "social:post-lr-004"
+            ]
+          }
+        ]
+      },
+      "combined": {
+        "headline": "Little River mixes arts growth with housing strain",
+        "summary": "Little River’s records combine creative expansion, affordable housing construction, and a very large Live Local Act pipeline. At the same time, legal disputes and promotional posts about major projects underline how much of the neighborhood’s future is still contested rather than settled.",
+        "themes": [
+          {
+            "title": "Arts and redevelopment overlap",
+            "summary": "Britto’s expansion sits alongside investor repositioning and neighborhood branding.",
+            "recordIds": [
+              "news:event-lr-001",
+              "social:post-lr-001",
+              "social:post-lr-004"
+            ]
+          },
+          {
+            "title": "Affordable housing is visible",
+            "summary": "Little River Plaza is the clearest active housing project in the records, aimed at lower-income residents.",
+            "recordIds": [
+              "news:event-lr-003",
+              "social:post-lr-002"
+            ]
+          },
+          {
+            "title": "Large projects remain contested",
+            "summary": "HueHub and other Live Local Act projects bring legal and planning uncertainty into the corridor.",
+            "recordIds": [
+              "news:event-lr-002",
+              "news:event-lr-004",
+              "social:post-lr-003"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "buena_vista",
+      "news": {
+        "headline": "Buena Vista sees rezoning pressure and steady infill",
+        "summary": "Reported activity centers on pending rezoning proposals for Upper Buena Vista and a new medical facility request, alongside ongoing low-rise home and townhouse construction near the Design District edge. Residents raised displacement concerns at a community meeting, while the neighborhood’s zoning continues to support mixed-use infill on some corner lots.",
+        "themes": [
+          {
+            "title": "Rezoning under review",
+            "summary": "Two proposals are pending: more height for Upper Buena Vista residential frontage and an eight-story Miami Jewish Health facility. Residents voiced displacement concerns at the meeting.",
+            "recordIds": [
+              "news:event-bv-001"
+            ]
+          },
+          {
+            "title": "Infill construction continues",
+            "summary": "MLS data shows two-story homes and townhouses still being built near the Design District border, with no major public groundbreakings reported inside Buena Vista during the window.",
+            "recordIds": [
+              "news:event-bv-002"
+            ]
+          }
+        ]
+      },
+      "social": {
+        "headline": "Residents cite walkability, parks, and theft worries",
+        "summary": "Community posts describe Buena Vista as walkable, food-oriented, and green, with parks and shopping among its strengths. At the same time, residents flagged package theft on some blocks. Another post highlighted active new-home construction and investment-level finishes, but that reflects listing activity rather than a neighborhood-wide view.",
+        "themes": [
+          {
+            "title": "Walkable everyday appeal",
+            "summary": "Residents listed beach, dog-friendly spaces, food, gardens, parks, restaurants, shopping, and walkability as top neighborhood qualities.",
+            "recordIds": [
+              "social:post-bv-001"
+            ]
+          },
+          {
+            "title": "Theft concerns on some blocks",
+            "summary": "Package theft was specifically flagged on NW 41st Street, showing a localized safety concern alongside the neighborhood’s amenities.",
+            "recordIds": [
+              "social:post-bv-001"
+            ]
+          },
+          {
+            "title": "New-build listings attract buyers",
+            "summary": "A listing-based post described two-story new construction with high-end finishes, indicating continued buyer attention without proving broader sentiment.",
+            "recordIds": [
+              "social:post-bv-002"
+            ]
+          }
+        ]
+      },
+      "combined": {
+        "headline": "Rezoning debates meet steady infill and resident concerns",
+        "summary": "Taken together, the records show Buena Vista balancing continued small-scale construction with newer rezoning pressures that could add height and density. Community comments point to strong walkability and neighborhood amenities, while also noting package theft and displacement worries tied to proposed development.",
+        "themes": [
+          {
+            "title": "Height and density questions",
+            "summary": "Pending upzoning requests and an eight-story facility proposal point to more vertical development pressure, while residents raise displacement concerns.",
+            "recordIds": [
+              "news:event-bv-001",
+              "social:post-bv-001"
+            ]
+          },
+          {
+            "title": "Steady neighborhood infill",
+            "summary": "Low-rise homes and townhouses remain under construction near the Design District edge, reinforcing ongoing parcel-by-parcel change.",
+            "recordIds": [
+              "news:event-bv-002",
+              "social:post-bv-002"
+            ]
+          },
+          {
+            "title": "Amenities alongside localized safety concerns",
+            "summary": "Posts emphasize walkability, parks, food, and shopping, but also mention package theft on certain blocks.",
+            "recordIds": [
+              "social:post-bv-001"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "allapattah",
+      "news": {
+        "headline": "Allapattah absorbs major housing and policy moves",
+        "summary": "Records describe a dense pipeline of housing and policy activity, including a large apartment proposal, formal steps toward a city RFP for the GSA site, and construction underway on mixed-income Dulce Vida. State Live Local Act changes may further speed projects, but the same material also points to pressure on local businesses and community character.",
+        "themes": [
+          {
+            "title": "Large housing pipeline advances",
+            "summary": "A nine-story, 383-unit proposal, a possible 1,000–2,500-unit GSA redevelopment, and the Dulce Vida groundbreaking all point to substantial housing activity.",
+            "recordIds": [
+              "news:event-al-001",
+              "news:event-al-002",
+              "news:event-al-003"
+            ]
+          },
+          {
+            "title": "Live Local rules widen path",
+            "summary": "Reported amendments expand state preemption for qualifying projects, with the Anatomia project already approved under the law and more proposals expected to move faster.",
+            "recordIds": [
+              "news:event-al-004"
+            ]
+          },
+          {
+            "title": "Community worries about displacement",
+            "summary": "A community CDC warned that rising rents and limited capital access threaten Dominican business owners and Little Santo Domingo’s character.",
+            "recordIds": [
+              "news:event-al-004"
+            ]
+          }
+        ]
+      },
+      "social": {
+        "headline": "Housing progress sits beside business displacement fears",
+        "summary": "Community material highlights both optimism around mixed-income redevelopment and anxiety about who benefits. Posts celebrate Dulce Vida and the CRA process, while others warn that rising rents and gentrification may displace Dominican businesses. Another post frames a proposed mixed-use tower as part of the neighborhood’s industrial identity.",
+        "themes": [
+          {
+            "title": "Mixed-income projects welcomed",
+            "summary": "Posts highlighted the Dulce Vida groundbreaking and the move to formalize the Allapattah CRA as tools for housing and neighborhood investment.",
+            "recordIds": [
+              "social:post-al-001",
+              "social:post-al-002"
+            ]
+          },
+          {
+            "title": "Attainable housing under construction",
+            "summary": "A proposed 12-story Live Local project with housing and retail was presented as a reuse of industrial-design language and added supply.",
+            "recordIds": [
+              "social:post-al-003"
+            ]
+          },
+          {
+            "title": "Displacement and small-business stress",
+            "summary": "The CDC warned that gentrification and rent pressure threaten Dominican business owners, with one program cited as helping some owners access capital.",
+            "recordIds": [
+              "social:post-al-004"
+            ]
+          }
+        ]
+      },
+      "combined": {
+        "headline": "Major housing projects meet local identity concerns",
+        "summary": "Allapattah’s records show a fast-moving mix of large housing proposals, Live Local Act projects, and public redevelopment tools. At the same time, local voices warn that rising rents and redevelopment could unsettle Dominican business owners and the neighborhood’s cultural base.",
+        "themes": [
+          {
+            "title": "Development pipeline is expanding",
+            "summary": "Multiple projects, from Dulce Vida to the GSA lot and a separate Live Local tower proposal, indicate a substantial housing pipeline.",
+            "recordIds": [
+              "news:event-al-001",
+              "news:event-al-002",
+              "news:event-al-003",
+              "social:post-al-003"
+            ]
+          },
+          {
+            "title": "Policy tools shape delivery",
+            "summary": "The CRA process and Live Local amendments are both described as mechanisms that can speed housing and infrastructure investment.",
+            "recordIds": [
+              "news:event-al-002",
+              "news:event-al-004",
+              "social:post-al-002"
+            ]
+          },
+          {
+            "title": "Business displacement remains central",
+            "summary": "Community reporting stresses that gentrification, rent increases, and ownership barriers are affecting Dominican small businesses and neighborhood identity.",
+            "recordIds": [
+              "social:post-al-004",
+              "news:event-al-004"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "overtown",
+      "news": {
+        "headline": "Overtown balances transit barriers, housing, and culture",
+        "summary": "Records show a neighborhood where a new sports-and-education park is being built, affordable housing preservation is being celebrated, and students are studying long-term connectivity limits caused by rail and highway barriers. At the same time, opinion writing and planning discussions describe ongoing gentrification pressure and demographic change near historic corridors.",
+        "themes": [
+          {
+            "title": "New community amenity underway",
+            "summary": "A Visa and Bank of America sponsored Street Soccer Park is under construction and is set to host free camps, games, and financial literacy programming.",
+            "recordIds": [
+              "news:event-ot-001"
+            ]
+          },
+          {
+            "title": "Preservation-focused housing model",
+            "summary": "The 16 Corner project renovated existing buildings without demolition or resident displacement, and officials cited it as a model for keeping Overtown’s identity intact.",
+            "recordIds": [
+              "news:event-ot-003"
+            ]
+          },
+          {
+            "title": "Connectivity and displacement concerns",
+            "summary": "An opinion piece and student studio both point to rail and highway barriers, demographic change, and pressure around the Historic Lyric Theater and nearby blocks.",
+            "recordIds": [
+              "news:event-ot-002",
+              "news:event-ot-004"
+            ]
+          }
+        ]
+      },
+      "social": {
+        "headline": "Community voices stress culture, access, and displacement",
+        "summary": "Social posts celebrate ABFF events, the renovated 16 Corner apartments, and preservation-oriented student concepts, while another post sharply revisits freeway displacement and urges affordable housing before transit fixes. The tone varies, but the common thread is concern over access, identity, and who can stay in the neighborhood.",
+        "themes": [
+          {
+            "title": "Culture remains a local draw",
+            "summary": "ABFF Community Day and related festival programming were framed as public, neighborhood-centered cultural events at the Lyric Theater.",
+            "recordIds": [
+              "social:overtown-001",
+              "social:overtown-002"
+            ]
+          },
+          {
+            "title": "Preservation praised after renovation",
+            "summary": "The 16 Corner project was described as reopening renovated apartments without displacing residents, with praise for its neighborhood fit.",
+            "recordIds": [
+              "social:overtown-004"
+            ]
+          },
+          {
+            "title": "Historic harm still shapes debate",
+            "summary": "A discussion about freeway construction described past displacement and argued that housing needs should come before transit solutions.",
+            "recordIds": [
+              "social:overtown-005",
+              "social:overtown-003"
+            ]
+          }
+        ]
+      },
+      "combined": {
+        "headline": "Culture and preservation sit beside access gaps",
+        "summary": "Across news and community material, Overtown is portrayed as a neighborhood adding amenities and preserving housing while still facing serious access and displacement legacies. The records repeatedly mention rail and highway barriers, gentrification pressure, and the need to protect long-term residents as new planning ideas advance.",
+        "themes": [
+          {
+            "title": "Amenities are being added",
+            "summary": "The Street Soccer Park and ABFF Community Day both add public-facing activity and programming to the neighborhood.",
+            "recordIds": [
+              "news:event-ot-001",
+              "social:overtown-001",
+              "social:overtown-002"
+            ]
+          },
+          {
+            "title": "Housing preservation is a priority",
+            "summary": "The 16 Corner renovation is presented as a non-displacing affordable housing model that preserves neighborhood identity.",
+            "recordIds": [
+              "news:event-ot-003",
+              "social:overtown-004"
+            ]
+          },
+          {
+            "title": "Access barriers and displacement linger",
+            "summary": "Planning and opinion records emphasize the continued effect of I-95, rail lines, and earlier freeway displacement on neighborhood connectivity and stability.",
+            "recordIds": [
+              "news:event-ot-002",
+              "news:event-ot-004",
+              "social:overtown-005",
+              "social:overtown-003"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "health_district_/_civic_center",
+      "news": {
+        "headline": "Health District adds major ER capacity and transit anchor",
+        "summary": "Jackson Memorial opened phases of a large emergency department expansion, increasing capacity with a much larger ER, observation beds, and dedicated adult and pediatric access. The district’s Metrorail station continues as a central transit node, with naming-rights revenue and wayfinding improvements supporting medical access and neighborhood connectivity.",
+        "themes": [
+          {
+            "title": "ER expansion comes online",
+            "summary": "Jackson Memorial’s phased emergency department opening adds substantial space, more rooms, and higher capacity, with pediatric completion still ahead.",
+            "recordIds": [
+              "news:event-hd-001"
+            ]
+          },
+          {
+            "title": "Transit access remains central",
+            "summary": "The UHealth | Jackson Metrorail Station continues to anchor the district and generate non-tax revenue through its naming-rights partnership.",
+            "recordIds": [
+              "news:event-hd-002"
+            ]
+          }
+        ]
+      },
+      "social": {
+        "headline": "Visitors praise service quality and transit access",
+        "summary": "Community posts describe the Health District in positive terms, focusing on staff compassion, cleanliness, and quick scheduling at one facility, plus the practical value of the renamed station for access to major medical centers. Another post notes new residential and cultural activity, though that is framed as neighborhood observation rather than a survey result.",
+        "themes": [
+          {
+            "title": "Care experience gets praise",
+            "summary": "One post described compassionate staff, strong cleanliness, and efficient appointment handling, with only minor peak-time delays noted.",
+            "recordIds": [
+              "social:hd-001"
+            ]
+          },
+          {
+            "title": "Station renaming aids access",
+            "summary": "The renamed UHealth | Jackson Station was presented as improving transit access and supporting the medical district’s reach.",
+            "recordIds": [
+              "social:hd-002"
+            ]
+          },
+          {
+            "title": "Mixed-use interest grows nearby",
+            "summary": "A post pointed to new residential and cultural activity near the district and its transit links, emphasizing connectivity rather than specific outcomes.",
+            "recordIds": [
+              "social:hd-003"
+            ]
+          }
+        ]
+      },
+      "combined": {
+        "headline": "Major hospital growth meets transit-linked access",
+        "summary": "The records portray a district centered on medical service and mobility, with Jackson Memorial expanding emergency capacity and the rail station reinforcing access. Community posts reinforce that picture by emphasizing service quality and station usefulness, while also noting nearby residential change and long-term property interest.",
+        "themes": [
+          {
+            "title": "Hospital capacity expands",
+            "summary": "Jackson Memorial’s new emergency department space substantially increases treatment capacity in the district.",
+            "recordIds": [
+              "news:event-hd-001",
+              "social:hd-001"
+            ]
+          },
+          {
+            "title": "Rail access supports care",
+            "summary": "The station renaming and ongoing wayfinding work are tied to easier access for riders headed to the health centers.",
+            "recordIds": [
+              "news:event-hd-002",
+              "social:hd-002"
+            ]
+          },
+          {
+            "title": "Neighborhood change continues nearby",
+            "summary": "Community comments note adjacent residential and cultural activity, but do not establish broad neighborhood sentiment.",
+            "recordIds": [
+              "social:hd-003"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "liberty_city",
+      "news": {
+        "headline": "Liberty City sees shelter, housing, and redevelopment push",
+        "summary": "County and city actions point to a major mix of shelter and housing responses in Liberty City, from a new homeless navigation center to fresh groundbreakings at Liberty Square and Yaeger Plaza. The records show public funding, phased redevelopment, and targeted affordable housing, while community posts continue to raise safety concerns.",
+        "themes": [
+          {
+            "title": "Homeless navigation center funded",
+            "summary": "The county approved funding for a short-term shelter facility expected to open in June 2026, responding to the state camping ban.",
+            "recordIds": [
+              "news:event-lc-001"
+            ]
+          },
+          {
+            "title": "Liberty Square redevelopment advances",
+            "summary": "Phases five and six broke ground as part of a nine-phase, $390M+ master plan with family and senior housing plus public art and retail.",
+            "recordIds": [
+              "news:event-lc-002"
+            ]
+          },
+          {
+            "title": "Yaeger Plaza adds targeted affordable units",
+            "summary": "A $59 million affordable rental project broke ground with space for disabled veterans, seniors, retail, green space, STEM programming, and healthcare.",
+            "recordIds": [
+              "news:event-lc-003"
+            ]
+          }
+        ]
+      },
+      "social": {
+        "headline": "Community pride coexists with safety anxiety",
+        "summary": "Residents and commenters describe Liberty City as home, but the posts also dwell on safety, crime, and recent violent incidents. One post supports redevelopment and new mixed-income housing, while another warns that the area’s history of crime still shapes everyday perceptions. The reports are personal viewpoints, not a neighborhood survey.",
+        "themes": [
+          {
+            "title": "Strong local attachment",
+            "summary": "One resident described the neighborhood as meaningful home, while asking for more resources, opportunities, and community programs.",
+            "recordIds": [
+              "social:lc-001"
+            ]
+          },
+          {
+            "title": "Safety concerns dominate some posts",
+            "summary": "Several posts warned about crime, shootings, theft, and violent incidents, presenting the area as risky, especially at night.",
+            "recordIds": [
+              "social:lc-002",
+              "social:lc-003",
+              "social:lc-005"
+            ]
+          },
+          {
+            "title": "Redevelopment is seen as progress by some",
+            "summary": "One post praised Liberty Square’s mixed-income phases and future commercial space as part of a broader revitalization effort.",
+            "recordIds": [
+              "social:lc-004"
+            ]
+          }
+        ]
+      },
+      "combined": {
+        "headline": "Housing investment grows amid persistent safety worries",
+        "summary": "Liberty City’s records show active public investment in shelter and redevelopment, especially around Liberty Square and Yaeger Plaza. Community voices, however, continue to focus on crime, personal safety, and the need for more resources, even as some residents welcome the housing changes and long-term neighborhood investment.",
+        "themes": [
+          {
+            "title": "Public investment is expanding",
+            "summary": "County and city funding support shelter, affordable housing, and phased redevelopment projects across Liberty City.",
+            "recordIds": [
+              "news:event-lc-001",
+              "news:event-lc-002",
+              "news:event-lc-003",
+              "social:lc-004"
+            ]
+          },
+          {
+            "title": "Safety remains a recurring worry",
+            "summary": "Resident posts repeatedly cite shootings, theft, and violence, shaping how some people describe the neighborhood.",
+            "recordIds": [
+              "social:lc-002",
+              "social:lc-003",
+              "social:lc-005"
+            ]
+          },
+          {
+            "title": "Attachment to place remains strong",
+            "summary": "Even with concerns, some residents frame Liberty City as home and call for more community resources and programs.",
+            "recordIds": [
+              "social:lc-001"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "coconut_grove",
+      "news": {
+        "headline": "Coconut Grove adds transit, development, and zoning debate",
+        "summary": "The Grove is seeing new mobility service, a boutique condo groundbreaking, and an active zoning proposal that could raise height near greenways and major corridors. The records also show organized resistance to added density and commercialization, indicating that growth and preservation concerns remain closely tied.",
+        "themes": [
+          {
+            "title": "Microtransit launches in the Grove",
+            "summary": "A new all-electric on-demand microtransit service now links key destinations and the Metrorail station with free or low-cost rides.",
+            "recordIds": [
+              "news:event-cg-001"
+            ]
+          },
+          {
+            "title": "Height and density proposal under review",
+            "summary": "A city proposal could allow more height near greenways, including taller buildings in the central business district and along South Bayshore Drive.",
+            "recordIds": [
+              "news:event-cg-002"
+            ]
+          },
+          {
+            "title": "Boutique condo breaks ground",
+            "summary": "OPUS Coconut Grove began construction as a six-story, 14-unit condominium with high-end pricing and a 2027 completion target.",
+            "recordIds": [
+              "news:event-cg-003"
+            ]
+          }
+        ]
+      },
+      "social": {
+        "headline": "Residents split between celebration and preservation",
+        "summary": "Community posts celebrate a new aquatic facility, everyday park use, and local dining, but they also show strong resistance to the Playhouse redevelopment plan. The material reflects distinct viewpoints: some welcome preservation and others fear commercialization reaching residential streets in West Grove.",
+        "themes": [
+          {
+            "title": "Park and pool amenities welcomed",
+            "summary": "Posts praised the new aquatic facility and described Kennedy Park as a daily gathering place for exercise, families, and pets.",
+            "recordIds": [
+              "social:cg-001",
+              "social:cg-002"
+            ]
+          },
+          {
+            "title": "Playhouse plan faces opposition",
+            "summary": "West Grove residents objected to the redevelopment plan, warning that commercial spillover could threaten nearby communities.",
+            "recordIds": [
+              "social:cg-003"
+            ]
+          },
+          {
+            "title": "Some see the rejection as a win",
+            "summary": "Other posts framed the zoning-board rejection as partial protection for the Playhouse and surrounding neighborhood character.",
+            "recordIds": [
+              "social:cg-004"
+            ]
+          }
+        ]
+      },
+      "combined": {
+        "headline": "Mobility gains and development pressure both rise",
+        "summary": "Coconut Grove’s records combine new transit and recreation amenities with active debates over height, density, and redevelopment. Community posts show both pride in neighborhood assets and resistance to commercial expansion, especially where projects could affect West Grove streets and the Playhouse area.",
+        "themes": [
+          {
+            "title": "Access and amenities improve",
+            "summary": "The microtransit launch and new aquatic facility add practical mobility and recreation options to the Grove.",
+            "recordIds": [
+              "news:event-cg-001",
+              "social:cg-001"
+            ]
+          },
+          {
+            "title": "Height pressure sparks pushback",
+            "summary": "The zoning proposal and Playhouse controversy both point to concern about density, commercialization, and neighborhood boundaries.",
+            "recordIds": [
+              "news:event-cg-002",
+              "social:cg-003",
+              "social:cg-004"
+            ]
+          },
+          {
+            "title": "Local places remain important",
+            "summary": "Kennedy Park and Grove dining appear in resident comments as everyday anchors of neighborhood life.",
+            "recordIds": [
+              "social:cg-002",
+              "social:cg-005"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "little_havana",
+      "news": {
+        "headline": "Little Havana weighs BID, affordable housing, and condo shift",
+        "summary": "The neighborhood’s records show a formal step toward a Calle Ocho business district, city land transfers for roughly 500 affordable units, and a for-sale pivot for a project already under construction. Together they point to active policy and development shifts, alongside continuing concerns about how growth affects the corridor’s identity.",
+        "themes": [
+          {
+            "title": "Calle Ocho BID advances",
+            "summary": "The city began forming a business improvement district that could fund security, cleanup, and beautification along SW 8th Street for up to ten years.",
+            "recordIds": [
+              "news:event-lh-001"
+            ]
+          },
+          {
+            "title": "Affordable housing parcels transferred",
+            "summary": "City-owned parcels were transferred to three developers for about 500 affordable units near Calle Ocho, with public financing requests next on the list.",
+            "recordIds": [
+              "news:event-lh-002"
+            ]
+          },
+          {
+            "title": "Havana Enclave pivots to condos",
+            "summary": "A project already under construction switched from rentals to attainable condominiums, targeting a gap in ownership housing.",
+            "recordIds": [
+              "news:event-lh-003"
+            ]
+          }
+        ]
+      },
+      "social": {
+        "headline": "Culture is celebrated while displacement fears grow",
+        "summary": "Residents and commenters celebrate Viernes Culturales as a unifying public event and support attainable homeownership efforts at Havana Enclave. At the same time, other posts describe serious violence and warn that development pressure may turn Little Havana into a trendier, less blue-collar version of itself.",
+        "themes": [
+          {
+            "title": "Viernes Culturales anchors identity",
+            "summary": "Multiple posts described the Calle Ocho event as a monthly neighborhood celebration of music, art, and community.",
+            "recordIds": [
+              "social:lh-001",
+              "social:lh-004"
+            ]
+          },
+          {
+            "title": "Attainable ownership draws interest",
+            "summary": "A post framed Havana Enclave’s condo sales as addressing a shortage of attainable homeownership in the neighborhood.",
+            "recordIds": [
+              "social:lh-002"
+            ]
+          },
+          {
+            "title": "Displacement fears remain strong",
+            "summary": "One post warned that developers and the city may be reshaping Little Havana into a more upscale district, with preservation seen as too limited.",
+            "recordIds": [
+              "social:lh-005"
+            ]
+          },
+          {
+            "title": "Violence still appears in resident posts",
+            "summary": "Another post described a fatal shooting and additional incidents, underscoring safety concerns in the area.",
+            "recordIds": [
+              "social:lh-003"
+            ]
+          }
+        ]
+      },
+      "combined": {
+        "headline": "Calle Ocho investment meets identity and safety concerns",
+        "summary": "Little Havana’s records show a corridor in transition: a proposed business district, new affordable housing transfers, and a project shifting from rentals to condos. Community posts celebrate cultural continuity through Viernes Culturales, but they also warn about displacement pressure and note serious violence in the area.",
+        "themes": [
+          {
+            "title": "Corridor policy is tightening",
+            "summary": "The BID proposal and land transfers show active city involvement along Calle Ocho, with financing still to be worked out.",
+            "recordIds": [
+              "news:event-lh-001",
+              "news:event-lh-002"
+            ]
+          },
+          {
+            "title": "Housing supply is changing form",
+            "summary": "Havana Enclave’s pivot from rentals to condos adds another ownership-focused development to the neighborhood mix.",
+            "recordIds": [
+              "news:event-lh-003",
+              "social:lh-002"
+            ]
+          },
+          {
+            "title": "Identity and safety concerns persist",
+            "summary": "Resident posts frame cultural events as neighborhood glue while also voicing displacement worries and reporting violent incidents.",
+            "recordIds": [
+              "social:lh-001",
+              "social:lh-004",
+              "social:lh-005",
+              "social:lh-003"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "coral_way",
+      "news": {
+        "headline": "Coral Way faces road work, incidents, and new housing",
+        "summary": "Records point to corridor resurfacing, a bomb-hoax evacuation, a separate store fire, and a recommended eight-story residential project. The mix shows ongoing infrastructure work alongside short-term disruptions and continued private development interest along the corridor.",
+        "themes": [
+          {
+            "title": "Road resurfacing continues",
+            "summary": "FDOT work on SR 972 includes nightly lane closures and resurfacing across multiple Coral Way blocks.",
+            "recordIds": [
+              "news:event-cw-001"
+            ]
+          },
+          {
+            "title": "Retail incidents disrupt operations",
+            "summary": "A bomb hoax and later fire at the Coral Way Walmart caused evacuation and temporary closure, though no injuries were reported.",
+            "recordIds": [
+              "news:event-cw-002",
+              "news:event-cw-003"
+            ]
+          },
+          {
+            "title": "Eight-story housing project advances",
+            "summary": "An AvalonBay affiliate received a unanimous recommendation for an 8-story, 166-unit residential building with parking and rooftop amenities.",
+            "recordIds": [
+              "news:event-cw-004"
+            ]
+          }
+        ]
+      },
+      "social": {
+        "headline": "Residents value walkability but note traffic and safety",
+        "summary": "Community posts describe Coral Way as authentic, historic, and restaurant-rich, with parks and family-friendly streets as major strengths. The same posts also mention traffic, pedestrian concerns, and police activity, suggesting a corridor that is active and appealing but not without friction.",
+        "themes": [
+          {
+            "title": "Neighborhood character is praised",
+            "summary": "Posts highlighted banyan trees, historic homes, diverse dining, and a walkable, authentic feel.",
+            "recordIds": [
+              "social:cw-002",
+              "social:cw-004"
+            ]
+          },
+          {
+            "title": "Traffic and safety concerns appear",
+            "summary": "Residents noted heavy traffic, possible safety issues, and police caravans on the corridor.",
+            "recordIds": [
+              "social:cw-003",
+              "social:cw-004"
+            ]
+          },
+          {
+            "title": "Everyday amenities draw support",
+            "summary": "Neighbors described Coral Way as family friendly, dog friendly, and close to parks, schools, and nearby centers.",
+            "recordIds": [
+              "social:cw-003",
+              "social:cw-004"
+            ]
+          }
+        ]
+      },
+      "combined": {
+        "headline": "Roadwork and new housing coexist with local friction",
+        "summary": "Coral Way’s records combine active infrastructure repair, retail disruptions, and a new apartment proposal with resident comments about walkability, restaurants, and everyday livability. The area is described as appealing and well-located, while posts and news also point to traffic, safety, and construction-related interruptions.",
+        "themes": [
+          {
+            "title": "Infrastructure and incidents shape daily life",
+            "summary": "Road resurfacing, the bomb hoax, and the Walmart fire all affected the corridor in different ways.",
+            "recordIds": [
+              "news:event-cw-001",
+              "news:event-cw-002",
+              "news:event-cw-003"
+            ]
+          },
+          {
+            "title": "New housing remains on the table",
+            "summary": "The recommended 166-unit project suggests continued development interest along Coral Way.",
+            "recordIds": [
+              "news:event-cw-004",
+              "social:cw-001"
+            ]
+          },
+          {
+            "title": "Walkability and friction coexist",
+            "summary": "Resident comments praise the corridor’s character and amenities but also flag traffic and safety concerns.",
+            "recordIds": [
+              "social:cw-002",
+              "social:cw-003",
+              "social:cw-004"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "the_roads",
+      "news": {
+        "headline": "The Roads sees transit work and steady home pricing",
+        "summary": "News in The Roads centers on continuing Underline construction and maintenance funding, alongside a still-expensive housing market with median listed prices at $1.59M and median market time unchanged from a year earlier. The records also note the neighborhood’s position near Brickell and Downtown, but do not show broader neighborhood-wide opinion on growth or change.",
+        "themes": [
+          {
+            "title": "Underline expansion continues through the corridor",
+            "summary": "Phase 2 opened in 2024 and Phase 3 construction is still running south toward Dadeland South, with nearby M-Path work closed through summer 2026.",
+            "recordIds": [
+              "news:event-tr-001"
+            ]
+          },
+          {
+            "title": "Home prices remain high with slower turnover",
+            "summary": "The neighborhood’s median listed price is reported at $1.59M, with homes spending a median 63 days on market and demand described as sustained.",
+            "recordIds": [
+              "news:event-tr-002"
+            ]
+          }
+        ]
+      },
+      "social": {
+        "headline": "Residents describe walkability, access, and mixed demographics",
+        "summary": "Community posts portray The Roads as walkable, urban, and convenient to Brickell and Downtown, while one speaker highlights its international and upper-middle-income character. These are individual or source-based perspectives, not a neighborhood survey, and they sit alongside remarks about longer sale times and preference for neighborhood calm.",
+        "themes": [
+          {
+            "title": "Urban access is a recurring selling point",
+            "summary": "Posts emphasize pedestrian-friendly streets, nearby cafes and parks, and convenient access to Brickell and Downtown as reasons people value the area.",
+            "recordIds": [
+              "social:tr-001",
+              "social:tr-002"
+            ]
+          },
+          {
+            "title": "Neighborhood profile is described as diverse",
+            "summary": "One post describes higher-than-average immigrant share, Portuguese language use, and lower childhood poverty, presenting a demographic snapshot rather than resident consensus.",
+            "recordIds": [
+              "social:tr-003"
+            ]
+          }
+        ]
+      },
+      "combined": {
+        "headline": "The Roads balances transit upgrades and premium housing",
+        "summary": "Across the records, The Roads appears as a high-cost neighborhood with ongoing corridor improvements and strong access to central Miami. The Underline work and nearby transit links are paired with a still-competitive housing market, while community posts stress walkability and neighborhood character without proving broad agreement on what those changes mean.",
+        "themes": [
+          {
+            "title": "Transit investment shapes neighborhood access",
+            "summary": "Underline construction, M-Path closures, and proximity to Brickell and Downtown together frame the area as one that is benefiting from, and affected by, major mobility work.",
+            "recordIds": [
+              "news:event-tr-001",
+              "social:tr-002"
+            ]
+          },
+          {
+            "title": "Housing remains expensive and slow to turn over",
+            "summary": "News and community posts both describe a premium housing market with long marketing periods, but they use different measures and should not be treated as confirmation of one another.",
+            "recordIds": [
+              "news:event-tr-002",
+              "social:tr-002"
+            ]
+          },
+          {
+            "title": "Local identity is tied to walkability and diversity",
+            "summary": "Resident-facing descriptions stress urban feel, access to amenities, and a mixed demographic profile, suggesting why the neighborhood is appealing to some speakers while remaining a subjective view.",
+            "recordIds": [
+              "social:tr-001",
+              "social:tr-003"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "flagami_/_grapeland",
+      "news": {
+        "headline": "Flagami faces stadium growth, park access, and road work",
+        "summary": "News on Flagami/Grapeland focuses on the opening and phased buildout of Miami Freedom Park, the seasonal reopening of Grapeland Water Park, and ongoing FDOT work on a key arterial corridor. The material shows major development and public amenity activity, but it does not establish neighborhood-wide approval or opposition.",
+        "themes": [
+          {
+            "title": "Miami Freedom Park adds a major venue district",
+            "summary": "The new stadium opened with a sold-out match, and additional retail and entertainment space is beginning construction around the World Cup window.",
+            "recordIds": [
+              "news:event-fg-001"
+            ]
+          },
+          {
+            "title": "Grapeland Water Park returns for the season",
+            "summary": "The city announced 2026 opening dates for the water park, keeping a public recreation amenity active for the summer.",
+            "recordIds": [
+              "news:event-fg-002"
+            ]
+          },
+          {
+            "title": "Tamiami Trail project borders the neighborhood",
+            "summary": "FDOT’s active roadway improvements on SR 90/US 41/SW 8 Street directly border Flagami and affect one of its main corridors.",
+            "recordIds": [
+              "news:event-fg-003"
+            ]
+          }
+        ]
+      },
+      "social": {
+        "headline": "Posts mix neighborhood amenities with safety concerns",
+        "summary": "Community material for Flagami/Grapeland ranges from event listings and amenity references to reports of crashes, property damage, and a violent dispute. One post also describes the area as relatively affordable and accessible, while noting rent increases and limited transit, which should be read as the poster’s perspective rather than a consensus view.",
+        "themes": [
+          {
+            "title": "Local events and recreation get attention",
+            "summary": "One post highlights a library exhibit and a late-night concert, while another points to Grapeland Water Park as a neighborhood draw.",
+            "recordIds": [
+              "social:flagami-002",
+              "social:flagami-004"
+            ]
+          },
+          {
+            "title": "Some posts describe affordability and access",
+            "summary": "A source characterizes Flagami as accessible and relatively affordable, but also notes rising rents and limited transit options.",
+            "recordIds": [
+              "social:flagami-004"
+            ]
+          },
+          {
+            "title": "Safety incidents appear in resident-facing posts",
+            "summary": "Other posts mention a car wash crash, property damage, and a machete attack connected to a neighbors’ dispute, showing concern about isolated incidents.",
+            "recordIds": [
+              "social:flagami-001",
+              "social:flagami-003"
+            ]
+          }
+        ]
+      },
+      "combined": {
+        "headline": "Flagami pairs major development with everyday concerns",
+        "summary": "Taken together, the records show Flagami/Grapeland balancing large-scale stadium and roadway projects with a functioning public park and resident attention to cost, access, and safety. The material includes both development momentum and isolated negative incidents, but none of it should be treated as proof of neighborhood-wide sentiment.",
+        "themes": [
+          {
+            "title": "New district activity meets existing amenities",
+            "summary": "Miami Freedom Park and Grapeland Water Park sit side by side in the record set, showing both a new entertainment district and an established public recreation space.",
+            "recordIds": [
+              "news:event-fg-001",
+              "news:event-fg-002",
+              "social:flagami-004"
+            ]
+          },
+          {
+            "title": "Road access remains a key issue",
+            "summary": "The active Tamiami Trail project, combined with social remarks about limited transit, points to continued attention on how people move through the area.",
+            "recordIds": [
+              "news:event-fg-003",
+              "social:flagami-004"
+            ]
+          },
+          {
+            "title": "Resident-facing posts include safety worries",
+            "summary": "Crash and violence reports appear alongside event listings, showing a mix of routine neighborhood activity and isolated disruptions.",
+            "recordIds": [
+              "social:flagami-001",
+              "social:flagami-003",
+              "social:flagami-002"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "downtown_miami",
+      "news": {
+        "headline": "Downtown Miami sees lawsuits, land deals, and grid power",
+        "summary": "News in Downtown Miami centers on a federal lawsuit over the proposed presidential library parcel, a large Park West development site being marketed for major redevelopment, and a utility transmission project intended to support future load. The records point to heavy development pressure and infrastructure planning, while also showing political and legal disputes around land use.",
+        "themes": [
+          {
+            "title": "Federal lawsuit challenges waterfront parcel transfer",
+            "summary": "Plaintiffs are contesting the transfer of a waterfront site near the Freedom Tower, arguing that the proposed project raises constitutional concerns and includes commercial benefits.",
+            "recordIds": [
+              "news:dtm-001"
+            ]
+          },
+          {
+            "title": "Park West site is marketed for major redevelopment",
+            "summary": "CBRE is offering a 6.6-acre site with very large residential and mixed-use potential under Florida’s Live Local Act.",
+            "recordIds": [
+              "news:dtm-002"
+            ]
+          },
+          {
+            "title": "Power lines planned to support growth",
+            "summary": "FPL’s approved transmission project is meant to improve reliability for the dense urban core and address projected load growth.",
+            "recordIds": [
+              "news:dtm-003"
+            ]
+          }
+        ]
+      },
+      "social": {
+        "headline": "Residents and users report noise, traffic, and growth tension",
+        "summary": "Community posts about Downtown Miami mix frustration with noise and housing pressure against comments about transit access, cultural variety, and new projects. The material also includes enthusiasm for free game-day shuttles and a large development listing, but these are individual reactions rather than a neighborhood-wide verdict.",
+        "themes": [
+          {
+            "title": "Construction and detention-center noise draw complaints",
+            "summary": "One resident describes persistent AC noise near the federal detention center, and another post supports stricter construction-noise limits downtown.",
+            "recordIds": [
+              "social:dtm-001",
+              "social:dtm-005"
+            ]
+          },
+          {
+            "title": "Housing pressure and urban convenience are both noted",
+            "summary": "A broader online comment describes rent stress and traffic alongside praise for train access and cultural options in the city core.",
+            "recordIds": [
+              "social:dtm-004"
+            ]
+          },
+          {
+            "title": "New transit and development generate interest",
+            "summary": "Posts highlight free World Cup shuttles and the sale of a major downtown development site, reflecting attention to mobility and new construction.",
+            "recordIds": [
+              "social:dtm-002",
+              "social:dtm-003"
+            ]
+          }
+        ]
+      },
+      "combined": {
+        "headline": "Downtown Miami mixes legal fights and development pressure",
+        "summary": "The combined records portray Downtown Miami as a place of intense redevelopment, infrastructure planning, and public dispute. Legal challenges, major land marketing, and power-grid expansion sit alongside resident complaints about noise and broader concerns about housing and traffic, while some posts frame new transit links and projects positively.",
+        "themes": [
+          {
+            "title": "Land use decisions face public challenge",
+            "summary": "The lawsuit over the waterfront parcel and the large Park West site together show how central land in downtown remains to both political conflict and redevelopment interest.",
+            "recordIds": [
+              "news:dtm-001",
+              "news:dtm-002",
+              "social:dtm-003"
+            ]
+          },
+          {
+            "title": "Infrastructure is being expanded for a denser core",
+            "summary": "The transmission-line project and shuttle discussions both point to efforts to support a growing urban area, though they address different needs.",
+            "recordIds": [
+              "news:dtm-003",
+              "social:dtm-002"
+            ]
+          },
+          {
+            "title": "Residents report quality-of-life friction",
+            "summary": "Noise complaints and comments about rent and traffic highlight the pressures that accompany downtown living, without showing a single shared neighborhood view.",
+            "recordIds": [
+              "social:dtm-001",
+              "social:dtm-004",
+              "social:dtm-005"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "venetian_islands",
+      "news": {
+        "headline": "Venetian Islands face bridge replacement and sewer work",
+        "summary": "News for the Venetian Islands is dominated by major infrastructure work: bridge replacement planning, water and sewer upgrades, and a notable luxury home sale. The records emphasize marine deterioration, resilience, and capacity needs, while also showing that the corridor remains active enough for high-end transactions during construction planning.",
+        "themes": [
+          {
+            "title": "Bridge replacement enters final design",
+            "summary": "County officials are advancing a large project to replace most of the historic Venetian Causeway bridges and improve resilience and weight limits.",
+            "recordIds": [
+              "news:vni-001"
+            ]
+          },
+          {
+            "title": "Water and sewer upgrades near completion",
+            "summary": "The city’s utility project is nearing substantial completion, with some closures still expected before final wrap-up.",
+            "recordIds": [
+              "news:vni-002"
+            ]
+          },
+          {
+            "title": "Luxury sale underscores waterfront value",
+            "summary": "A waterfront home on East Dilido Drive sold for $35 million, marking a top regional transaction for the week.",
+            "recordIds": [
+              "news:vni-003"
+            ]
+          }
+        ]
+      },
+      "social": {
+        "headline": "Posts describe upkeep demands, closures, and upscale living",
+        "summary": "Community material portrays the Venetian Islands as an upscale waterfront place with calm surroundings and high carrying costs, while also noting security-related road closures and a major home sale. The comments are source-specific views, not evidence of a shared resident position, and they mix lifestyle appeal with disruption and maintenance concerns.",
+        "themes": [
+          {
+            "title": "Waterfront lifestyle is framed as rewarding",
+            "summary": "One post describes the islands as a blend of calm, convenience, boating, and entertaining, while accepting the upkeep that comes with it.",
+            "recordIds": [
+              "social:vi-003"
+            ]
+          },
+          {
+            "title": "Closures affect access during official visits",
+            "summary": "A post notes intermittent road closures during a vice presidential visit and access controls for residents and workers.",
+            "recordIds": [
+              "social:vi-002"
+            ]
+          },
+          {
+            "title": "High-end property values attract attention",
+            "summary": "A social post highlights the $35 million sale as a major regional deal, reinforcing the area’s luxury profile.",
+            "recordIds": [
+              "social:vi-001"
+            ]
+          }
+        ]
+      },
+      "combined": {
+        "headline": "Venetian Islands combine resilience work and luxury demand",
+        "summary": "The records show a corridor balancing expensive waterfront living with substantial public infrastructure work. Bridge replacement, utility upgrades, and occasional access restrictions sit alongside a high-profile luxury sale and lifestyle commentary that emphasizes exclusivity, but the materials do not show a single neighborhood-wide view of those tradeoffs.",
+        "themes": [
+          {
+            "title": "Infrastructure work is reshaping access and resilience",
+            "summary": "Bridge and utility projects point to long-running efforts to maintain an aging waterfront corridor under modern conditions.",
+            "recordIds": [
+              "news:vni-001",
+              "news:vni-002",
+              "social:vi-002"
+            ]
+          },
+          {
+            "title": "Luxury market interest remains visible",
+            "summary": "The large home sale and lifestyle posts both underline continued attention to the islands’ high-end residential character.",
+            "recordIds": [
+              "news:vni-003",
+              "social:vi-001",
+              "social:vi-003"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "virginia_key",
+      "news": {
+        "headline": "Virginia Key balances preservation, recreation, and stadium politics",
+        "summary": "News on Virginia Key centers on decisions about landmark restoration, museum funding, and trail-based recreation. The records show civic attention to cultural preservation and outdoor use, but also indicate that major projects still depend on future votes or approvals.",
+        "themes": [
+          {
+            "title": "Marine Stadium plan heads to referendum",
+            "summary": "Voters will decide whether to approve a long-term management deal tied to restoring the landmark stadium and sharing event revenue with the city.",
+            "recordIds": [
+              "news:event-vk-001"
+            ]
+          },
+          {
+            "title": "Black history museum gets operating support",
+            "summary": "The city pledged long-term operating funding for the planned museum at Virginia Key Beach Park, tying it to the site’s civil rights legacy.",
+            "recordIds": [
+              "news:event-vk-002"
+            ]
+          },
+          {
+            "title": "Trail racing points to recreation investment",
+            "summary": "An inaugural mountain bike endurance race used the island’s trail system and directed proceeds toward new trail construction and maintenance.",
+            "recordIds": [
+              "news:event-vk-003"
+            ]
+          }
+        ]
+      },
+      "social": {
+        "headline": "Community posts emphasize heritage and unresolved stadium debate",
+        "summary": "Social posts about Virginia Key focus on cultural memory, festival activity, and the unresolved Marine Stadium question. Some speakers celebrate the island’s Black history and festival growth, while another criticizes the reduced bond plan, showing competing views around preservation and spending rather than consensus.",
+        "themes": [
+          {
+            "title": "Heritage and cultural preservation are central",
+            "summary": "Posts describe Virginia Key Beach as a Black cultural haven and a monument to civil rights and memory.",
+            "recordIds": [
+              "social:post-vk-004"
+            ]
+          },
+          {
+            "title": "Festival activity draws attention to the island",
+            "summary": "A post highlights the return of We Belong Here at Virginia Key Beach Park and its sustainability efforts.",
+            "recordIds": [
+              "social:post-vk-001"
+            ]
+          },
+          {
+            "title": "Marine Stadium funding remains contested",
+            "summary": "One post criticizes the reduced bond amount, while another explains that the referendum is still the final decision point.",
+            "recordIds": [
+              "social:post-vk-002",
+              "social:post-vk-003"
+            ]
+          }
+        ]
+      },
+      "combined": {
+        "headline": "Virginia Key mixes cultural heritage with contested projects",
+        "summary": "Across the records, Virginia Key is presented as both a place of civil rights memory and a site for active recreation and disputed redevelopment. Museum support and trail investment sit beside a referendum on Marine Stadium, showing civic interest but also unresolved questions about funding, management, and long-term use.",
+        "themes": [
+          {
+            "title": "Preservation efforts remain politically active",
+            "summary": "Museum funding, festival framing, and stadium restoration all place heritage at the center of current public decisions.",
+            "recordIds": [
+              "news:event-vk-002",
+              "social:post-vk-004",
+              "news:event-vk-001"
+            ]
+          },
+          {
+            "title": "Recreation is expanding in small steps",
+            "summary": "The bike race and festival references indicate ongoing outdoor and event use, even as larger projects remain unsettled.",
+            "recordIds": [
+              "news:event-vk-003",
+              "social:post-vk-001"
+            ]
+          },
+          {
+            "title": "Stadium plans still face debate",
+            "summary": "The referendum and bond criticism show that the future of Marine Stadium is not settled in the records.",
+            "recordIds": [
+              "social:post-vk-002",
+              "social:post-vk-003",
+              "news:event-vk-001"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "watson_island",
+      "news": {
+        "headline": "Watson Island sees luxury plans and utility upgrades",
+        "summary": "News on Watson Island focuses on two major redevelopment efforts: Watson Harbour on the south side and the Jungle Island/Ecoresiliency Miami plan on the north side. Both involve large-scale private investment, public benefits, and infrastructure changes, while also raising questions about how the island’s waterfront will be used.",
+        "themes": [
+          {
+            "title": "Watson Harbour moves through permitting",
+            "summary": "The south-side project includes towers, condos, hotels, retail, and a promenade, with developers reporting substantial sunk investment and a 2026 groundbreaking target.",
+            "recordIds": [
+              "news:event-wi-001"
+            ]
+          },
+          {
+            "title": "Jungle Island deal adds public benefits",
+            "summary": "Final approval directs public benefits from the redevelopment toward a public waterfront park and affordable housing funding.",
+            "recordIds": [
+              "news:event-wi-002"
+            ]
+          },
+          {
+            "title": "Resiliency work is underway",
+            "summary": "Seawall, boardwalk, and utility improvements are being carried out as part of the broader development agreement.",
+            "recordIds": [
+              "news:event-wi-003"
+            ]
+          }
+        ]
+      },
+      "social": {
+        "headline": "Residents question land price, ecology, and public value",
+        "summary": "Community posts about Watson Island are largely skeptical, focusing on the land sale price, the appraisal gap, and concerns over the treatment of Jungle Island’s ecosystems. The comments reflect criticism and caution from specific speakers, not a broad resident census, alongside procedural notes about the city’s review of the deal.",
+        "themes": [
+          {
+            "title": "Sale price and appraisal raised objections",
+            "summary": "Several posts criticize the land deal as rushed or undervalued, with one noting a city-backed appraisal far above the sale price.",
+            "recordIds": [
+              "social:post-wi-001",
+              "social:post-wi-002",
+              "social:post-wi-003"
+            ]
+          },
+          {
+            "title": "Public benefits are not settling concerns",
+            "summary": "One post acknowledges excitement over amenities and community benefits but says locals remain worried about impacts on wildlife and rehabilitation planning.",
+            "recordIds": [
+              "social:post-wi-004"
+            ]
+          }
+        ]
+      },
+      "combined": {
+        "headline": "Watson Island combines waterfront redevelopment with skepticism",
+        "summary": "The records show Watson Island in the middle of major redevelopment, utility work, and public-benefit negotiations. News emphasizes large private projects and infrastructure upgrades, while social posts focus on sale-price criticism and ecological concerns, making the island a clear example of contested waterfront change rather than settled consensus.",
+        "themes": [
+          {
+            "title": "Big redevelopment plans are advancing",
+            "summary": "Watson Harbour and Jungle Island together point to heavy construction pressure and a reworked waterfront use pattern.",
+            "recordIds": [
+              "news:event-wi-001",
+              "news:event-wi-002",
+              "news:event-wi-003"
+            ]
+          },
+          {
+            "title": "Public value remains debated",
+            "summary": "Posts about the sale price and appraisal gap show why the land deal remains controversial in public discussion.",
+            "recordIds": [
+              "social:post-wi-001",
+              "social:post-wi-002",
+              "social:post-wi-003"
+            ]
+          },
+          {
+            "title": "Environmental questions stay open",
+            "summary": "Community concern about wildlife and rehabilitation planning adds a separate layer of uncertainty to the redevelopment story.",
+            "recordIds": [
+              "social:post-wi-004"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "port_of_miami",
+      "news": {
+        "headline": "PortMiami expands terminals while congestion stays in focus",
+        "summary": "News from PortMiami highlights major capital projects, including Cruise Terminal G, cargo equipment upgrades, and a possible rail link to the airport. At the same time, officials and media are still focused on access delays and congestion, showing a port that is expanding while struggling with circulation.",
+        "themes": [
+          {
+            "title": "Cruise Terminal G is under construction",
+            "summary": "The new LEED-certified terminal is being built for large ships and is scheduled for late 2027 completion.",
+            "recordIds": [
+              "news:event-pm-001"
+            ]
+          },
+          {
+            "title": "Airport rail connection is under study",
+            "summary": "Officials are reviewing rail options between the airport and the port to address access and mobility pressures.",
+            "recordIds": [
+              "news:event-pm-002"
+            ]
+          },
+          {
+            "title": "Cargo and berth expansion continues",
+            "summary": "The port is adding equipment, storage, and berthing capacity across its freight and cruise operations.",
+            "recordIds": [
+              "news:event-pm-003"
+            ]
+          },
+          {
+            "title": "Congestion debate remains active",
+            "summary": "A travel-warning discussion highlights ongoing traffic delays tied to construction and peak cruise volumes.",
+            "recordIds": [
+              "news:event-pm-004"
+            ]
+          }
+        ]
+      },
+      "social": {
+        "headline": "Passengers and observers complain about port traffic",
+        "summary": "Community posts focus heavily on traffic, closures, and long delays around PortMiami, especially on busy cruise days. One post celebrates record passenger counts, but most comments stress frustration, confusion, and missed-time risk, so the material should be read as a mix of enthusiasm and disruption rather than a settled verdict on port growth.",
+        "themes": [
+          {
+            "title": "Traffic delays dominate the discussion",
+            "summary": "Multiple posts describe gridlock, detours, and lengthy waits for cruise passengers and drivers near the port.",
+            "recordIds": [
+              "social:post-pom-001",
+              "social:post-pom-002",
+              "social:post-pom-003",
+              "social:post-pom-004"
+            ]
+          },
+          {
+            "title": "High passenger counts also draw attention",
+            "summary": "One post points to record annual cruise traffic and the arrival of a new ship, showing the port’s ongoing appeal to some observers.",
+            "recordIds": [
+              "social:post-pom-005"
+            ]
+          }
+        ]
+      },
+      "combined": {
+        "headline": "PortMiami grows while access problems persist",
+        "summary": "The combined record set shows PortMiami expanding terminals, cargo systems, and possible rail access while simultaneously facing persistent congestion complaints. Record passenger numbers and new infrastructure suggest operational scale, but resident and passenger posts emphasize how difficult port access can be on peak days.",
+        "themes": [
+          {
+            "title": "Capacity growth is ongoing",
+            "summary": "Terminal construction, cargo upgrades, and berth planning show the port continuing to add physical capacity.",
+            "recordIds": [
+              "news:event-pm-001",
+              "news:event-pm-003",
+              "social:post-pom-005"
+            ]
+          },
+          {
+            "title": "Mobility remains the main pain point",
+            "summary": "The rail study and repeated traffic complaints point to access as the central unresolved issue around the port.",
+            "recordIds": [
+              "news:event-pm-002",
+              "news:event-pm-004",
+              "social:post-pom-001",
+              "social:post-pom-004"
+            ]
+          },
+          {
+            "title": "Construction and closures shape travel",
+            "summary": "Terminal work and road closures are repeatedly linked to longer delays and more complicated trip planning.",
+            "recordIds": [
+              "news:event-pm-001",
+              "social:post-pom-002",
+              "social:post-pom-003"
+            ]
+          }
+        ]
+      }
+    }
+  ],
+  "city": {
+    "news": {
+      "headline": "Miami’s development and transit pressures widen",
+      "summary": "Across Miami, the snapshot shows a city still absorbing large projects, public infrastructure work, and recurring concerns about displacement, access, and neighborhood change. New towers, mixed-income housing, transit upgrades, and cultural venues are advancing in several districts, while residents and officials also flag traffic, environmental stress, and local review battles. The stories point to uneven change rather than a single citywide pattern, with each area negotiating growth on its own terms.",
+      "themes": [
+        {
+          "title": "Large Projects Keep Advancing",
+          "summary": "Major developments are moving forward in Brickell, Wynwood, Midtown, Edgewater, Allapattah, Liberty City, and Little River, ranging from supertall offices and luxury towers to affordable housing and mixed-income rezonings. The records show a mix of construction starts, permits, and funding approvals rather than a uniform boom.",
+          "recordIds": [
+            "news:brickell-001",
+            "news:wynwood-001",
+            "news:midtown-001",
+            "news:event-EW-001",
+            "news:event-al-003",
+            "news:event-lc-002",
+            "news:event-lr-003"
+          ]
+        },
+        {
+          "title": "Transit And Infrastructure Pressures",
+          "summary": "Public works and mobility issues recur in the Health District, Coconut Grove, Coral Way, PortMiami, and the Venetian Islands, including station branding, bridge replacement, roadway resurfacing, microtransit, and port access delays. These reports frame infrastructure as both an asset and a source of disruption.",
+          "recordIds": [
+            "news:event-hd-002",
+            "news:event-cg-001",
+            "news:event-cw-001",
+            "news:event-vk-001",
+            "news:event-vk-002",
+            "news:event-pm-004",
+            "news:vni-001",
+            "news:vni-002"
+          ]
+        },
+        {
+          "title": "Access, Displacement, And Review",
+          "summary": "Several areas report conflicts over who benefits from development and who gets heard, from Little Haiti and Overtown to the Upper East Side, Coconut Grove, Little Havana, and Watson Island. The records emphasize community opposition, preservation arguments, and legal or administrative shortcuts that shape local debate.",
+          "recordIds": [
+            "news:event-LH-002",
+            "news:event-LH-003",
+            "news:event-ot-002",
+            "news:event-UES-002",
+            "news:event-cg-002",
+            "news:event-lh-001",
+            "news:event-wi-001",
+            "news:dtm-001"
+          ]
+        }
+      ]
+    },
+    "social": {
+      "headline": "Residents praise culture while flagging strain",
+      "summary": "Community posts across Miami mix pride in neighborhood identity with concern about safety, congestion, and displacement. Many residents celebrate parks, festivals, markets, food, and local gathering places, while others describe crime, traffic, litter, construction noise, and affordability pressure. The snapshot reads less like consensus than a series of overlapping neighborhood conversations about what should be preserved, expanded, or changed.",
+      "themes": [
+        {
+          "title": "Culture And Public Life",
+          "summary": "Posts highlight festivals, parks, markets, and local venues as anchors of community life in Little Haiti, Overtown, Coconut Grove, the Design District, Midtown, and Coral Way. Speakers frame these places as gathering spaces that sustain neighborhood identity and everyday routines.",
+          "recordIds": [
+            "social:post-lh-001",
+            "social:post-lh-004",
+            "social:overtown-001",
+            "social:overtown-002",
+            "social:cg-001",
+            "social:cg-002",
+            "social:post-dd-002",
+            "social:post-mt-001"
+          ]
+        },
+        {
+          "title": "Safety And Quality Of Life",
+          "summary": "Residents and commenters also describe worries about shootings, theft, traffic, litter, noise, and other disruptions in places including Brickell, Liberty City, Flagami, Coral Way, Downtown Miami, and Little Havana. These are presented as lived complaints and warnings, not as broad neighborhood verdicts.",
+          "recordIds": [
+            "social:post-bk-001",
+            "social:post-bk-002",
+            "social:lc-002",
+            "social:lc-003",
+            "social:lc-005",
+            "social:flagami-001",
+            "social:cw-003",
+            "social:dtm-001",
+            "social:lh-003"
+          ]
+        },
+        {
+          "title": "Housing Pressure And Change",
+          "summary": "Community discussion repeatedly returns to affordability, redevelopment, and neighborhood character in Wynwood, Little Haiti, Allapattah, Little Havana, Overtown, Coconut Grove, and Edgewater. Some posts welcome new projects or sales, while others worry about gentrification, displacement, and commercialization.",
+          "recordIds": [
+            "social:post-wy-004",
+            "social:post-lh-002",
+            "social:post-al-004",
+            "social:lh-005",
+            "social:overtown-005",
+            "social:cg-003",
+            "social:cg-004",
+            "social:post-ew-004",
+            "social:post-lr-004"
+          ]
+        }
+      ]
+    },
+    "combined": {
+      "headline": "Miami balances development, preservation, and access",
+      "summary": "Taken together, the records portray a city where construction, cultural activation, and infrastructure investment keep colliding with questions of affordability, review authority, and neighborhood identity. New housing, retail, parks, transit, and event spaces appear across many districts, but so do objections over displacement, congestion, environmental impacts, and the pace of change. The snapshot shows no single neighborhood story; it shows many local negotiations unfolding at once.",
+      "themes": [
+        {
+          "title": "Building And Rebuilding",
+          "summary": "Across Brickell, Wynwood, Midtown, Edgewater, Allapattah, Liberty City, Little River, and the Health District, records show towers, housing, and major public facilities moving ahead. The mix ranges from luxury and market-rate projects to affordable and mixed-income work.",
+          "recordIds": [
+            "news:brickell-002",
+            "news:wynwood-001",
+            "news:midtown-001",
+            "news:event-EW-002",
+            "news:event-al-003",
+            "news:event-lc-002",
+            "news:event-lr-003",
+            "news:event-hd-001",
+            "social:post-bk-003",
+            "social:post-ew-001",
+            "social:post-al-001",
+            "social:post-lr-002",
+            "social:post-lh-002"
+          ]
+        },
+        {
+          "title": "Preservation Versus Pressure",
+          "summary": "Little Haiti, Overtown, Coconut Grove, Little Havana, the Upper East Side, Watson Island, and downtown all surface concerns about displacement, review processes, or heritage loss. Residents and officials describe efforts to preserve existing communities alongside new proposals that could reshape them.",
+          "recordIds": [
+            "news:event-LH-002",
+            "news:event-LH-003",
+            "news:event-ot-002",
+            "news:event-cg-002",
+            "news:event-lh-001",
+            "news:event-UES-002",
+            "news:event-wi-001",
+            "news:dtm-001",
+            "social:post-lh-001",
+            "social:lh-005",
+            "social:overtown-004",
+            "social:cg-003",
+            "social:post-wi-001",
+            "social:post-wi-002"
+          ]
+        },
+        {
+          "title": "Moving People And Crowds",
+          "summary": "Infrastructure and access concerns run from the Venetian Islands and PortMiami to the Health District, Coconut Grove, Coral Way, Flagami, and Downtown Miami. The records point to bridge work, station branding, microtransit, roadway projects, port delays, and commuter complaints as part of everyday city functioning.",
+          "recordIds": [
+            "news:event-vk-001",
+            "news:event-vk-002",
+            "news:event-pm-002",
+            "news:event-pm-004",
+            "news:event-hd-002",
+            "news:event-cg-001",
+            "news:event-cw-001",
+            "news:event-fg-003",
+            "social:post-pom-001",
+            "social:post-pom-004",
+            "social:hd-002",
+            "social:tr-002",
+            "social:cw-003",
+            "social:dtm-002"
+          ]
+        }
+      ]
+    }
+  }
+}

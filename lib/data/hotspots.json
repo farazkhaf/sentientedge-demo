@@ -1,0 +1,5987 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -80.192609,
+          25.764732
+        ]
+      },
+      "properties": {
+        "id": "anchor-hotspot-0",
+        "anchor_origin": "Parks (Mary Brickell Village Park)",
+        "intensity": 1.0,
+        "radius_m": 500,
+        "amenity_count": 110,
+        "categories": {
+          "schools": 6,
+          "parks": 10,
+          "transit": 41,
+          "healthcare": 1,
+          "retail": 52
+        },
+        "dominant": [
+          "retail",
+          "transit"
+        ],
+        "sample_names": [
+          "Southside Park",
+          "Brickell",
+          "Southwest 2nd Avenue & Southwest 11th Street",
+          "Lafayette Miami",
+          "7-Eleven"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -80.190833,
+          25.776667
+        ]
+      },
+      "properties": {
+        "id": "anchor-hotspot-1",
+        "anchor_origin": "Schools (Miami Dade Community College Mitchel Wolfson Campus)",
+        "intensity": 1.0,
+        "radius_m": 500,
+        "amenity_count": 100,
+        "categories": {
+          "schools": 8,
+          "parks": 3,
+          "transit": 39,
+          "healthcare": 4,
+          "retail": 46
+        },
+        "dominant": [
+          "retail",
+          "transit"
+        ],
+        "sample_names": [
+          "Miami - Dade County Law Library",
+          "Northwest 1st Avenue & Northwest 5th Street",
+          "Northwest 1st Avenue & Northwest 1st Street",
+          "Miami Central",
+          "Northeast 1st Avenue & Northeast 1st Street"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -80.191566,
+          25.811619
+        ]
+      },
+      "properties": {
+        "id": "anchor-hotspot-2",
+        "anchor_origin": "Schools (Istituto Marangoni Miami)",
+        "intensity": 1.0,
+        "radius_m": 500,
+        "amenity_count": 99,
+        "categories": {
+          "schools": 3,
+          "parks": 0,
+          "transit": 27,
+          "healthcare": 1,
+          "retail": 68
+        },
+        "dominant": [
+          "retail",
+          "transit"
+        ],
+        "sample_names": [
+          "Dick's Sporting Goods",
+          "Harry's Pizzeria",
+          "MITCHELL GOLD + BOB WILLIAMS",
+          "ODDS",
+          "Dulce de Leche Bakery Miami"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -80.195562,
+          25.76199
+        ]
+      },
+      "properties": {
+        "id": "anchor-hotspot-3",
+        "anchor_origin": "Parks",
+        "intensity": 1.0,
+        "radius_m": 500,
+        "amenity_count": 87,
+        "categories": {
+          "schools": 6,
+          "parks": 10,
+          "transit": 35,
+          "healthcare": 2,
+          "retail": 34
+        },
+        "dominant": [
+          "transit",
+          "retail"
+        ],
+        "sample_names": [
+          "Simpson Park",
+          "Brickell Christian School",
+          "Hardwood Hammock Park",
+          "Lingles School and Educational Clinic",
+          "Walgreens"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -80.194527,
+          25.773867
+        ]
+      },
+      "properties": {
+        "id": "anchor-hotspot-4",
+        "anchor_origin": "Parks (Paul S. Walker Urbanscape)",
+        "intensity": 1.0,
+        "radius_m": 500,
+        "amenity_count": 79,
+        "categories": {
+          "schools": 7,
+          "parks": 2,
+          "transit": 40,
+          "healthcare": 1,
+          "retail": 29
+        },
+        "dominant": [
+          "transit",
+          "retail"
+        ],
+        "sample_names": [
+          "Southwest 2nd Street & Southwest 2nd Avenue",
+          "Southwest 2nd Avenue & Southwest 3rd Street",
+          "Trinity International University",
+          "Southwest 1st Street & Southwest 1st Court",
+          "Southwest 1st Avenue & Southwest 1st Street"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -80.189298,
+          25.814998
+        ]
+      },
+      "properties": {
+        "id": "anchor-hotspot-5",
+        "anchor_origin": "Schools (Adler Shinensky Library)",
+        "intensity": 1.0,
+        "radius_m": 500,
+        "amenity_count": 77,
+        "categories": {
+          "schools": 2,
+          "parks": 3,
+          "transit": 19,
+          "healthcare": 2,
+          "retail": 51
+        },
+        "dominant": [
+          "retail",
+          "transit"
+        ],
+        "sample_names": [
+          "Northeast 36th Street & Biscayne Boulevard",
+          "Denny's",
+          "Shell",
+          "Old Greg\u2019s Pizza",
+          "Minotti Miami"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -80.189099,
+          25.772773
+        ]
+      },
+      "properties": {
+        "id": "anchor-hotspot-6",
+        "anchor_origin": "Healthcare (CVS Pharmacy)",
+        "intensity": 1.0,
+        "radius_m": 500,
+        "amenity_count": 76,
+        "categories": {
+          "schools": 2,
+          "parks": 3,
+          "transit": 23,
+          "healthcare": 4,
+          "retail": 44
+        },
+        "dominant": [
+          "retail",
+          "transit"
+        ],
+        "sample_names": [
+          "Northeast 1st Avenue & Northeast 1st Street",
+          "Miami Avenue",
+          "Cafe Galleria",
+          "GVA BOX",
+          "Alloy Bistro Gourmet"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -80.199244,
+          25.801981
+        ]
+      },
+      "properties": {
+        "id": "anchor-hotspot-7",
+        "anchor_origin": "Schools (Miami Acting Studio)",
+        "intensity": 1.0,
+        "radius_m": 500,
+        "amenity_count": 74,
+        "categories": {
+          "schools": 4,
+          "parks": 1,
+          "transit": 20,
+          "healthcare": 0,
+          "retail": 49
+        },
+        "dominant": [
+          "retail",
+          "transit"
+        ],
+        "sample_names": [
+          "Hannah Bella",
+          "NW 29 ST@NW 5 AV",
+          "Ralph Pucci",
+          "Wynwood Warehouse Project",
+          "Cash & Carry Shoes"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -80.196111,
+          25.810833
+        ]
+      },
+      "properties": {
+        "id": "anchor-hotspot-8",
+        "anchor_origin": "Schools (Aspira Eugenio Maria De Hostos School)",
+        "intensity": 1.0,
+        "radius_m": 500,
+        "amenity_count": 72,
+        "categories": {
+          "schools": 4,
+          "parks": 2,
+          "transit": 17,
+          "healthcare": 0,
+          "retail": 49
+        },
+        "dominant": [
+          "retail",
+          "transit"
+        ],
+        "sample_names": [
+          "El Bajareque",
+          "Midtown Pawn Boutique",
+          "Shores School",
+          "Northwest 36th Street & Northwest 2nd Avenue",
+          "Miami Nautique Pro Shop"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -80.186235,
+          25.775333
+        ]
+      },
+      "properties": {
+        "id": "anchor-hotspot-9",
+        "anchor_origin": "Parks (Bayfront Park)",
+        "intensity": 1.0,
+        "radius_m": 500,
+        "amenity_count": 65,
+        "categories": {
+          "schools": 2,
+          "parks": 2,
+          "transit": 17,
+          "healthcare": 4,
+          "retail": 40
+        },
+        "dominant": [
+          "retail",
+          "transit"
+        ],
+        "sample_names": [
+          "New York Bagel Deli",
+          "Cantwell Academy",
+          "Blackmarket",
+          "Manna Life Food",
+          "Giardino Gourmet Salads"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -80.189951,
+          25.767715
+        ]
+      },
+      "properties": {
+        "id": "anchor-hotspot-10",
+        "anchor_origin": "Schools (Brickell Christian School)",
+        "intensity": 1.0,
+        "radius_m": 500,
+        "amenity_count": 63,
+        "categories": {
+          "schools": 2,
+          "parks": 4,
+          "transit": 26,
+          "healthcare": 0,
+          "retail": 31
+        },
+        "dominant": [
+          "retail",
+          "transit"
+        ],
+        "sample_names": [
+          "Nusr-Et",
+          "Southeast 10th Street & Southeast 1st Avenue",
+          "Tenth Street Promenade",
+          "Mary Brickell Village Park",
+          "North Italia"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -80.189444,
+          25.79
+        ]
+      },
+      "properties": {
+        "id": "anchor-hotspot-11",
+        "anchor_origin": "Schools (District Instructional Center M)",
+        "intensity": 1.0,
+        "radius_m": 500,
+        "amenity_count": 54,
+        "categories": {
+          "schools": 10,
+          "parks": 0,
+          "transit": 30,
+          "healthcare": 0,
+          "retail": 14
+        },
+        "dominant": [
+          "transit",
+          "retail"
+        ],
+        "sample_names": [
+          "Northeast 1st Avenue & Northeast 13th Street",
+          "The Caf\u00e9 at Books and Books",
+          "Northeast 2nd Avenue & Northeast 14th Street",
+          "Northeast 14th Street & Northeast Miami Court",
+          "Northeast 14th Street & Biscayne Boulevard"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -80.199186,
+          25.777279
+        ]
+      },
+      "properties": {
+        "id": "anchor-hotspot-12",
+        "anchor_origin": "Schools (Downtown Miami Charter School)",
+        "intensity": 1.0,
+        "radius_m": 500,
+        "amenity_count": 53,
+        "categories": {
+          "schools": 5,
+          "parks": 2,
+          "transit": 37,
+          "healthcare": 2,
+          "retail": 7
+        },
+        "dominant": [
+          "transit",
+          "retail"
+        ],
+        "sample_names": [
+          "Northwest South River Drive & West Flagler Street",
+          "Northwest North River Drive @ West Flagler Street3",
+          "West Flagler Street & West 2nd Avenue",
+          "Northwest 2nd Avenue & West Flagler Street",
+          "Northwest 1st Avenue & West Flagler Street"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -80.188317,
+          25.78
+        ]
+      },
+      "properties": {
+        "id": "anchor-hotspot-13",
+        "anchor_origin": "Parks",
+        "intensity": 1.0,
+        "radius_m": 500,
+        "amenity_count": 53,
+        "categories": {
+          "schools": 4,
+          "parks": 3,
+          "transit": 23,
+          "healthcare": 2,
+          "retail": 21
+        },
+        "dominant": [
+          "transit",
+          "retail"
+        ],
+        "sample_names": [
+          "Northeast 2nd Avenue & Northeast 5th Street",
+          "Northeast 6th Street & Biscayne Boulevard",
+          "Northeast 1st Avenue & Northeast 4th Street",
+          "Apple Store Miami Worldcenter",
+          "College Bayside"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -80.192548,
+          25.795098
+        ]
+      },
+      "properties": {
+        "id": "anchor-hotspot-14",
+        "anchor_origin": "Schools (Holy Cross Day Care Center)",
+        "intensity": 1.0,
+        "radius_m": 500,
+        "amenity_count": 51,
+        "categories": {
+          "schools": 2,
+          "parks": 3,
+          "transit": 27,
+          "healthcare": 1,
+          "retail": 18
+        },
+        "dominant": [
+          "transit",
+          "retail"
+        ],
+        "sample_names": [
+          "Dorsey Park",
+          "Budget Hardware",
+          "Taula",
+          "Northeast 2nd Avenue & Northeast 17th Street",
+          "Holy Cross Day Care Center"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -80.198611,
+          25.781667
+        ]
+      },
+      "properties": {
+        "id": "anchor-hotspot-15",
+        "anchor_origin": "Schools (Greater Bethel Head Start)",
+        "intensity": 1.0,
+        "radius_m": 500,
+        "amenity_count": 50,
+        "categories": {
+          "schools": 6,
+          "parks": 1,
+          "transit": 33,
+          "healthcare": 2,
+          "retail": 8
+        },
+        "dominant": [
+          "transit",
+          "retail"
+        ],
+        "sample_names": [
+          "Northwest 5th Street & Northwest 4th Avenue",
+          "Northwest 10th Street @ Northwest 5th Avenue",
+          "Northwest 5th Avenue @ Northwest 10th Street",
+          "Northwest 5th Avenue @ Northwest 9th Street",
+          "Eaton Day Care Center"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -80.212101,
+          25.791163
+        ]
+      },
+      "properties": {
+        "id": "anchor-hotspot-16",
+        "anchor_origin": "Healthcare (Ambulatory Care Center (ACC) Pharmacy)",
+        "intensity": 1.0,
+        "radius_m": 500,
+        "amenity_count": 50,
+        "categories": {
+          "schools": 7,
+          "parks": 3,
+          "transit": 31,
+          "healthcare": 9,
+          "retail": 0
+        },
+        "dominant": [
+          "transit",
+          "healthcare"
+        ],
+        "sample_names": [
+          "Miller School Campus",
+          "Sylvester Comprehensive Cancer Center",
+          "Northwest 14th Street & Northwest 12th Avenue",
+          "Northwest 12th Avenue & Northwest 15th Street",
+          "Civic Center Porta Kiosk"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -80.20227,
+          25.780099
+        ]
+      },
+      "properties": {
+        "id": "anchor-hotspot-17",
+        "anchor_origin": "Schools (Eaton Day Care Center)",
+        "intensity": 1.0,
+        "radius_m": 500,
+        "amenity_count": 49,
+        "categories": {
+          "schools": 6,
+          "parks": 2,
+          "transit": 30,
+          "healthcare": 2,
+          "retail": 9
+        },
+        "dominant": [
+          "transit",
+          "retail"
+        ],
+        "sample_names": [
+          "Northwest 5th Street & Northwest 6th Avenue",
+          "Northwest 5th Street & Northwest 4th Avenue",
+          "Northwest 10th Street @ Northwest 5th Avenue",
+          "Culmer Place Head Start",
+          "Northwest 5th Avenue @ Northwest 10th Street"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -80.21169,
+          25.77374
+        ]
+      },
+      "properties": {
+        "id": "anchor-hotspot-18",
+        "anchor_origin": "Healthcare (Black & White Pharmacy)",
+        "intensity": 1.0,
+        "radius_m": 500,
+        "amenity_count": 45,
+        "categories": {
+          "schools": 7,
+          "parks": 3,
+          "transit": 20,
+          "healthcare": 3,
+          "retail": 12
+        },
+        "dominant": [
+          "transit",
+          "retail"
+        ],
+        "sample_names": [
+          "Southwest 12th Avenue & Southwest 2nd Street",
+          "Riverside School",
+          "La Bendici\u00f3n Bicycles",
+          "7-Eleven",
+          "Rakachaka Grill y M\u00e1s"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -80.221993,
+          25.769821
+        ]
+      },
+      "properties": {
+        "id": "anchor-hotspot-19",
+        "anchor_origin": "Schools (Hope Center)",
+        "intensity": 1.0,
+        "radius_m": 500,
+        "amenity_count": 44,
+        "categories": {
+          "schools": 3,
+          "parks": 2,
+          "transit": 19,
+          "healthcare": 2,
+          "retail": 18
+        },
+        "dominant": [
+          "transit",
+          "retail"
+        ],
+        "sample_names": [
+          "El Atlacatl",
+          "Southwest 17th Avenue & Southwest 2nd Street",
+          "Southwest 1st Street & Southwest 18th Court",
+          "Southwest 1st Street & Southwest 18th Avenue",
+          "Starbucks"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -80.191095,
+          25.799335
+        ]
+      },
+      "properties": {
+        "id": "anchor-hotspot-20",
+        "anchor_origin": "Healthcare (Healthi Rx Pharmacy)",
+        "intensity": 1.0,
+        "radius_m": 500,
+        "amenity_count": 44,
+        "categories": {
+          "schools": 1,
+          "parks": 0,
+          "transit": 21,
+          "healthcare": 1,
+          "retail": 21
+        },
+        "dominant": [
+          "transit",
+          "retail"
+        ],
+        "sample_names": [
+          "Holy Cross Day Care Center",
+          "North Miami Avenue @ Northeast 26th Street",
+          "North Miami Avenue @ Northwest 21st Street",
+          "North Miami Avenue @ Northwest 25th Street",
+          "Suite Havana Caf\u00e9"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -80.243105,
+          25.728434
+        ]
+      },
+      "properties": {
+        "id": "anchor-hotspot-21",
+        "anchor_origin": "Schools (Coconut Grove School)",
+        "intensity": 1.0,
+        "radius_m": 500,
+        "amenity_count": 43,
+        "categories": {
+          "schools": 6,
+          "parks": 5,
+          "transit": 11,
+          "healthcare": 0,
+          "retail": 21
+        },
+        "dominant": [
+          "retail",
+          "transit"
+        ],
+        "sample_names": [
+          "Lulu",
+          "The Barnacle Historic State Park",
+          "Saint Stephens School",
+          "Ludo's",
+          "O'sole Boutique"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -80.215943,
+          25.789602
+        ]
+      },
+      "properties": {
+        "id": "anchor-hotspot-22",
+        "anchor_origin": "Healthcare (Jackson Medical Towers)",
+        "intensity": 1.0,
+        "radius_m": 500,
+        "amenity_count": 42,
+        "categories": {
+          "schools": 6,
+          "parks": 0,
+          "transit": 30,
+          "healthcare": 6,
+          "retail": 0
+        },
+        "dominant": [
+          "transit",
+          "schools"
+        ],
+        "sample_names": [
+          "Northwest 12th Avenue & Northwest 12th Street",
+          "Northwest 12th Street & Northwest 13th Court",
+          "Northwest 12th Avenue & Northwest 14th Street",
+          "Civic Center Library Kiosk",
+          "NW 13 TE@NW 14 AV"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -80.188864,
+          25.80687
+        ]
+      },
+      "properties": {
+        "id": "anchor-hotspot-23",
+        "anchor_origin": "Healthcare (Walgreens)",
+        "intensity": 1.0,
+        "radius_m": 500,
+        "amenity_count": 41,
+        "categories": {
+          "schools": 1,
+          "parks": 0,
+          "transit": 25,
+          "healthcare": 1,
+          "retail": 14
+        },
+        "dominant": [
+          "transit",
+          "retail"
+        ],
+        "sample_names": [
+          "Biscayne Boulevard & Northeast 28th Street",
+          "Flyfuel Food Co.",
+          "Enriqueta's Sandwich Shop",
+          "Modani",
+          "Northeast 29th Street & Northeast 2nd Avenue"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -80.218056,
+          25.766111
+        ]
+      },
+      "properties": {
+        "id": "anchor-hotspot-24",
+        "anchor_origin": "Schools (Tamiami United Methodist Church Elementary School)",
+        "intensity": 1.0,
+        "radius_m": 500,
+        "amenity_count": 40,
+        "categories": {
+          "schools": 3,
+          "parks": 1,
+          "transit": 18,
+          "healthcare": 2,
+          "retail": 16
+        },
+        "dominant": [
+          "transit",
+          "retail"
+        ],
+        "sample_names": [
+          "Ushop",
+          "Starbucks",
+          "Southwest 17th Avenue & Southwest 6th Street",
+          "Southwest 7th Street & Southwest 17th Avenue",
+          "Southwest 17th Avenue & Southwest 8th Street"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -80.193192,
+          25.848871
+        ]
+      },
+      "properties": {
+        "id": "anchor-hotspot-25",
+        "anchor_origin": "Parks (Little River Community Park)",
+        "intensity": 1.0,
+        "radius_m": 500,
+        "amenity_count": 40,
+        "categories": {
+          "schools": 2,
+          "parks": 1,
+          "transit": 17,
+          "healthcare": 1,
+          "retail": 19
+        },
+        "dominant": [
+          "retail",
+          "transit"
+        ],
+        "sample_names": [
+          "Northeast 2nd Avenue & Northeast 77th Street",
+          "Lubin\u2019s Discount Beauty Supply & General Merchandise",
+          "Little River Library",
+          "North Miami Avenue & Northeast 82nd Terrace",
+          "Popeye Coin Laundromat"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -80.22116,
+          25.773988
+        ]
+      },
+      "properties": {
+        "id": "anchor-hotspot-26",
+        "anchor_origin": "Schools (Boulevard School)",
+        "intensity": 1.0,
+        "radius_m": 500,
+        "amenity_count": 39,
+        "categories": {
+          "schools": 6,
+          "parks": 2,
+          "transit": 17,
+          "healthcare": 2,
+          "retail": 12
+        },
+        "dominant": [
+          "transit",
+          "retail"
+        ],
+        "sample_names": [
+          "Southwest 17th Avenue & Southwest 2nd Street",
+          "Southwest 1st Street & Southwest 18th Avenue",
+          "Southwest 17th Avenue & Southwest 3rd Street",
+          "Hope Center",
+          "Lincoln-Marti School 5th Campus"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -80.216437,
+          25.772599
+        ]
+      },
+      "properties": {
+        "id": "anchor-hotspot-27",
+        "anchor_origin": "Schools (La Luz School)",
+        "intensity": 1.0,
+        "radius_m": 500,
+        "amenity_count": 39,
+        "categories": {
+          "schools": 6,
+          "parks": 0,
+          "transit": 18,
+          "healthcare": 2,
+          "retail": 13
+        },
+        "dominant": [
+          "transit",
+          "retail"
+        ],
+        "sample_names": [
+          "Lincoln-Marti School 5th Campus",
+          "Southwest 12th Avenue & Southwest 4th Street",
+          "Southwest 12th Avenue & Southwest 2nd Street",
+          "Riverside School",
+          "La Bendici\u00f3n Bicycles"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -80.189492,
+          25.760606
+        ]
+      },
+      "properties": {
+        "id": "anchor-hotspot-28",
+        "anchor_origin": "Parks (Jade's Park)",
+        "intensity": 1.0,
+        "radius_m": 500,
+        "amenity_count": 38,
+        "categories": {
+          "schools": 2,
+          "parks": 1,
+          "transit": 16,
+          "healthcare": 1,
+          "retail": 18
+        },
+        "dominant": [
+          "retail",
+          "transit"
+        ],
+        "sample_names": [
+          "Brickell Avenue & Southeast 14th Street",
+          "South Miami Avenue & Southwest 15th Road",
+          "Brickell Avenue & Southeast 14th Terrace",
+          "Salty Flame",
+          "Southeast 13th Street/Brickell Avenue"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -80.215048,
+          25.776766
+        ]
+      },
+      "properties": {
+        "id": "anchor-hotspot-29",
+        "anchor_origin": "Schools (Wee Lads and Lassies Preschool)",
+        "intensity": 1.0,
+        "radius_m": 500,
+        "amenity_count": 37,
+        "categories": {
+          "schools": 2,
+          "parks": 0,
+          "transit": 20,
+          "healthcare": 3,
+          "retail": 12
+        },
+        "dominant": [
+          "transit",
+          "retail"
+        ],
+        "sample_names": [
+          "Southwest 1st Street & Southwest 13th Avenue",
+          "Southwest 1st Street & Southwest 12th Avenue",
+          "La Luz School",
+          "Southwest 12th Avenue & West Flagler Street",
+          "Estaci\u00f3n del Le\u00f3n"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -80.189051,
+          25.851714
+        ]
+      },
+      "properties": {
+        "id": "anchor-hotspot-30",
+        "anchor_origin": "Parks",
+        "intensity": 1.0,
+        "radius_m": 500,
+        "amenity_count": 37,
+        "categories": {
+          "schools": 0,
+          "parks": 2,
+          "transit": 12,
+          "healthcare": 1,
+          "retail": 22
+        },
+        "dominant": [
+          "retail",
+          "transit"
+        ],
+        "sample_names": [
+          "Center for Haitian Studies",
+          "Surry Hills",
+          "Pivot Sustainable Market",
+          "Braze Barber Lounge",
+          "Northeast 2nd Avenue @ Northeast 82nd Street"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -80.210088,
+          25.79463
+        ]
+      },
+      "properties": {
+        "id": "anchor-hotspot-31",
+        "anchor_origin": "Schools (Miami-Dade College Medical Center Campus)",
+        "intensity": 1.0,
+        "radius_m": 500,
+        "amenity_count": 36,
+        "categories": {
+          "schools": 5,
+          "parks": 0,
+          "transit": 25,
+          "healthcare": 6,
+          "retail": 0
+        },
+        "dominant": [
+          "transit",
+          "healthcare"
+        ],
+        "sample_names": [
+          "Ambulatory Care Center (ACC) Pharmacy",
+          "Jackson Memorial Hospital",
+          "Jackson Memorial Hospital Diagnostic Treatment Center",
+          "Northwest 20th Street & Northwest 12th Avenue",
+          "Northwest 20th Street & Northwest 11th Avenue"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -80.202448,
+          25.796615
+        ]
+      },
+      "properties": {
+        "id": "anchor-hotspot-32",
+        "anchor_origin": "Parks (Rainbow Village Park)",
+        "intensity": 1.0,
+        "radius_m": 500,
+        "amenity_count": 36,
+        "categories": {
+          "schools": 4,
+          "parks": 2,
+          "transit": 18,
+          "healthcare": 0,
+          "retail": 12
+        },
+        "dominant": [
+          "transit",
+          "retail"
+        ],
+        "sample_names": [
+          "Babson College - Miami Campus",
+          "Downtown Miami Charter School",
+          "NW 4 CT@NW 19 TE",
+          "Williams Park",
+          "Northwest 3rd Avenue & Northwest 19th Street"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -80.197826,
+          25.793432
+        ]
+      },
+      "properties": {
+        "id": "anchor-hotspot-33",
+        "anchor_origin": "Schools (Wheatley School)",
+        "intensity": 1.0,
+        "radius_m": 500,
+        "amenity_count": 35,
+        "categories": {
+          "schools": 2,
+          "parks": 4,
+          "transit": 27,
+          "healthcare": 0,
+          "retail": 2
+        },
+        "dominant": [
+          "transit",
+          "parks"
+        ],
+        "sample_names": [
+          "NW 4 CT@NW 19 TE",
+          "Williams Park",
+          "NW 17 ST@NW 4 AV",
+          "Wheatley School",
+          "Dorsey Library"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -80.18693,
+          25.846371
+        ]
+      },
+      "properties": {
+        "id": "anchor-hotspot-34",
+        "anchor_origin": "Parks (Manatee Bend Park)",
+        "intensity": 1.0,
+        "radius_m": 500,
+        "amenity_count": 35,
+        "categories": {
+          "schools": 2,
+          "parks": 1,
+          "transit": 15,
+          "healthcare": 0,
+          "retail": 17
+        },
+        "dominant": [
+          "retail",
+          "transit"
+        ],
+        "sample_names": [
+          "Northwest 79th Street @ Northeast 5th Avenue",
+          "Manatee Bend Park",
+          "Ironside Pizza",
+          "Small Fry Educational Day Care - Third Campus",
+          "DD's discounts"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -80.227188,
+          25.764652
+        ]
+      },
+      "properties": {
+        "id": "anchor-hotspot-35",
+        "anchor_origin": "Parks",
+        "intensity": 1.0,
+        "radius_m": 500,
+        "amenity_count": 35,
+        "categories": {
+          "schools": 1,
+          "parks": 6,
+          "transit": 14,
+          "healthcare": 0,
+          "retail": 14
+        },
+        "dominant": [
+          "transit",
+          "retail"
+        ],
+        "sample_names": [
+          "Shenandoah Elementary School",
+          "Southwest 22nd Avenue & Southwest 10th Street",
+          "Macondo Coffee Roasters",
+          "Public Storage",
+          "Southwest 22nd Avenue & Southwest 9th Street"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -80.240049,
+          25.765655
+        ]
+      },
+      "properties": {
+        "id": "anchor-hotspot-36",
+        "anchor_origin": "Schools (DaVinci Institute)",
+        "intensity": 1.0,
+        "radius_m": 500,
+        "amenity_count": 34,
+        "categories": {
+          "schools": 8,
+          "parks": 0,
+          "transit": 17,
+          "healthcare": 1,
+          "retail": 8
+        },
+        "dominant": [
+          "transit",
+          "schools"
+        ],
+        "sample_names": [
+          "Southwest 8th Street & Southwest 30th Avenue",
+          "The Home Depot",
+          "Southwest 8th Street & Southwest 29th Court",
+          "Southwest 27th Avenue & Southwest 8th Street",
+          "Southwest 27th Avenue & Southwest 10th Street"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -80.208056,
+          25.776111
+        ]
+      },
+      "properties": {
+        "id": "anchor-hotspot-37",
+        "anchor_origin": "Schools (Vann Academy II)",
+        "intensity": 1.0,
+        "radius_m": 500,
+        "amenity_count": 34,
+        "categories": {
+          "schools": 4,
+          "parks": 4,
+          "transit": 16,
+          "healthcare": 2,
+          "retail": 8
+        },
+        "dominant": [
+          "transit",
+          "retail"
+        ],
+        "sample_names": [
+          "Dollar Tree",
+          "Lecuona Park",
+          "Southwest 1st Street & Southwest 10th Avenue",
+          "Lincoln-Marti School",
+          "Black & White Pharmacy"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -80.220278,
+          25.788333
+        ]
+      },
+      "properties": {
+        "id": "anchor-hotspot-38",
+        "anchor_origin": "Schools (Easter Seal Society School)",
+        "intensity": 1.0,
+        "radius_m": 500,
+        "amenity_count": 34,
+        "categories": {
+          "schools": 4,
+          "parks": 0,
+          "transit": 23,
+          "healthcare": 2,
+          "retail": 5
+        },
+        "dominant": [
+          "transit",
+          "retail"
+        ],
+        "sample_names": [
+          "Ross",
+          "Publix",
+          "Northwest 12th Street & Northwest 13th Court",
+          "Northwest North River Drive at River Landing",
+          "ManCave for Men River Landing"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -80.200521,
+          25.785252
+        ]
+      },
+      "properties": {
+        "id": "anchor-hotspot-39",
+        "anchor_origin": "Parks",
+        "intensity": 1.0,
+        "radius_m": 500,
+        "amenity_count": 34,
+        "categories": {
+          "schools": 7,
+          "parks": 4,
+          "transit": 20,
+          "healthcare": 0,
+          "retail": 3
+        },
+        "dominant": [
+          "transit",
+          "schools"
+        ],
+        "sample_names": [
+          "Northwest 10th Street @ Northwest 5th Avenue",
+          "Culmer Place Head Start",
+          "Northwest 5th Avenue @ Northwest 10th Street",
+          "Reeves Park",
+          "Northwest 5th Avenue @ Northwest 9th Street"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -80.235327,
+          25.772599
+        ]
+      },
+      "properties": {
+        "id": "anchor-hotspot-40",
+        "anchor_origin": "Schools (Miami Aerospace Academy)",
+        "intensity": 1.0,
+        "radius_m": 500,
+        "amenity_count": 33,
+        "categories": {
+          "schools": 4,
+          "parks": 0,
+          "transit": 21,
+          "healthcare": 1,
+          "retail": 7
+        },
+        "dominant": [
+          "transit",
+          "retail"
+        ],
+        "sample_names": [
+          "Beacom Boulevard & Southwest 2nd Terrace",
+          "Beacom Boulevard & Southwest 4th Street",
+          "Hispanic Library",
+          "Southwest 27th Avenue & West Flagler Street",
+          "Southwest 27th Avenue & Southwest 2nd Street"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -80.204493,
+          25.800376
+        ]
+      },
+      "properties": {
+        "id": "anchor-hotspot-41",
+        "anchor_origin": "Schools (Heritage School)",
+        "intensity": 1.0,
+        "radius_m": 500,
+        "amenity_count": 33,
+        "categories": {
+          "schools": 1,
+          "parks": 2,
+          "transit": 11,
+          "healthcare": 0,
+          "retail": 19
+        },
+        "dominant": [
+          "retail",
+          "transit"
+        ],
+        "sample_names": [
+          "Northwest 7th Avenue & Northwest 23rd Street",
+          "Heritage School",
+          "Northwest 7th Avenue & Northwest 29th Street",
+          "Hannah Bella",
+          "Northwest 7th Avenue & Northwest 25th Street"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -80.208659,
+          25.789265
+        ]
+      },
+      "properties": {
+        "id": "anchor-hotspot-42",
+        "anchor_origin": "Parks (Allapattah Mini Park)",
+        "intensity": 1.0,
+        "radius_m": 500,
+        "amenity_count": 33,
+        "categories": {
+          "schools": 5,
+          "parks": 4,
+          "transit": 20,
+          "healthcare": 4,
+          "retail": 0
+        },
+        "dominant": [
+          "transit",
+          "schools"
+        ],
+        "sample_names": [
+          "Miller School Campus",
+          "Northwest 14th Street & Northwest 11th Avenue",
+          "Ambulatory Care Center (ACC) Pharmacy",
+          "NW 17 ST@NW 9 AV",
+          "Tri Preschool"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -80.200067,
+          25.77017
+        ]
+      },
+      "properties": {
+        "id": "anchor-hotspot-43",
+        "anchor_origin": "Parks (Jose Marti Park)",
+        "intensity": 1.0,
+        "radius_m": 500,
+        "amenity_count": 33,
+        "categories": {
+          "schools": 2,
+          "parks": 3,
+          "transit": 16,
+          "healthcare": 0,
+          "retail": 12
+        },
+        "dominant": [
+          "transit",
+          "retail"
+        ],
+        "sample_names": [
+          "Merritt Junior High School",
+          "SW 1 ST@SW 6 AV",
+          "American",
+          "SouthWest 1 Street@SouthWest 5 Avenue",
+          "Southwest 7th Street & Southwest 5th Avenue"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -80.254494,
+          25.735934
+        ]
+      },
+      "properties": {
+        "id": "anchor-hotspot-44",
+        "anchor_origin": "Schools (Frances S Tucker Elementary School)",
+        "intensity": 1.0,
+        "radius_m": 500,
+        "amenity_count": 32,
+        "categories": {
+          "schools": 3,
+          "parks": 3,
+          "transit": 16,
+          "healthcare": 2,
+          "retail": 8
+        },
+        "dominant": [
+          "transit",
+          "retail"
+        ],
+        "sample_names": [
+          "Rinconcito Superlatino 4",
+          "Formula One Sports Cars",
+          "Miami Spine & Posture Clinic",
+          "Southwest 40th Street & Southwest 39th Avenue",
+          "Tesla Coral Gables"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -80.182547,
+          25.845097
+        ]
+      },
+      "properties": {
+        "id": "anchor-hotspot-45",
+        "anchor_origin": "Schools (Sparks Kindergarten and Day Care)",
+        "intensity": 1.0,
+        "radius_m": 500,
+        "amenity_count": 32,
+        "categories": {
+          "schools": 2,
+          "parks": 2,
+          "transit": 12,
+          "healthcare": 0,
+          "retail": 16
+        },
+        "dominant": [
+          "retail",
+          "transit"
+        ],
+        "sample_names": [
+          "Northwest 79th Street @ Northeast 5th Avenue",
+          "Manatee Bend Park",
+          "Small Fry Educational Day Care - Third Campus",
+          "Northwest 79th Street @ Biscayne Boulevard",
+          "CVS Pharmacy"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -80.230833,
+          25.771944
+        ]
+      },
+      "properties": {
+        "id": "anchor-hotspot-46",
+        "anchor_origin": "Schools (Hispanic Library)",
+        "intensity": 1.0,
+        "radius_m": 500,
+        "amenity_count": 32,
+        "categories": {
+          "schools": 3,
+          "parks": 0,
+          "transit": 16,
+          "healthcare": 0,
+          "retail": 13
+        },
+        "dominant": [
+          "transit",
+          "retail"
+        ],
+        "sample_names": [
+          "Beacom Boulevard & Southwest 2nd Terrace",
+          "Hispanic Library",
+          "DeColores Collision Center",
+          "Minimarket La Gata",
+          "Southwest 22nd Avenue & Southwest 4th Street"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -80.238493,
+          25.727196
+        ]
+      },
+      "properties": {
+        "id": "anchor-hotspot-47",
+        "anchor_origin": "Parks (Myres Bayside Park)",
+        "intensity": 1.0,
+        "radius_m": 500,
+        "amenity_count": 32,
+        "categories": {
+          "schools": 4,
+          "parks": 5,
+          "transit": 8,
+          "healthcare": 0,
+          "retail": 15
+        },
+        "dominant": [
+          "retail",
+          "transit"
+        ],
+        "sample_names": [
+          "The Barnacle Historic State Park",
+          "Saint Stephens School",
+          "Ludo's",
+          "O'sole Boutique",
+          "Poke 305 Grove"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -80.202548,
+          25.80732
+        ]
+      },
+      "properties": {
+        "id": "anchor-hotspot-48",
+        "anchor_origin": "Schools (Palm Springs Presbyterian Kindergarten)",
+        "intensity": 1.0,
+        "radius_m": 500,
+        "amenity_count": 31,
+        "categories": {
+          "schools": 6,
+          "parks": 2,
+          "transit": 14,
+          "healthcare": 0,
+          "retail": 9
+        },
+        "dominant": [
+          "transit",
+          "retail"
+        ],
+        "sample_names": [
+          "NW 29 ST@NW 5 AV",
+          "NAPA Auto Parts",
+          "NW 29 ST@NW 3 AV",
+          "Quick Tire",
+          "Jose de Diego Middle School"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -80.20229,
+          25.792259
+        ]
+      },
+      "properties": {
+        "id": "anchor-hotspot-49",
+        "anchor_origin": "Parks (Williams Park)",
+        "intensity": 1.0,
+        "radius_m": 500,
+        "amenity_count": 31,
+        "categories": {
+          "schools": 3,
+          "parks": 3,
+          "transit": 25,
+          "healthcare": 0,
+          "retail": 0
+        },
+        "dominant": [
+          "transit",
+          "schools"
+        ],
+        "sample_names": [
+          "Northwest 7th Avenue & Northwest 18th Terrace",
+          "NW 17 ST@NW 7 AV",
+          "Northwest 7th Avenue & Northwest 17th Street",
+          "Downtown Miami Charter School",
+          "Northwest 17th Street @ Northwest 5th Avenue"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -80.252669,
+          25.772099
+        ]
+      },
+      "properties": {
+        "id": "anchor-hotspot-50",
+        "anchor_origin": "Schools (ICA Learning Center of America)",
+        "intensity": 1.0,
+        "radius_m": 500,
+        "amenity_count": 30,
+        "categories": {
+          "schools": 3,
+          "parks": 0,
+          "transit": 16,
+          "healthcare": 0,
+          "retail": 11
+        },
+        "dominant": [
+          "transit",
+          "retail"
+        ],
+        "sample_names": [
+          "West Flagler Street & West 38th Avenue",
+          "Cesar Barbershop",
+          "EyeLab",
+          "West Flagler Street & West 36th Avenue",
+          "Nance School"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -80.185881,
+          25.792321
+        ]
+      },
+      "properties": {
+        "id": "anchor-hotspot-51",
+        "anchor_origin": "Schools (Flagler Memorial Library)",
+        "intensity": 1.0,
+        "radius_m": 500,
+        "amenity_count": 30,
+        "categories": {
+          "schools": 4,
+          "parks": 2,
+          "transit": 14,
+          "healthcare": 0,
+          "retail": 10
+        },
+        "dominant": [
+          "transit",
+          "retail"
+        ],
+        "sample_names": [
+          "Northeast 2nd Avenue & Northeast 17th Street",
+          "Northeast 2nd Avenue & Northeast 17th Terrace",
+          "Mignonette",
+          "Price Choice",
+          "District Instructional Center M"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -80.201011,
+          25.763049
+        ]
+      },
+      "properties": {
+        "id": "anchor-hotspot-52",
+        "anchor_origin": "Parks (Triangle Park)",
+        "intensity": 1.0,
+        "radius_m": 500,
+        "amenity_count": 30,
+        "categories": {
+          "schools": 2,
+          "parks": 2,
+          "transit": 16,
+          "healthcare": 1,
+          "retail": 9
+        },
+        "dominant": [
+          "transit",
+          "retail"
+        ],
+        "sample_names": [
+          "Southwest 3rd Avenue & Southwest 19th Road",
+          "Lingles School and Educational Clinic",
+          "Southwest 3rd Avenue & Southwest 18th Road",
+          "Kiron Spa",
+          "Walgreens"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -80.186436,
+          25.835652
+        ]
+      },
+      "properties": {
+        "id": "anchor-hotspot-53",
+        "anchor_origin": "Schools (Thomas Tots Kindergarten)",
+        "intensity": 1.0,
+        "radius_m": 500,
+        "amenity_count": 29,
+        "categories": {
+          "schools": 5,
+          "parks": 3,
+          "transit": 11,
+          "healthcare": 0,
+          "retail": 10
+        },
+        "dominant": [
+          "transit",
+          "retail"
+        ],
+        "sample_names": [
+          "Turners Kindergarten",
+          "Little Haiti Park",
+          "NE 62 ST@NE 3 AV",
+          "NE 62 ST@4 AV",
+          "NE 61 ST@NE 4 AV"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -80.190149,
+          25.821381
+        ]
+      },
+      "properties": {
+        "id": "anchor-hotspot-54",
+        "anchor_origin": "Schools (Archbishop Curley-Notre Dame High School)",
+        "intensity": 1.0,
+        "radius_m": 500,
+        "amenity_count": 29,
+        "categories": {
+          "schools": 1,
+          "parks": 0,
+          "transit": 17,
+          "healthcare": 3,
+          "retail": 8
+        },
+        "dominant": [
+          "transit",
+          "retail"
+        ],
+        "sample_names": [
+          "Palat",
+          "Northeast 2nd Avenue & Northeast 49th Street",
+          "Biscayne Boulevard & Gate Lane",
+          "The District Miami",
+          "CVS Pharmacy"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -80.257135,
+          25.781381
+        ]
+      },
+      "properties": {
+        "id": "anchor-hotspot-55",
+        "anchor_origin": "Healthcare (Walgreens)",
+        "intensity": 1.0,
+        "radius_m": 500,
+        "amenity_count": 29,
+        "categories": {
+          "schools": 1,
+          "parks": 0,
+          "transit": 17,
+          "healthcare": 1,
+          "retail": 10
+        },
+        "dominant": [
+          "transit",
+          "retail"
+        ],
+        "sample_names": [
+          "Northwest 7th Street & Northwest 39th Avenue",
+          "Concord Christian Academy",
+          "Northwest 7th Street & Northwest 38th Court",
+          "Northwest 7th Street & Northwest 35th Court",
+          "Don Camaron"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -80.233056,
+          25.764444
+        ]
+      },
+      "properties": {
+        "id": "anchor-hotspot-56",
+        "anchor_origin": "Schools (Lincoln Marti Schools)",
+        "intensity": 1.0,
+        "radius_m": 500,
+        "amenity_count": 28,
+        "categories": {
+          "schools": 4,
+          "parks": 2,
+          "transit": 15,
+          "healthcare": 0,
+          "retail": 7
+        },
+        "dominant": [
+          "transit",
+          "retail"
+        ],
+        "sample_names": [
+          "Casa Juancho",
+          "Southwest 22nd Avenue & Southwest 12th Street",
+          "Bryan Park",
+          "Ferdinand Funeral Homes & Crematory",
+          "Suniland Academy"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -80.238889,
+          25.761944
+        ]
+      },
+      "properties": {
+        "id": "anchor-hotspot-57",
+        "anchor_origin": "Schools (Jose Marti School 2nd Campus)",
+        "intensity": 1.0,
+        "radius_m": 500,
+        "amenity_count": 28,
+        "categories": {
+          "schools": 6,
+          "parks": 0,
+          "transit": 15,
+          "healthcare": 1,
+          "retail": 6
+        },
+        "dominant": [
+          "transit",
+          "schools"
+        ],
+        "sample_names": [
+          "Southwest 27th Avenue & Southwest 14th Street",
+          "Southwest 8th Street & Southwest 29th Court",
+          "Southwest 27th Avenue & Southwest 16th Street",
+          "Southwest 27th Avenue & Southwest 8th Street",
+          "Southwest 27th Avenue & Southwest 10th Street"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -80.221437,
+          25.831486
+        ]
+      },
+      "properties": {
+        "id": "anchor-hotspot-58",
+        "anchor_origin": "Parks (African Square Park)",
+        "intensity": 1.0,
+        "radius_m": 500,
+        "amenity_count": 28,
+        "categories": {
+          "schools": 5,
+          "parks": 2,
+          "transit": 20,
+          "healthcare": 0,
+          "retail": 1
+        },
+        "dominant": [
+          "transit",
+          "schools"
+        ],
+        "sample_names": [
+          "Charles R Drew Elementary School",
+          "Orchard Villa School",
+          "Northwest 17th Avenue & Northwest 58th Terrace",
+          "Interamerican Christian School - Second Campus",
+          "Centervilla Kindergarten"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -80.187123,
+          25.832031
+        ]
+      },
+      "properties": {
+        "id": "anchor-hotspot-59",
+        "anchor_origin": "Parks (Eaton Park)",
+        "intensity": 1.0,
+        "radius_m": 500,
+        "amenity_count": 28,
+        "categories": {
+          "schools": 3,
+          "parks": 2,
+          "transit": 15,
+          "healthcare": 0,
+          "retail": 8
+        },
+        "dominant": [
+          "transit",
+          "retail"
+        ],
+        "sample_names": [
+          "Northeast 2nd Avenue & Northeast 60th Street",
+          "Northeast 62nd Street @ Northeast 2nd Avenue",
+          "NE 61 ST@NE 2 AV",
+          "Little Haiti Park",
+          "NE 62 ST@NE 3 AV"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -80.192202,
+          25.825976
+        ]
+      },
+      "properties": {
+        "id": "anchor-hotspot-60",
+        "anchor_origin": "Healthcare (Walgreens)",
+        "intensity": 1.0,
+        "radius_m": 500,
+        "amenity_count": 28,
+        "categories": {
+          "schools": 1,
+          "parks": 2,
+          "transit": 15,
+          "healthcare": 3,
+          "retail": 7
+        },
+        "dominant": [
+          "transit",
+          "retail"
+        ],
+        "sample_names": [
+          "Lemon City Park",
+          "Miami Jewish Health Systems",
+          "Toussaint L'ouverture Elementary School",
+          "NE 54 ST@NE 1 AV",
+          "Douglas Gardens Hospital"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -80.226993,
+          25.779266
+        ]
+      },
+      "properties": {
+        "id": "anchor-hotspot-61",
+        "anchor_origin": "Schools (Martin Technical College)",
+        "intensity": 1.0,
+        "radius_m": 500,
+        "amenity_count": 27,
+        "categories": {
+          "schools": 7,
+          "parks": 0,
+          "transit": 19,
+          "healthcare": 1,
+          "retail": 0
+        },
+        "dominant": [
+          "transit",
+          "schools"
+        ],
+        "sample_names": [
+          "Northwest 7th Street & Northwest 22nd Avenue",
+          "Northwest 22nd Avenue & Northwest 7th Street",
+          "Northwest 22nd Avenue & Northwest 5th Street",
+          "Northwest 7th Street & Northwest 20th Avenue",
+          "Lincoln-Marti School 10th Campus"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -80.205882,
+          25.769821
+        ]
+      },
+      "properties": {
+        "id": "anchor-hotspot-62",
+        "anchor_origin": "Schools (Coral Gate Park Preschool)",
+        "intensity": 1.0,
+        "radius_m": 500,
+        "amenity_count": 27,
+        "categories": {
+          "schools": 4,
+          "parks": 3,
+          "transit": 12,
+          "healthcare": 0,
+          "retail": 8
+        },
+        "dominant": [
+          "transit",
+          "retail"
+        ],
+        "sample_names": [
+          "7-Eleven",
+          "Southwest 8th Street & Southwest 8th Avenue",
+          "Lecuona Park",
+          "Southwest 7th Street & Southwest 8th Avenue",
+          "Riverside Park"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -80.253939,
+          25.778155
+        ]
+      },
+      "properties": {
+        "id": "anchor-hotspot-63",
+        "anchor_origin": "Schools (Concord Christian Academy)",
+        "intensity": 1.0,
+        "radius_m": 500,
+        "amenity_count": 27,
+        "categories": {
+          "schools": 1,
+          "parks": 0,
+          "transit": 16,
+          "healthcare": 1,
+          "retail": 9
+        },
+        "dominant": [
+          "transit",
+          "retail"
+        ],
+        "sample_names": [
+          "Marathon",
+          "Extra Space Storage",
+          "Concord Christian Academy",
+          "Northwest 7th Street & Northwest 38th Court",
+          "Northwest 7th Street & Northwest 35th Court"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -80.211111,
+          25.831944
+        ]
+      },
+      "properties": {
+        "id": "anchor-hotspot-64",
+        "anchor_origin": "Schools (Belafonte Tacolcy Ceenter Preschool)",
+        "intensity": 1.0,
+        "radius_m": 500,
+        "amenity_count": 27,
+        "categories": {
+          "schools": 3,
+          "parks": 1,
+          "transit": 22,
+          "healthcare": 0,
+          "retail": 1
+        },
+        "dominant": [
+          "transit",
+          "schools"
+        ],
+        "sample_names": [
+          "Northwest 10th Avenue @ Northwest 58th Street (S/N)",
+          "Northwest 10th Avenue @ Northwest 62nd Street (N/N)",
+          "NW 62 ST@NW 11 AV",
+          "Northwest 62nd Street @ Northwest 10th Avenue",
+          "Griffins Day Care Nursery School"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -80.204282,
+          25.833191
+        ]
+      },
+      "properties": {
+        "id": "anchor-hotspot-65",
+        "anchor_origin": "Parks",
+        "intensity": 1.0,
+        "radius_m": 500,
+        "amenity_count": 27,
+        "categories": {
+          "schools": 5,
+          "parks": 2,
+          "transit": 19,
+          "healthcare": 0,
+          "retail": 1
+        },
+        "dominant": [
+          "transit",
+          "schools"
+        ],
+        "sample_names": [
+          "NW 62 ST@NW 5 CT",
+          "Northwest 62nd Street @ Northwest 6th Avenue",
+          "Northwest 6th Avenue @ Northwest 63rd Street (S/M)",
+          "Edison Center Branch Library",
+          "Northwest 7th Avenue & Northwest 62nd Street"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -80.250737,
+          25.730659
+        ]
+      },
+      "properties": {
+        "id": "anchor-hotspot-66",
+        "anchor_origin": "Parks (Virrick Park)",
+        "intensity": 1.0,
+        "radius_m": 500,
+        "amenity_count": 26,
+        "categories": {
+          "schools": 2,
+          "parks": 3,
+          "transit": 15,
+          "healthcare": 1,
+          "retail": 5
+        },
+        "dominant": [
+          "transit",
+          "retail"
+        ],
+        "sample_names": [
+          "Gibson Charter School",
+          "Coconut Grove Mini Park",
+          "Grand Avenue & Southwest 37th Avenue",
+          "Coconut Grove Farmers Market",
+          "Grand Avenue & Hibiscus Street"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -80.241716,
+          25.775655
+        ]
+      },
+      "properties": {
+        "id": "anchor-hotspot-67",
+        "anchor_origin": "Schools (Saint Michaels School)",
+        "intensity": 1.0,
+        "radius_m": 500,
+        "amenity_count": 25,
+        "categories": {
+          "schools": 5,
+          "parks": 0,
+          "transit": 15,
+          "healthcare": 1,
+          "retail": 4
+        },
+        "dominant": [
+          "transit",
+          "schools"
+        ],
+        "sample_names": [
+          "West Flagler Street & West 30th Avenue",
+          "Southwest 27th Avenue & West Flagler Street",
+          "Walgreens",
+          "Northwest 7th Street & Northwest 30th Avenue",
+          "Saint Michael the Archangel School"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -80.201437,
+          25.825653
+        ]
+      },
+      "properties": {
+        "id": "anchor-hotspot-68",
+        "anchor_origin": "Schools (Happy Nest Learning Center)",
+        "intensity": 1.0,
+        "radius_m": 500,
+        "amenity_count": 25,
+        "categories": {
+          "schools": 3,
+          "parks": 0,
+          "transit": 18,
+          "healthcare": 0,
+          "retail": 4
+        },
+        "dominant": [
+          "transit",
+          "retail"
+        ],
+        "sample_names": [
+          "NW 54 ST@NW 5 CT",
+          "Pratts Kindergarten",
+          "NW 54 ST@I 95 EX",
+          "NW 54 ST@NW 5 AV",
+          "NW 54 ST@NW 3 AV"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -80.226438,
+          25.793154
+        ]
+      },
+      "properties": {
+        "id": "anchor-hotspot-69",
+        "anchor_origin": "Schools (Christ-Mar School)",
+        "intensity": 1.0,
+        "radius_m": 500,
+        "amenity_count": 25,
+        "categories": {
+          "schools": 3,
+          "parks": 0,
+          "transit": 16,
+          "healthcare": 0,
+          "retail": 6
+        },
+        "dominant": [
+          "transit",
+          "retail"
+        ],
+        "sample_names": [
+          "Northwest 22nd Avenue & Northwest 19th Street",
+          "Hope Preschool",
+          "Christ-Mar School",
+          "Northwest 20th Street & Northwest 22nd Avenue",
+          "Northwest 20th Street & Northwest 21st Avenue"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -80.205,
+          25.783333
+        ]
+      },
+      "properties": {
+        "id": "anchor-hotspot-70",
+        "anchor_origin": "Schools (Culmer Place Head Start)",
+        "intensity": 1.0,
+        "radius_m": 500,
+        "amenity_count": 25,
+        "categories": {
+          "schools": 4,
+          "parks": 2,
+          "transit": 19,
+          "healthcare": 0,
+          "retail": 0
+        },
+        "dominant": [
+          "transit",
+          "schools"
+        ],
+        "sample_names": [
+          "Northwest 10th Street @ Northwest 5th Avenue",
+          "Culmer Place Head Start",
+          "Northwest 5th Avenue @ Northwest 10th Street",
+          "Reeves Park",
+          "Northwest 6th Street & Northwest 7th Avenue"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -80.230088,
+          25.776754
+        ]
+      },
+      "properties": {
+        "id": "anchor-hotspot-71",
+        "anchor_origin": "Schools (Citrus Grove Middle School)",
+        "intensity": 1.0,
+        "radius_m": 500,
+        "amenity_count": 25,
+        "categories": {
+          "schools": 6,
+          "parks": 0,
+          "transit": 16,
+          "healthcare": 1,
+          "retail": 2
+        },
+        "dominant": [
+          "transit",
+          "schools"
+        ],
+        "sample_names": [
+          "Northwest 7th Street & Northwest 23rd Avenue",
+          "Northwest 7th Street & Northwest 22nd Avenue",
+          "Citrus Grove Occupational Training Center",
+          "Northwest 22nd Avenue & Northwest 7th Street",
+          "Northwest 22nd Avenue & Northwest 5th Street"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -80.195249,
+          25.829024
+        ]
+      },
+      "properties": {
+        "id": "anchor-hotspot-72",
+        "anchor_origin": "Parks (Lemon City Park)",
+        "intensity": 1.0,
+        "radius_m": 500,
+        "amenity_count": 25,
+        "categories": {
+          "schools": 2,
+          "parks": 2,
+          "transit": 15,
+          "healthcare": 1,
+          "retail": 5
+        },
+        "dominant": [
+          "transit",
+          "retail"
+        ],
+        "sample_names": [
+          "Northwest 2nd Avenue & Northwest 58th Street",
+          "Yahweh Education Center",
+          "Cuckoo Clock Brauhaus",
+          "NW 62 ST@NW 1 AV",
+          "Lemon City Park"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -80.287583,
+          25.777699
+        ]
+      },
+      "properties": {
+        "id": "anchor-hotspot-73",
+        "anchor_origin": "Healthcare (Walgreens)",
+        "intensity": 1.0,
+        "radius_m": 500,
+        "amenity_count": 25,
+        "categories": {
+          "schools": 0,
+          "parks": 0,
+          "transit": 15,
+          "healthcare": 3,
+          "retail": 7
+        },
+        "dominant": [
+          "transit",
+          "retail"
+        ],
+        "sample_names": [
+          "Northwest 57th Avenue & Northwest 5th Street",
+          "Publix",
+          "Burlington",
+          "Northwest 7th Street & Northwest 57th Court",
+          "Starbucks"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -80.198381,
+          25.758711
+        ]
+      },
+      "properties": {
+        "id": "anchor-hotspot-74",
+        "anchor_origin": "Schools (Brickell Christian School)",
+        "intensity": 0.96,
+        "radius_m": 500,
+        "amenity_count": 24,
+        "categories": {
+          "schools": 2,
+          "parks": 5,
+          "transit": 11,
+          "healthcare": 1,
+          "retail": 5
+        },
+        "dominant": [
+          "transit",
+          "parks"
+        ],
+        "sample_names": [
+          "Brickell Avenue & 1800 Block",
+          "1814 Brickell Park",
+          "Cure Cafe",
+          "Southwest 3rd Avenue & Southwest 20th Road",
+          "Simpson Park"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -80.224771,
+          25.80732
+        ]
+      },
+      "properties": {
+        "id": "anchor-hotspot-75",
+        "anchor_origin": "Schools (Mueller Christian School)",
+        "intensity": 0.96,
+        "radius_m": 500,
+        "amenity_count": 24,
+        "categories": {
+          "schools": 5,
+          "parks": 0,
+          "transit": 17,
+          "healthcare": 0,
+          "retail": 2
+        },
+        "dominant": [
+          "transit",
+          "schools"
+        ],
+        "sample_names": [
+          "Northwest 36th Street & Northwest 19th Avenue",
+          "AutoZone",
+          "Northwest 36th Street & Northwest 18th Avenue",
+          "Greater Miami Academy",
+          "Northwest 17th Avenue & Northwest 29th Street"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -80.187028,
+          25.784057
+        ]
+      },
+      "properties": {
+        "id": "anchor-hotspot-76",
+        "anchor_origin": "Parks (Maurice A. Ferr\u00e9 Park)",
+        "intensity": 0.96,
+        "radius_m": 500,
+        "amenity_count": 24,
+        "categories": {
+          "schools": 0,
+          "parks": 3,
+          "transit": 14,
+          "healthcare": 1,
+          "retail": 6
+        },
+        "dominant": [
+          "transit",
+          "retail"
+        ],
+        "sample_names": [
+          "CVS Pharmacy",
+          "Kalologie",
+          "Park West",
+          "Biscayne Boulevard & Northeast 9th Street",
+          "Northeast 2nd Avenue & Northeast 9th Street"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -80.239478,
+          25.771886
+        ]
+      },
+      "properties": {
+        "id": "anchor-hotspot-77",
+        "anchor_origin": "Healthcare (Walgreens)",
+        "intensity": 0.96,
+        "radius_m": 500,
+        "amenity_count": 24,
+        "categories": {
+          "schools": 6,
+          "parks": 0,
+          "transit": 14,
+          "healthcare": 1,
+          "retail": 3
+        },
+        "dominant": [
+          "transit",
+          "schools"
+        ],
+        "sample_names": [
+          "Miami-Dade Community College Preschool Laboratory",
+          "West Flagler Street & West 30th Avenue",
+          "Southwest 27th Avenue & West Flagler Street",
+          "Southwest 27th Avenue & Southwest 2nd Street",
+          "Walgreens"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -80.26505,
+          25.772599
+        ]
+      },
+      "properties": {
+        "id": "anchor-hotspot-78",
+        "anchor_origin": "Schools (Kinloch Park Elementary School)",
+        "intensity": 0.92,
+        "radius_m": 500,
+        "amenity_count": 23,
+        "categories": {
+          "schools": 3,
+          "parks": 0,
+          "transit": 14,
+          "healthcare": 0,
+          "retail": 6
+        },
+        "dominant": [
+          "transit",
+          "retail"
+        ],
+        "sample_names": [
+          "West Flagler Street & West 42nd Avenue",
+          "Southwest 42nd Avenue @ Southwest 2nd Street",
+          "Southwest 42nd Avenue @ Southwest 2nd Terrace",
+          "West Flagler Street & West 45th Avenue",
+          "West Flagler Street & West 43rd Place"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -80.215882,
+          25.832875
+        ]
+      },
+      "properties": {
+        "id": "anchor-hotspot-79",
+        "anchor_origin": "Schools (Griffins Day Care Nursery School)",
+        "intensity": 0.92,
+        "radius_m": 500,
+        "amenity_count": 23,
+        "categories": {
+          "schools": 4,
+          "parks": 2,
+          "transit": 17,
+          "healthcare": 0,
+          "retail": 0
+        },
+        "dominant": [
+          "transit",
+          "schools"
+        ],
+        "sample_names": [
+          "Northwest 12th Avenue & Northwest 58th Street",
+          "Northwest 12th Avenue & Northwest 60th Street",
+          "Johnsons Toddlers University",
+          "Northwest 10th Avenue @ Northwest 62nd Street (N/N)",
+          "NW 62 ST@NW 11 AV"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -80.231111,
+          25.781111
+        ]
+      },
+      "properties": {
+        "id": "anchor-hotspot-80",
+        "anchor_origin": "Schools (Lincoln-Marti School 10th Campus)",
+        "intensity": 0.92,
+        "radius_m": 500,
+        "amenity_count": 23,
+        "categories": {
+          "schools": 5,
+          "parks": 1,
+          "transit": 16,
+          "healthcare": 1,
+          "retail": 0
+        },
+        "dominant": [
+          "transit",
+          "schools"
+        ],
+        "sample_names": [
+          "Northwest 7th Street & Northwest 24th Avenue",
+          "Northwest 7th Street & Northwest 23rd Avenue",
+          "Northwest 7th Street & Northwest 22nd Avenue",
+          "Northwest 22nd Avenue & Northwest 9th Street",
+          "Northwest 22nd Avenue & Northwest 7th Street"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -80.205491,
+          25.844438
+        ]
+      },
+      "properties": {
+        "id": "anchor-hotspot-81",
+        "anchor_origin": "Schools (Little River Elementary School)",
+        "intensity": 0.92,
+        "radius_m": 500,
+        "amenity_count": 23,
+        "categories": {
+          "schools": 2,
+          "parks": 1,
+          "transit": 17,
+          "healthcare": 0,
+          "retail": 3
+        },
+        "dominant": [
+          "transit",
+          "retail"
+        ],
+        "sample_names": [
+          "Northwest 7th Avenue & Northwest 73rd Street",
+          "Victory Homes Recreation Area",
+          "Northwest 7th Avenue & Northwest 75th Street",
+          "Victory Homes Head Start",
+          "Northwest 2nd Avenue & Northwest 75th Street"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -80.240883,
+          25.734267
+        ]
+      },
+      "properties": {
+        "id": "anchor-hotspot-82",
+        "anchor_origin": "Parks (Lincoln Park)",
+        "intensity": 0.92,
+        "radius_m": 500,
+        "amenity_count": 23,
+        "categories": {
+          "schools": 0,
+          "parks": 3,
+          "transit": 12,
+          "healthcare": 0,
+          "retail": 8
+        },
+        "dominant": [
+          "transit",
+          "retail"
+        ],
+        "sample_names": [
+          "McDonald Street & Shipping Avenue",
+          "McDonald Street & Jackson Avenue",
+          "Bird Avenue & McDonald Street",
+          "The Home Depot",
+          "Grove Liquors"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -80.190802,
+          25.834434
+        ]
+      },
+      "properties": {
+        "id": "anchor-hotspot-83",
+        "anchor_origin": "Parks (Little Haiti Park)",
+        "intensity": 0.92,
+        "radius_m": 500,
+        "amenity_count": 23,
+        "categories": {
+          "schools": 4,
+          "parks": 2,
+          "transit": 15,
+          "healthcare": 0,
+          "retail": 2
+        },
+        "dominant": [
+          "transit",
+          "schools"
+        ],
+        "sample_names": [
+          "Northeast 62nd Street @ Northeast 2nd Avenue",
+          "NE 62 ST@NE 1 AV",
+          "Libreri Mapou Bookstore",
+          "Northeast 2nd Avenue & Northeast 62nd Street",
+          "Northeast 2nd Avenue & Northeast 69th Street"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -80.185919,
+          25.811976
+        ]
+      },
+      "properties": {
+        "id": "anchor-hotspot-84",
+        "anchor_origin": "Parks (Stearns Park)",
+        "intensity": 0.92,
+        "radius_m": 500,
+        "amenity_count": 23,
+        "categories": {
+          "schools": 2,
+          "parks": 4,
+          "transit": 11,
+          "healthcare": 1,
+          "retail": 5
+        },
+        "dominant": [
+          "transit",
+          "retail"
+        ],
+        "sample_names": [
+          "North Shores Child Care Center",
+          "On the Run",
+          "Biscayne Boulevard & Northeast 35th Street",
+          "Northeast 35th Terrace & Biscayne Boulevard",
+          "Northeast 36th Street & Biscayne Boulevard"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -80.225327,
+          25.799265
+        ]
+      },
+      "properties": {
+        "id": "anchor-hotspot-85",
+        "anchor_origin": "Schools (Comstock School)",
+        "intensity": 0.88,
+        "radius_m": 500,
+        "amenity_count": 22,
+        "categories": {
+          "schools": 3,
+          "parks": 1,
+          "transit": 16,
+          "healthcare": 0,
+          "retail": 2
+        },
+        "dominant": [
+          "transit",
+          "schools"
+        ],
+        "sample_names": [
+          "Miami Bikini Outlet",
+          "NW 21 ST@NW 19 AV",
+          "Paradise Christian School",
+          "Northwest 18th Avenue & Northwest 28th Street",
+          "Northwest 17th Avenue & Northwest 29th Street"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -80.209215,
+          25.806765
+        ]
+      },
+      "properties": {
+        "id": "anchor-hotspot-86",
+        "anchor_origin": "Schools (Corpus Christi School)",
+        "intensity": 0.88,
+        "radius_m": 500,
+        "amenity_count": 22,
+        "categories": {
+          "schools": 3,
+          "parks": 2,
+          "transit": 13,
+          "healthcare": 0,
+          "retail": 4
+        },
+        "dominant": [
+          "transit",
+          "retail"
+        ],
+        "sample_names": [
+          "Santa Clara School",
+          "The Pawn Shop",
+          "Northwest 7th Avenue & Northwest 29th Street",
+          "NW 29 ST@NW 8 AV",
+          "NW 29 ST@NW 10 AV"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -80.209994,
+          25.835658
+        ]
+      },
+      "properties": {
+        "id": "anchor-hotspot-87",
+        "anchor_origin": "Schools (Crowder School)",
+        "intensity": 0.88,
+        "radius_m": 500,
+        "amenity_count": 22,
+        "categories": {
+          "schools": 2,
+          "parks": 1,
+          "transit": 17,
+          "healthcare": 0,
+          "retail": 2
+        },
+        "dominant": [
+          "transit",
+          "schools"
+        ],
+        "sample_names": [
+          "Northwest 10th Avenue @ Northwest 62nd Street (N/N)",
+          "Northwest 62nd Street @ Northwest 10th Avenue",
+          "Northwest 10th Avenue @ Northwest 65th Street (S/F)",
+          "Northwest 10th Avenue @ Northwest 65th Street (N/F)",
+          "Northwest 10th Avenue @ Northwest 69th Street"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -80.199992,
+          25.833889
+        ]
+      },
+      "properties": {
+        "id": "anchor-hotspot-88",
+        "anchor_origin": "Schools (Alpha Academy)",
+        "intensity": 0.88,
+        "radius_m": 500,
+        "amenity_count": 22,
+        "categories": {
+          "schools": 4,
+          "parks": 3,
+          "transit": 14,
+          "healthcare": 0,
+          "retail": 1
+        },
+        "dominant": [
+          "transit",
+          "schools"
+        ],
+        "sample_names": [
+          "NW 62 ST@NW 5 CT",
+          "Athalie Range Park",
+          "Miami Edison Senior High School",
+          "NW 62 ST@NW 3 AV",
+          "Northwest 62nd Street @ Northwest 2nd Avenue"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -80.234737,
+          25.73684
+        ]
+      },
+      "properties": {
+        "id": "anchor-hotspot-89",
+        "anchor_origin": "Schools (Pangaea Exploration)",
+        "intensity": 0.88,
+        "radius_m": 500,
+        "amenity_count": 22,
+        "categories": {
+          "schools": 1,
+          "parks": 0,
+          "transit": 15,
+          "healthcare": 0,
+          "retail": 6
+        },
+        "dominant": [
+          "transit",
+          "retail"
+        ],
+        "sample_names": [
+          "Pauloluigi",
+          "Pet Supermarket",
+          "Happy Wine in the Grove",
+          "Bid Daddy's Wine & Liquors",
+          "Southwest 27th Avenue & Coconut Avenue"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -80.254455,
+          25.726219
+        ]
+      },
+      "properties": {
+        "id": "anchor-hotspot-90",
+        "anchor_origin": "Schools (Frances S. Tucker Elementary School)",
+        "intensity": 0.88,
+        "radius_m": 500,
+        "amenity_count": 22,
+        "categories": {
+          "schools": 7,
+          "parks": 0,
+          "transit": 15,
+          "healthcare": 0,
+          "retail": 0
+        },
+        "dominant": [
+          "transit",
+          "schools"
+        ],
+        "sample_names": [
+          "Grand Avenue & Brooker Street",
+          "Washington Avenue & Brooker Street",
+          "Grand Avenue & Jefferson Street",
+          "George W Carver Elementary School",
+          "George Washington Carver Middle School"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -80.219771,
+          25.827597
+        ]
+      },
+      "properties": {
+        "id": "anchor-hotspot-91",
+        "anchor_origin": "Schools (Orchard Villa School)",
+        "intensity": 0.84,
+        "radius_m": 500,
+        "amenity_count": 21,
+        "categories": {
+          "schools": 4,
+          "parks": 2,
+          "transit": 14,
+          "healthcare": 0,
+          "retail": 1
+        },
+        "dominant": [
+          "transit",
+          "schools"
+        ],
+        "sample_names": [
+          "NW 54 ST@NW 14 AV",
+          "Five Stars Deli Grocery",
+          "NW 54 ST@NW 13 AV",
+          "NW 54 ST@NW 15 AV",
+          "Northwest 12th Avenue & Northwest 56th Street"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -80.237031,
+          25.789564
+        ]
+      },
+      "properties": {
+        "id": "anchor-hotspot-92",
+        "anchor_origin": "Schools",
+        "intensity": 0.84,
+        "radius_m": 500,
+        "amenity_count": 21,
+        "categories": {
+          "schools": 1,
+          "parks": 2,
+          "transit": 11,
+          "healthcare": 0,
+          "retail": 7
+        },
+        "dominant": [
+          "transit",
+          "retail"
+        ],
+        "sample_names": [
+          "El Capit\u00e1n",
+          "Jensens No 2",
+          "Northwest 27th Avenue & Northwest 14th Street",
+          "Advance Auto Parts",
+          "AutoZone"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -80.214109,
+          25.819375
+        ]
+      },
+      "properties": {
+        "id": "anchor-hotspot-93",
+        "anchor_origin": "Parks (Crestwood Park)",
+        "intensity": 0.84,
+        "radius_m": 500,
+        "amenity_count": 21,
+        "categories": {
+          "schools": 3,
+          "parks": 5,
+          "transit": 12,
+          "healthcare": 0,
+          "retail": 1
+        },
+        "dominant": [
+          "transit",
+          "parks"
+        ],
+        "sample_names": [
+          "Lenora B Smith Elementary School",
+          "Easter Seal Demonstration School",
+          "NW 46 ST@NW 12 AV (E/F)",
+          "NW 46 ST@NW 12 AV (W/F)",
+          "West Buena Vista Park"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -80.221432,
+          25.781209
+        ]
+      },
+      "properties": {
+        "id": "anchor-hotspot-94",
+        "anchor_origin": "Parks (Grove Mini Park)",
+        "intensity": 0.84,
+        "radius_m": 500,
+        "amenity_count": 21,
+        "categories": {
+          "schools": 1,
+          "parks": 1,
+          "transit": 16,
+          "healthcare": 0,
+          "retail": 3
+        },
+        "dominant": [
+          "transit",
+          "retail"
+        ],
+        "sample_names": [
+          "Northwest 7th Street & Northwest 14th Avenue",
+          "Northwest 7th Street & Northwest 16th Avenue",
+          "Northwest 7th Street & Northwest 13th Avenue",
+          "Northwest 17th Avenue & Northwest 7th Street",
+          "Northwest 7th Street & Northwest 18th Place"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -80.220604,
+          25.805931
+        ]
+      },
+      "properties": {
+        "id": "anchor-hotspot-95",
+        "anchor_origin": "Schools (Kiddie Ranch Nursery and Kindergarten)",
+        "intensity": 0.8,
+        "radius_m": 500,
+        "amenity_count": 20,
+        "categories": {
+          "schools": 2,
+          "parks": 0,
+          "transit": 16,
+          "healthcare": 0,
+          "retail": 2
+        },
+        "dominant": [
+          "transit",
+          "schools"
+        ],
+        "sample_names": [
+          "NW 29 ST@NW 16 AV",
+          "Luh Crew",
+          "NW 29 ST@NW 15 AV",
+          "NW 29 ST@NW 14 AV",
+          "NW 29 ST@NW 13 AV"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -80.181768,
+          25.836441
+        ]
+      },
+      "properties": {
+        "id": "anchor-hotspot-96",
+        "anchor_origin": "Parks (Legion Park)",
+        "intensity": 0.8,
+        "radius_m": 500,
+        "amenity_count": 20,
+        "categories": {
+          "schools": 1,
+          "parks": 2,
+          "transit": 7,
+          "healthcare": 0,
+          "retail": 10
+        },
+        "dominant": [
+          "retail",
+          "transit"
+        ],
+        "sample_names": [
+          "Biscayne Boulevard & Northeast 62nd Street",
+          "Thomas Tots Kindergarten",
+          "The UPS Store",
+          "Biscayne Boulevard & Northeast 68th Street",
+          "Legion Park"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -80.234484,
+          25.792861
+        ]
+      },
+      "properties": {
+        "id": "anchor-hotspot-97",
+        "anchor_origin": "Parks (Gerry Curtis Park)",
+        "intensity": 0.8,
+        "radius_m": 500,
+        "amenity_count": 20,
+        "categories": {
+          "schools": 1,
+          "parks": 2,
+          "transit": 17,
+          "healthcare": 0,
+          "retail": 0
+        },
+        "dominant": [
+          "transit",
+          "parks"
+        ],
+        "sample_names": [
+          "NW 24 AV@NW 16 STRD",
+          "NW 16 STRD@NW 25 AV",
+          "Northwest 22nd Avenue & Northwest 20th Street",
+          "Gerry Curtis Park",
+          "Northwest 22nd Avenue & Northwest 18th Terrace"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -80.287637,
+          25.7646
+        ]
+      },
+      "properties": {
+        "id": "anchor-hotspot-98",
+        "anchor_origin": "Healthcare (Pharma Plus Drug Store)",
+        "intensity": 0.8,
+        "radius_m": 500,
+        "amenity_count": 20,
+        "categories": {
+          "schools": 1,
+          "parks": 1,
+          "transit": 11,
+          "healthcare": 2,
+          "retail": 5
+        },
+        "dominant": [
+          "transit",
+          "retail"
+        ],
+        "sample_names": [
+          "Southwest 8th Street & Southwest 59th Avenue",
+          "Florida Education Institute",
+          "Southwest 8th Street & Southwest 58th Court",
+          "Aromas del Peru",
+          "Southwest 8th Street & Southwest 57th Avenue"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -80.216993,
+          25.753711
+        ]
+      },
+      "properties": {
+        "id": "anchor-hotspot-99",
+        "anchor_origin": "Schools (Coral Way School)",
+        "intensity": 0.76,
+        "radius_m": 500,
+        "amenity_count": 19,
+        "categories": {
+          "schools": 3,
+          "parks": 0,
+          "transit": 13,
+          "healthcare": 0,
+          "retail": 3
+        },
+        "dominant": [
+          "transit",
+          "schools"
+        ],
+        "sample_names": [
+          "Southwest 22nd Street & Southwest 14th Avenue",
+          "Southwest 22nd Street & Southwest 16th Avenue",
+          "Gulliver Preparatory School",
+          "Latin American",
+          "Braga Portuguese Restaurant"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -80.237272,
+          25.753155
+        ]
+      },
+      "properties": {
+        "id": "anchor-hotspot-100",
+        "anchor_origin": "Schools (Its A Small World Preschool)",
+        "intensity": 0.76,
+        "radius_m": 500,
+        "amenity_count": 19,
+        "categories": {
+          "schools": 4,
+          "parks": 0,
+          "transit": 11,
+          "healthcare": 0,
+          "retail": 4
+        },
+        "dominant": [
+          "transit",
+          "schools"
+        ],
+        "sample_names": [
+          "Southwest 22nd Street & Southwest 29th Avenue",
+          "Portobello Ristorante",
+          "Southwest 27th Avenue & Southwest 19th Street",
+          "Southwest 22nd Street & Southwest 27th Avenue",
+          "Southwest 27th Avenue & Southwest 19th Terrace"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -80.224722,
+          25.828889
+        ]
+      },
+      "properties": {
+        "id": "anchor-hotspot-101",
+        "anchor_origin": "Schools (Centervilla Kindergarten)",
+        "intensity": 0.76,
+        "radius_m": 500,
+        "amenity_count": 19,
+        "categories": {
+          "schools": 3,
+          "parks": 2,
+          "transit": 13,
+          "healthcare": 0,
+          "retail": 1
+        },
+        "dominant": [
+          "transit",
+          "schools"
+        ],
+        "sample_names": [
+          "Charles R Drew Elementary School",
+          "Northwest 54th Street @ Northwest 17th Avenue",
+          "Northwest 17th Avenue & Northwest 56th Street",
+          "North COPE Center",
+          "Northwest 17th Avenue & Northwest 54th Street"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -80.251592,
+          25.75048
+        ]
+      },
+      "properties": {
+        "id": "anchor-hotspot-102",
+        "anchor_origin": "Healthcare (Walgreens)",
+        "intensity": 0.76,
+        "radius_m": 500,
+        "amenity_count": 19,
+        "categories": {
+          "schools": 0,
+          "parks": 0,
+          "transit": 9,
+          "healthcare": 1,
+          "retail": 9
+        },
+        "dominant": [
+          "transit",
+          "retail"
+        ],
+        "sample_names": [
+          "Sears",
+          "Southwest 37th Avenue & Southwest 21st Street",
+          "Southwest 22nd Street & Southwest 34th Avenue",
+          "Visionworks",
+          "Winn-Dixie"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -80.242827,
+          25.779821
+        ]
+      },
+      "properties": {
+        "id": "anchor-hotspot-103",
+        "anchor_origin": "Schools (Kensington Park School)",
+        "intensity": 0.72,
+        "radius_m": 500,
+        "amenity_count": 18,
+        "categories": {
+          "schools": 4,
+          "parks": 0,
+          "transit": 10,
+          "healthcare": 0,
+          "retail": 4
+        },
+        "dominant": [
+          "transit",
+          "schools"
+        ],
+        "sample_names": [
+          "Northwest 7th Street & Northwest 30th Avenue",
+          "Northwest 7th Street & Northwest 30th Place",
+          "Bazan Nieves",
+          "Northwest 27th Avenue & Northwest 7th Street",
+          "Northwest 27th Avenue & Northwest 9th Street"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -80.212548,
+          25.804265
+        ]
+      },
+      "properties": {
+        "id": "anchor-hotspot-104",
+        "anchor_origin": "Schools (Santa Clara School)",
+        "intensity": 0.72,
+        "radius_m": 500,
+        "amenity_count": 18,
+        "categories": {
+          "schools": 2,
+          "parks": 0,
+          "transit": 13,
+          "healthcare": 0,
+          "retail": 3
+        },
+        "dominant": [
+          "transit",
+          "retail"
+        ],
+        "sample_names": [
+          "Northwest 12th Avenue & Northwest 27th Street",
+          "Luh Crew",
+          "Northwest 12th Avenue @ Northwest 12th Avenue",
+          "NW 29 ST@NW 11 AV",
+          "Northwest 12th Avenue & Northwest 29th Street"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -80.23866,
+          25.779543
+        ]
+      },
+      "properties": {
+        "id": "anchor-hotspot-105",
+        "anchor_origin": "Schools (Champagnat Catholic School)",
+        "intensity": 0.72,
+        "radius_m": 500,
+        "amenity_count": 18,
+        "categories": {
+          "schools": 3,
+          "parks": 0,
+          "transit": 13,
+          "healthcare": 0,
+          "retail": 2
+        },
+        "dominant": [
+          "transit",
+          "schools"
+        ],
+        "sample_names": [
+          "Northwest 27th Avenue & Northwest 7th Street",
+          "Northwest 27th Avenue & Northwest 9th Street",
+          "Northwest 7th Street & Northwest 30th Avenue",
+          "VaCuba",
+          "Northwest 27th Avenue & Northwest 4th Terrace"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -80.22366,
+          25.822042
+        ]
+      },
+      "properties": {
+        "id": "anchor-hotspot-106",
+        "anchor_origin": "Schools (Centervilla School)",
+        "intensity": 0.72,
+        "radius_m": 500,
+        "amenity_count": 18,
+        "categories": {
+          "schools": 2,
+          "parks": 1,
+          "transit": 14,
+          "healthcare": 0,
+          "retail": 1
+        },
+        "dominant": [
+          "transit",
+          "schools"
+        ],
+        "sample_names": [
+          "54th Street Mini Park",
+          "NW 54 ST@NW 18 AV",
+          "Northwest 17th Avenue & Northwest 48th Street",
+          "Northwest 17th Avenue & Northwest 49th Street",
+          "Northwest 17th Avenue & Northwest 51st Street"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -80.227198,
+          25.753679
+        ]
+      },
+      "properties": {
+        "id": "anchor-hotspot-107",
+        "anchor_origin": "Schools (Shenandoah Middle School)",
+        "intensity": 0.72,
+        "radius_m": 500,
+        "amenity_count": 18,
+        "categories": {
+          "schools": 2,
+          "parks": 2,
+          "transit": 12,
+          "healthcare": 0,
+          "retail": 2
+        },
+        "dominant": [
+          "transit",
+          "schools"
+        ],
+        "sample_names": [
+          "Bike Tech",
+          "Southwest 22nd Avenue & Southwest 18th Street",
+          "Southwest 22nd Avenue & Southwest 22nd Street",
+          "Southwest 22nd Avenue & Southwest 19th Street",
+          "Southwest 22nd Street & Southwest 22nd Avenue"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -80.198381,
+          25.820931
+        ]
+      },
+      "properties": {
+        "id": "anchor-hotspot-108",
+        "anchor_origin": "Schools (Shadowlawn School)",
+        "intensity": 0.68,
+        "radius_m": 500,
+        "amenity_count": 17,
+        "categories": {
+          "schools": 4,
+          "parks": 1,
+          "transit": 11,
+          "healthcare": 0,
+          "retail": 1
+        },
+        "dominant": [
+          "transit",
+          "schools"
+        ],
+        "sample_names": [
+          "Jacksons Toddle Inn",
+          "Northwest 2nd Avenue @ Northwest 48th Street",
+          "Northwest 2nd Avenue & Northwest 46th Street",
+          "Val-Don Day Care Center",
+          "Saint Lazarus Nursery/Kindergarten School"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -80.191992,
+          25.842597
+        ]
+      },
+      "properties": {
+        "id": "anchor-hotspot-109",
+        "anchor_origin": "Schools (Young Years Day Care)",
+        "intensity": 0.68,
+        "radius_m": 500,
+        "amenity_count": 17,
+        "categories": {
+          "schools": 2,
+          "parks": 0,
+          "transit": 9,
+          "healthcare": 0,
+          "retail": 6
+        },
+        "dominant": [
+          "transit",
+          "retail"
+        ],
+        "sample_names": [
+          "NE 71 ST@NE 2 AV",
+          "Corpus Christi School",
+          "Miami Beach Bum",
+          "The Plantisserie",
+          "Northeast 2nd Avenue & Northeast 77th Street"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -80.305607,
+          25.769544
+        ]
+      },
+      "properties": {
+        "id": "anchor-hotspot-110",
+        "anchor_origin": "Schools (Arrowhead Nursery and Kindergarten)",
+        "intensity": 0.68,
+        "radius_m": 500,
+        "amenity_count": 17,
+        "categories": {
+          "schools": 1,
+          "parks": 1,
+          "transit": 12,
+          "healthcare": 0,
+          "retail": 3
+        },
+        "dominant": [
+          "transit",
+          "retail"
+        ],
+        "sample_names": [
+          "West Flagler Street & West 71st Avenue",
+          "West Flagler Street & West 67th Court",
+          "Cricket Wireless",
+          "Marathon",
+          "Sedano's"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -80.269167,
+          25.775
+        ]
+      },
+      "properties": {
+        "id": "anchor-hotspot-111",
+        "anchor_origin": "Schools (Aleida's Nursery School)",
+        "intensity": 0.68,
+        "radius_m": 500,
+        "amenity_count": 17,
+        "categories": {
+          "schools": 3,
+          "parks": 3,
+          "transit": 7,
+          "healthcare": 0,
+          "retail": 4
+        },
+        "dominant": [
+          "transit",
+          "retail"
+        ],
+        "sample_names": [
+          "Circle K",
+          "West Flagler Street & West 45th Avenue",
+          "West Flagler Street & West 43rd Place",
+          "West Flagler Street & West 47th Avenue",
+          "West Flagler Street & West 44th Avenue"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -80.212771,
+          25.782361
+        ]
+      },
+      "properties": {
+        "id": "anchor-hotspot-112",
+        "anchor_origin": "Parks",
+        "intensity": 0.68,
+        "radius_m": 500,
+        "amenity_count": 17,
+        "categories": {
+          "schools": 0,
+          "parks": 1,
+          "transit": 12,
+          "healthcare": 0,
+          "retail": 4
+        },
+        "dominant": [
+          "transit",
+          "retail"
+        ],
+        "sample_names": [
+          "Northwest 7th Street & Northwest 13th Avenue",
+          "Northwest 7th Street & Northwest 12th Avenue",
+          "Northwest 12th Avenue & Northwest 6th Street",
+          "Shell",
+          "7-Eleven"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -80.209963,
+          25.819331
+        ]
+      },
+      "properties": {
+        "id": "anchor-hotspot-113",
+        "anchor_origin": "Parks (East Bay Vista Park)",
+        "intensity": 0.68,
+        "radius_m": 500,
+        "amenity_count": 17,
+        "categories": {
+          "schools": 2,
+          "parks": 3,
+          "transit": 11,
+          "healthcare": 0,
+          "retail": 1
+        },
+        "dominant": [
+          "transit",
+          "parks"
+        ],
+        "sample_names": [
+          "Crestwood Park",
+          "NW 46 ST@NW 10 AV (E/N)",
+          "Northwest 7th Avenue & Northwest 44th Street",
+          "Champagnat Catholic School of Miami",
+          "Unification Academy for Learning West"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -80.251994,
+          25.739545
+        ]
+      },
+      "properties": {
+        "id": "anchor-hotspot-114",
+        "anchor_origin": "Schools (Dade School)",
+        "intensity": 0.64,
+        "radius_m": 500,
+        "amenity_count": 16,
+        "categories": {
+          "schools": 3,
+          "parks": 3,
+          "transit": 8,
+          "healthcare": 1,
+          "retail": 1
+        },
+        "dominant": [
+          "transit",
+          "schools"
+        ],
+        "sample_names": [
+          "Volkswagen",
+          "Southwest 37th Avenue & Southwest 40th Street",
+          "Frances S Tucker Elementary School",
+          "Southwest 37th Avenue & Southwest 29th Street",
+          "Douglas Park"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -80.200048,
+          25.842874
+        ]
+      },
+      "properties": {
+        "id": "anchor-hotspot-115",
+        "anchor_origin": "Schools (Saint Mary's Cathedral School)",
+        "intensity": 0.64,
+        "radius_m": 500,
+        "amenity_count": 16,
+        "categories": {
+          "schools": 1,
+          "parks": 1,
+          "transit": 13,
+          "healthcare": 0,
+          "retail": 1
+        },
+        "dominant": [
+          "transit",
+          "schools"
+        ],
+        "sample_names": [
+          "Northwest 2nd Avenue & Northwest 69th Street",
+          "Northwest 2nd Avenue @ Northwest 71st Street",
+          "NW 71 ST@NW 1 AV",
+          "NW 71 ST@NW 1 AV (W/N)",
+          "Northwest 71st Street @ Northwest 2nd Avenue"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -80.215048,
+          25.798987
+        ]
+      },
+      "properties": {
+        "id": "anchor-hotspot-116",
+        "anchor_origin": "Schools (Learning School Number Two)",
+        "intensity": 0.64,
+        "radius_m": 500,
+        "amenity_count": 16,
+        "categories": {
+          "schools": 1,
+          "parks": 0,
+          "transit": 13,
+          "healthcare": 0,
+          "retail": 2
+        },
+        "dominant": [
+          "transit",
+          "retail"
+        ],
+        "sample_names": [
+          "Northwest 12th Avenue & Northwest 20th Street",
+          "Northwest 20th Street & Northwest 12th Avenue",
+          "Santa Clara",
+          "Northwest 20th Street & Northwest 11th Avenue",
+          "Santa Clara Station"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -80.259217,
+          25.724268
+        ]
+      },
+      "properties": {
+        "id": "anchor-hotspot-117",
+        "anchor_origin": "Schools (Carver High School)",
+        "intensity": 0.6,
+        "radius_m": 500,
+        "amenity_count": 15,
+        "categories": {
+          "schools": 6,
+          "parks": 3,
+          "transit": 6,
+          "healthcare": 0,
+          "retail": 0
+        },
+        "dominant": [
+          "schools",
+          "transit"
+        ],
+        "sample_names": [
+          "Grand Avenue Park",
+          "Grand Avenue & Brooker Street",
+          "Washington Avenue & Brooker Street",
+          "Grand Avenue & Jefferson Street",
+          "Carver High School"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -80.235605,
+          25.743156
+        ]
+      },
+      "properties": {
+        "id": "anchor-hotspot-118",
+        "anchor_origin": "Schools (Silver Bluff School)",
+        "intensity": 0.6,
+        "radius_m": 500,
+        "amenity_count": 15,
+        "categories": {
+          "schools": 1,
+          "parks": 0,
+          "transit": 7,
+          "healthcare": 0,
+          "retail": 7
+        },
+        "dominant": [
+          "transit",
+          "retail"
+        ],
+        "sample_names": [
+          "Coconut Grove",
+          "Target",
+          "Total Wine",
+          "Southwest 27th Terrace & Southwest 27th Avenue",
+          "Groovys Pizza & Grill"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -80.216437,
+          25.815653
+        ]
+      },
+      "properties": {
+        "id": "anchor-hotspot-119",
+        "anchor_origin": "Schools (Easter Seal Demonstration School)",
+        "intensity": 0.6,
+        "radius_m": 500,
+        "amenity_count": 15,
+        "categories": {
+          "schools": 3,
+          "parks": 2,
+          "transit": 10,
+          "healthcare": 0,
+          "retail": 0
+        },
+        "dominant": [
+          "transit",
+          "schools"
+        ],
+        "sample_names": [
+          "Lenora B Smith Elementary School",
+          "Allapattah Middle School",
+          "Northwest 12th Avenue & Northwest 42nd Street",
+          "Northwest 12th Avenue & Northwest 38th Street",
+          "Easter Seal Demonstration School"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -80.290884,
+          25.77121
+        ]
+      },
+      "properties": {
+        "id": "anchor-hotspot-120",
+        "anchor_origin": "Schools (West Flagler Day Care)",
+        "intensity": 0.6,
+        "radius_m": 500,
+        "amenity_count": 15,
+        "categories": {
+          "schools": 2,
+          "parks": 1,
+          "transit": 11,
+          "healthcare": 0,
+          "retail": 1
+        },
+        "dominant": [
+          "transit",
+          "schools"
+        ],
+        "sample_names": [
+          "West End Park Preschool",
+          "West Flagler Street & West 60th Avenue",
+          "West End Park",
+          "West Flagler Street & West 59th Avenue",
+          "West Flagler Street & West 61st Avenue"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -80.234493,
+          25.805931
+        ]
+      },
+      "properties": {
+        "id": "anchor-hotspot-121",
+        "anchor_origin": "Schools (Mary Immaculate Academy)",
+        "intensity": 0.6,
+        "radius_m": 500,
+        "amenity_count": 15,
+        "categories": {
+          "schools": 2,
+          "parks": 1,
+          "transit": 12,
+          "healthcare": 0,
+          "retail": 0
+        },
+        "dominant": [
+          "transit",
+          "schools"
+        ],
+        "sample_names": [
+          "Northwest 22nd Avenue & Northwest 34th Street",
+          "Northwest 22nd Avenue & Northwest 32nd Street",
+          "Northwest 22nd Avenue & Northwest 30th Street",
+          "Northwest 36th Street & Northwest 22nd Avenue",
+          "West Hialeah Baptist Church Kindergarten"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -80.205745,
+          25.819997
+        ]
+      },
+      "properties": {
+        "id": "anchor-hotspot-122",
+        "anchor_origin": "Parks",
+        "intensity": 0.6,
+        "radius_m": 500,
+        "amenity_count": 15,
+        "categories": {
+          "schools": 3,
+          "parks": 2,
+          "transit": 9,
+          "healthcare": 0,
+          "retail": 1
+        },
+        "dominant": [
+          "transit",
+          "schools"
+        ],
+        "sample_names": [
+          "Northwest 7th Avenue & Northwest 44th Street",
+          "Champagnat Catholic School of Miami",
+          "Jacksons Toddle Inn",
+          "Northwest 7th Avenue & Northwest 48th Street",
+          "Northwest 7th Avenue & Northwest 46th Street"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -80.209599,
+          25.811073
+        ]
+      },
+      "properties": {
+        "id": "anchor-hotspot-123",
+        "anchor_origin": "Parks (Moore Park)",
+        "intensity": 0.6,
+        "radius_m": 500,
+        "amenity_count": 15,
+        "categories": {
+          "schools": 1,
+          "parks": 2,
+          "transit": 8,
+          "healthcare": 0,
+          "retail": 4
+        },
+        "dominant": [
+          "transit",
+          "retail"
+        ],
+        "sample_names": [
+          "Northwest 36th Street & Northwest 11th Avenue",
+          "The Pawn Shop",
+          "Family Dollar",
+          "Northwest 36th Street & Northwest 7th Avenue",
+          "Corpus Christi School"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -80.232156,
+          25.760641
+        ]
+      },
+      "properties": {
+        "id": "anchor-hotspot-124",
+        "anchor_origin": "Parks",
+        "intensity": 0.6,
+        "radius_m": 500,
+        "amenity_count": 15,
+        "categories": {
+          "schools": 4,
+          "parks": 4,
+          "transit": 6,
+          "healthcare": 0,
+          "retail": 1
+        },
+        "dominant": [
+          "transit",
+          "schools"
+        ],
+        "sample_names": [
+          "Southwest 22nd Avenue & Southwest 12th Street",
+          "Shenandoah Elementary School",
+          "Bryan Park",
+          "Suniland Academy",
+          "Lincoln Marti Schools"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -80.211715,
+          25.742045
+        ]
+      },
+      "properties": {
+        "id": "anchor-hotspot-125",
+        "anchor_origin": "Schools (Immaculata - La Salle High School)",
+        "intensity": 0.56,
+        "radius_m": 500,
+        "amenity_count": 14,
+        "categories": {
+          "schools": 1,
+          "parks": 6,
+          "transit": 4,
+          "healthcare": 2,
+          "retail": 1
+        },
+        "dominant": [
+          "parks",
+          "transit"
+        ],
+        "sample_names": [
+          "Mercy Hospital Emergency Department",
+          "La Carreta - Inside Mercy Hospital",
+          "Mercy Hospital",
+          "South Miami Avenue & Mercy Way",
+          "South Miami Avenue & Samana Drive"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -80.296995,
+          25.77121
+        ]
+      },
+      "properties": {
+        "id": "anchor-hotspot-126",
+        "anchor_origin": "Schools (Continental Military Institute)",
+        "intensity": 0.56,
+        "radius_m": 500,
+        "amenity_count": 14,
+        "categories": {
+          "schools": 2,
+          "parks": 1,
+          "transit": 11,
+          "healthcare": 0,
+          "retail": 0
+        },
+        "dominant": [
+          "transit",
+          "schools"
+        ],
+        "sample_names": [
+          "West End Park Preschool",
+          "West Flagler Street & West 60th Avenue",
+          "Continental Military Institute",
+          "Northwest 62nd Avenue & West Flagler Street",
+          "West Flagler Street & West 63rd Court"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -80.224305,
+          25.784977
+        ]
+      },
+      "properties": {
+        "id": "anchor-hotspot-127",
+        "anchor_origin": "Parks (Sewell Park)",
+        "intensity": 0.56,
+        "radius_m": 500,
+        "amenity_count": 14,
+        "categories": {
+          "schools": 1,
+          "parks": 1,
+          "transit": 8,
+          "healthcare": 0,
+          "retail": 4
+        },
+        "dominant": [
+          "transit",
+          "retail"
+        ],
+        "sample_names": [
+          "VIP Marine - Boat Canvas & Yacht Upholstery",
+          "Northwest 17th Avenue & Northwest South River Drive",
+          "Sewell Park",
+          "Ross",
+          "Publix"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -80.286252,
+          25.768577
+        ]
+      },
+      "properties": {
+        "id": "anchor-hotspot-128",
+        "anchor_origin": "Parks (Bay of Pigs Memorial Park)",
+        "intensity": 0.56,
+        "radius_m": 500,
+        "amenity_count": 14,
+        "categories": {
+          "schools": 0,
+          "parks": 1,
+          "transit": 9,
+          "healthcare": 1,
+          "retail": 3
+        },
+        "dominant": [
+          "transit",
+          "retail"
+        ],
+        "sample_names": [
+          "Pharma Plus Drug Store",
+          "JC Nails",
+          "West Flagler Street & West 58th Avenue",
+          "El Palacio de los Jugos",
+          "Northwest 57th Avenue & West Flagler Street"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -80.293546,
+          25.767151
+        ]
+      },
+      "properties": {
+        "id": "anchor-hotspot-129",
+        "anchor_origin": "Parks",
+        "intensity": 0.56,
+        "radius_m": 500,
+        "amenity_count": 14,
+        "categories": {
+          "schools": 2,
+          "parks": 2,
+          "transit": 8,
+          "healthcare": 0,
+          "retail": 2
+        },
+        "dominant": [
+          "transit",
+          "schools"
+        ],
+        "sample_names": [
+          "Southwest 8th Street & Southwest 62nd Avenue",
+          "Southwest 8th Street & Southwest 59th Avenue",
+          "Cricket Wireless",
+          "La Palma",
+          "West End Park Preschool"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -80.176398,
+          25.846301
+        ]
+      },
+      "properties": {
+        "id": "anchor-hotspot-130",
+        "anchor_origin": "Parks (Little River Pocket Mini Park)",
+        "intensity": 0.56,
+        "radius_m": 500,
+        "amenity_count": 14,
+        "categories": {
+          "schools": 2,
+          "parks": 2,
+          "transit": 5,
+          "healthcare": 0,
+          "retail": 5
+        },
+        "dominant": [
+          "transit",
+          "retail"
+        ],
+        "sample_names": [
+          "Boteco",
+          "Northwest 79th Street @ Northeast 10th Avenue",
+          "Northwest 79th Street @ Northeast 8th Court",
+          "Adrenaline Motor Bikes Shop",
+          "Le Cafe de louison"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -80.230786,
+          25.733955
+        ]
+      },
+      "properties": {
+        "id": "anchor-hotspot-131",
+        "anchor_origin": "Parks",
+        "intensity": 0.56,
+        "radius_m": 500,
+        "amenity_count": 14,
+        "categories": {
+          "schools": 0,
+          "parks": 2,
+          "transit": 10,
+          "healthcare": 0,
+          "retail": 2
+        },
+        "dominant": [
+          "transit",
+          "parks"
+        ],
+        "sample_names": [
+          "Tigertail Avenue & Aviation Avenue",
+          "The Fresh Market",
+          "Aviation Avenue & South Bayshore Drive",
+          "Tigertail Avenue & Washington Street",
+          "South Bayshore Drive & Aviation Avenue"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -80.203659,
+          25.83843
+        ]
+      },
+      "properties": {
+        "id": "anchor-hotspot-132",
+        "anchor_origin": "Schools (Elizabeth E Curtis Child Care Center)",
+        "intensity": 0.52,
+        "radius_m": 500,
+        "amenity_count": 13,
+        "categories": {
+          "schools": 2,
+          "parks": 0,
+          "transit": 10,
+          "healthcare": 0,
+          "retail": 1
+        },
+        "dominant": [
+          "transit",
+          "schools"
+        ],
+        "sample_names": [
+          "Edison Park Elementary School",
+          "Northwest 2nd Avenue & Northwest 67th Street",
+          "Northwest 2nd Avenue & Northwest 69th Street",
+          "Elizabeth E Curtis Child Care Center",
+          "Northwest 2nd Avenue @ Northwest 71st Street"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -80.277405,
+          25.770977
+        ]
+      },
+      "properties": {
+        "id": "anchor-hotspot-133",
+        "anchor_origin": "Schools (West Flagler Branch Library)",
+        "intensity": 0.52,
+        "radius_m": 500,
+        "amenity_count": 13,
+        "categories": {
+          "schools": 2,
+          "parks": 0,
+          "transit": 8,
+          "healthcare": 0,
+          "retail": 3
+        },
+        "dominant": [
+          "transit",
+          "retail"
+        ],
+        "sample_names": [
+          "West Flagler Street & West 53rd Avenue",
+          "West Flagler Street & West 52nd Court",
+          "Flagler School",
+          "West Flagler Street & West 51st Place",
+          "West Flagler Street & West 51st Avenue"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -80.218994,
+          25.819685
+        ]
+      },
+      "properties": {
+        "id": "anchor-hotspot-134",
+        "anchor_origin": "Parks (Charles Hadley Park)",
+        "intensity": 0.52,
+        "radius_m": 500,
+        "amenity_count": 13,
+        "categories": {
+          "schools": 2,
+          "parks": 3,
+          "transit": 8,
+          "healthcare": 0,
+          "retail": 0
+        },
+        "dominant": [
+          "transit",
+          "parks"
+        ],
+        "sample_names": [
+          "Lenora B Smith Elementary School",
+          "Allapattah Middle School",
+          "NW 46 ST@NW 12 AV (E/F)",
+          "NW 46 ST@NW 12 AV (W/F)",
+          "NW 46 ST@NW 14 AV (W/F)"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -80.227137,
+          25.747223
+        ]
+      },
+      "properties": {
+        "id": "anchor-hotspot-135",
+        "anchor_origin": "Parks (Silver Bluff Mini Park)",
+        "intensity": 0.52,
+        "radius_m": 500,
+        "amenity_count": 13,
+        "categories": {
+          "schools": 0,
+          "parks": 1,
+          "transit": 9,
+          "healthcare": 1,
+          "retail": 2
+        },
+        "dominant": [
+          "transit",
+          "retail"
+        ],
+        "sample_names": [
+          "Bike Tech",
+          "Southwest 22nd Avenue & Southwest 23rd Street",
+          "Southwest 22nd Avenue & Southwest 24th Street",
+          "Southwest 22nd Avenue & Southwest 24th Terrace",
+          "Southwest 22nd Street & Southwest 22nd Avenue"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -80.293918,
+          25.778843
+        ]
+      },
+      "properties": {
+        "id": "anchor-hotspot-136",
+        "anchor_origin": "Healthcare (The Miami Medical Center)",
+        "intensity": 0.52,
+        "radius_m": 500,
+        "amenity_count": 13,
+        "categories": {
+          "schools": 0,
+          "parks": 0,
+          "transit": 5,
+          "healthcare": 2,
+          "retail": 6
+        },
+        "dominant": [
+          "retail",
+          "transit"
+        ],
+        "sample_names": [
+          "Northwest 7th Street & Northwest 60th Avenue",
+          "Publix",
+          "Burlington",
+          "Northwest 62nd Avenue & Northwest 5th Street",
+          "Northwest 7th Street & Northwest 58th Avenue"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -80.220326,
+          25.838986
+        ]
+      },
+      "properties": {
+        "id": "anchor-hotspot-137",
+        "anchor_origin": "Schools (Holy Redeemer School)",
+        "intensity": 0.48,
+        "radius_m": 500,
+        "amenity_count": 12,
+        "categories": {
+          "schools": 2,
+          "parks": 0,
+          "transit": 10,
+          "healthcare": 0,
+          "retail": 0
+        },
+        "dominant": [
+          "transit",
+          "schools"
+        ],
+        "sample_names": [
+          "Northwest 12th Avenue & Northwest 67th Street",
+          "Northwest 12th Avenue & Northwest 70th Street",
+          "Northwest 14th Avenue & Northwest 65th Street",
+          "Martin Luther King Elementary School",
+          "Northwest 14th Avenue & Northwest 67th Street"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -80.256111,
+          25.788333
+        ]
+      },
+      "properties": {
+        "id": "anchor-hotspot-138",
+        "anchor_origin": "Schools (Grapeland Park Preschool)",
+        "intensity": 0.48,
+        "radius_m": 500,
+        "amenity_count": 12,
+        "categories": {
+          "schools": 2,
+          "parks": 2,
+          "transit": 8,
+          "healthcare": 0,
+          "retail": 0
+        },
+        "dominant": [
+          "transit",
+          "schools"
+        ],
+        "sample_names": [
+          "Northwest 37th Avenue & Northwest 12th Terrace",
+          "Grapeland Park Preschool",
+          "Northwest 37th Avenue & Northwest 18th Terrace",
+          "Northwest 37th Avenue & Northwest 14th Street",
+          "Northwest 37th Avenue & Northwest 16th Street"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -80.249151,
+          25.767094
+        ]
+      },
+      "properties": {
+        "id": "anchor-hotspot-139",
+        "anchor_origin": "Schools (Auburndale Elementary School)",
+        "intensity": 0.48,
+        "radius_m": 500,
+        "amenity_count": 12,
+        "categories": {
+          "schools": 1,
+          "parks": 1,
+          "transit": 6,
+          "healthcare": 0,
+          "retail": 4
+        },
+        "dominant": [
+          "transit",
+          "retail"
+        ],
+        "sample_names": [
+          "Versailles Restaurant",
+          "Southwest 8th Street & Southwest 31st Court",
+          "Southwest 8th Street & Southwest 33rd Avenue",
+          "Southwest 8th Street & Southwest 34th Avenue",
+          "Southwest 8th Street & Southwest 32nd Avenue"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -80.214559,
+          25.837867
+        ]
+      },
+      "properties": {
+        "id": "anchor-hotspot-140",
+        "anchor_origin": "Schools (Miami Northwestern Senior High School)",
+        "intensity": 0.48,
+        "radius_m": 500,
+        "amenity_count": 12,
+        "categories": {
+          "schools": 4,
+          "parks": 1,
+          "transit": 7,
+          "healthcare": 0,
+          "retail": 0
+        },
+        "dominant": [
+          "transit",
+          "schools"
+        ],
+        "sample_names": [
+          "Northwest 12th Avenue & Northwest 67th Street",
+          "Northwest 12th Avenue & Northwest 70th Street",
+          "Martin Luther King Elementary School",
+          "Saint Holmes School",
+          "Northwest 10th Avenue @ Northwest 65th Street (S/F)"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -80.308939,
+          25.773294
+        ]
+      },
+      "properties": {
+        "id": "anchor-hotspot-141",
+        "anchor_origin": "Parks (Robert King High Park)",
+        "intensity": 0.48,
+        "radius_m": 500,
+        "amenity_count": 12,
+        "categories": {
+          "schools": 0,
+          "parks": 2,
+          "transit": 7,
+          "healthcare": 0,
+          "retail": 3
+        },
+        "dominant": [
+          "transit",
+          "retail"
+        ],
+        "sample_names": [
+          "West Flagler Street & West 71st Avenue",
+          "West Flagler Street & Tamiami Canal Road",
+          "West Flagler Street & West 67th Court",
+          "Cricket Wireless",
+          "Marathon"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -80.21451,
+          25.760338
+        ]
+      },
+      "properties": {
+        "id": "anchor-hotspot-142",
+        "anchor_origin": "Parks",
+        "intensity": 0.48,
+        "radius_m": 500,
+        "amenity_count": 12,
+        "categories": {
+          "schools": 3,
+          "parks": 3,
+          "transit": 6,
+          "healthcare": 0,
+          "retail": 0
+        },
+        "dominant": [
+          "transit",
+          "schools"
+        ],
+        "sample_names": [
+          "Williams Private School",
+          "Cuban Memorial Boulevard Park",
+          "Southwest 12th Avenue & Southwest 15th Street",
+          "Southwest 12th Avenue & Southwest 16th Street",
+          "Southwest 12th Avenue & Southwest 10th Street"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -80.18338,
+          25.854263
+        ]
+      },
+      "properties": {
+        "id": "anchor-hotspot-143",
+        "anchor_origin": "Schools (Saint James Day Care)",
+        "intensity": 0.44,
+        "radius_m": 500,
+        "amenity_count": 11,
+        "categories": {
+          "schools": 2,
+          "parks": 1,
+          "transit": 2,
+          "healthcare": 0,
+          "retail": 6
+        },
+        "dominant": [
+          "retail",
+          "schools"
+        ],
+        "sample_names": [
+          "Don Bailey",
+          "Cream Parlor",
+          "Biscayne Boulevard & Northeast 85th Street",
+          "Biscayne Boulevard & Northeast 83rd Street",
+          "Phyllis Ruth Miller Elementary School"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -80.243938,
+          25.770377
+        ]
+      },
+      "properties": {
+        "id": "anchor-hotspot-144",
+        "anchor_origin": "Schools (Miami-Dade Community College Preschool Laboratory)",
+        "intensity": 0.44,
+        "radius_m": 500,
+        "amenity_count": 11,
+        "categories": {
+          "schools": 1,
+          "parks": 0,
+          "transit": 8,
+          "healthcare": 1,
+          "retail": 1
+        },
+        "dominant": [
+          "transit",
+          "schools"
+        ],
+        "sample_names": [
+          "Miami-Dade Community College Preschool Laboratory",
+          "West Flagler Street & West 30th Avenue",
+          "West Flagler Street & West 32nd Avenue",
+          "West Flagler Street & West 31st Avenue",
+          "Walgreens"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -80.248383,
+          25.772599
+        ]
+      },
+      "properties": {
+        "id": "anchor-hotspot-145",
+        "anchor_origin": "Schools (Childrens Development Center)",
+        "intensity": 0.44,
+        "radius_m": 500,
+        "amenity_count": 11,
+        "categories": {
+          "schools": 2,
+          "parks": 0,
+          "transit": 9,
+          "healthcare": 0,
+          "retail": 0
+        },
+        "dominant": [
+          "transit",
+          "schools"
+        ],
+        "sample_names": [
+          "West Flagler Street & West 30th Avenue",
+          "West Flagler Street & West 32nd Avenue",
+          "West Flagler Street & West 34th Avenue",
+          "West Flagler Street & West 33rd Avenue",
+          "West Flagler Street & West 35th Avenue"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -80.270606,
+          25.765655
+        ]
+      },
+      "properties": {
+        "id": "anchor-hotspot-146",
+        "anchor_origin": "Schools (Freedom Christian Academy)",
+        "intensity": 0.44,
+        "radius_m": 500,
+        "amenity_count": 11,
+        "categories": {
+          "schools": 1,
+          "parks": 0,
+          "transit": 4,
+          "healthcare": 1,
+          "retail": 5
+        },
+        "dominant": [
+          "retail",
+          "transit"
+        ],
+        "sample_names": [
+          "Southwest 8th Street & Southwest 48th Avenue",
+          "Sedano's",
+          "Southwest 8th Street & Southwest 44th Avenue",
+          "Monalisa Pizzeria Italian Restaurant",
+          "Southwest 8th Street & Southwest 45th Avenue"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -80.243889,
+          25.750278
+        ]
+      },
+      "properties": {
+        "id": "anchor-hotspot-147",
+        "anchor_origin": "Schools (Our Lady of Fatima Academy)",
+        "intensity": 0.44,
+        "radius_m": 500,
+        "amenity_count": 11,
+        "categories": {
+          "schools": 1,
+          "parks": 0,
+          "transit": 6,
+          "healthcare": 0,
+          "retail": 4
+        },
+        "dominant": [
+          "transit",
+          "retail"
+        ],
+        "sample_names": [
+          "Winn-Dixie",
+          "Southwest 22nd Street & Southwest 32nd Avenue",
+          "Sergio's",
+          "Our Lady of Fatima Academy",
+          "Southwest 22nd Street & Southwest 31st Avenue"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -80.244248,
+          25.722735
+        ]
+      },
+      "properties": {
+        "id": "anchor-hotspot-148",
+        "anchor_origin": "Schools (Ransom Everglades School)",
+        "intensity": 0.44,
+        "radius_m": 500,
+        "amenity_count": 11,
+        "categories": {
+          "schools": 5,
+          "parks": 3,
+          "transit": 0,
+          "healthcare": 0,
+          "retail": 3
+        },
+        "dominant": [
+          "schools",
+          "parks"
+        ],
+        "sample_names": [
+          "Lulu",
+          "Bryan Cares Preschool",
+          "Saint Hugh Church and School",
+          "The Barnacle Historic State Park",
+          "Plymouth Preschool of Plymouth Congregational Church"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -80.27891,
+          25.779054
+        ]
+      },
+      "properties": {
+        "id": "anchor-hotspot-149",
+        "anchor_origin": "Parks (Antonio Maceo Park)",
+        "intensity": 0.44,
+        "radius_m": 500,
+        "amenity_count": 11,
+        "categories": {
+          "schools": 0,
+          "parks": 1,
+          "transit": 8,
+          "healthcare": 0,
+          "retail": 2
+        },
+        "dominant": [
+          "transit",
+          "retail"
+        ],
+        "sample_names": [
+          "Northwest 7th Street & Northwest 5400 Block",
+          "Northwest 7th Street & Northwest 53rd Avenue",
+          "Northwest 7th Street & Northwest 5200 Block",
+          "Antonio Maceo Park",
+          "Northwest 7th Street & Northwest 51st Avenue"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -80.204738,
+          25.7484
+        ]
+      },
+      "properties": {
+        "id": "anchor-hotspot-150",
+        "anchor_origin": "Parks (Alice C Wainwright Park)",
+        "intensity": 0.44,
+        "radius_m": 500,
+        "amenity_count": 11,
+        "categories": {
+          "schools": 0,
+          "parks": 2,
+          "transit": 9,
+          "healthcare": 0,
+          "retail": 0
+        },
+        "dominant": [
+          "transit",
+          "parks"
+        ],
+        "sample_names": [
+          "Southwest 26th Road & South Miami Avenue",
+          "Brickell Avenue & Southeast 25th Road",
+          "Alice C Wainwright Park",
+          "Brickell Avenue & Southeast 26th Road",
+          "South Miami Avenue & Brickell Avenue"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -80.220049,
+          25.756211
+        ]
+      },
+      "properties": {
+        "id": "anchor-hotspot-151",
+        "anchor_origin": "Schools (Gulliver Preparatory School)",
+        "intensity": 0.4,
+        "radius_m": 500,
+        "amenity_count": 10,
+        "categories": {
+          "schools": 3,
+          "parks": 1,
+          "transit": 6,
+          "healthcare": 0,
+          "retail": 0
+        },
+        "dominant": [
+          "transit",
+          "schools"
+        ],
+        "sample_names": [
+          "Gulliver Preparatory School",
+          "Southwest 17th Avenue & Southwest 19th Terrace",
+          "Southwest 17th Avenue & Southwest 20th Street",
+          "Southwest 17th Avenue & Southwest 19th Street",
+          "Coral Way Elementary School"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -80.247222,
+          25.735278
+        ]
+      },
+      "properties": {
+        "id": "anchor-hotspot-152",
+        "anchor_origin": "Schools (Aurora Academy)",
+        "intensity": 0.4,
+        "radius_m": 500,
+        "amenity_count": 10,
+        "categories": {
+          "schools": 1,
+          "parks": 1,
+          "transit": 4,
+          "healthcare": 0,
+          "retail": 4
+        },
+        "dominant": [
+          "transit",
+          "retail"
+        ],
+        "sample_names": [
+          "McDonald Street & Day Avenue",
+          "McDonald Street & Shipping Avenue",
+          "McDonald Street & Jackson Avenue",
+          "Aurora Academy",
+          "Bird Avenue & McDonald Street"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -80.226938,
+          25.738219
+        ]
+      },
+      "properties": {
+        "id": "anchor-hotspot-153",
+        "anchor_origin": "Schools (Ransom Everglades Middle School)",
+        "intensity": 0.4,
+        "radius_m": 500,
+        "amenity_count": 10,
+        "categories": {
+          "schools": 2,
+          "parks": 2,
+          "transit": 6,
+          "healthcare": 0,
+          "retail": 0
+        },
+        "dominant": [
+          "transit",
+          "schools"
+        ],
+        "sample_names": [
+          "Tigertail Avenue & Kirk Street",
+          "Kennedy Park",
+          "Douglas Mini Park",
+          "Ransom Everglades Middle School",
+          "Tigertail Avenue & Southwest 22nd Avenue"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -80.1752,
+          25.786676
+        ]
+      },
+      "properties": {
+        "id": "anchor-hotspot-154",
+        "anchor_origin": "Parks",
+        "intensity": 0.4,
+        "radius_m": 500,
+        "amenity_count": 10,
+        "categories": {
+          "schools": 0,
+          "parks": 3,
+          "transit": 5,
+          "healthcare": 0,
+          "retail": 2
+        },
+        "dominant": [
+          "transit",
+          "parks"
+        ],
+        "sample_names": [
+          "Venetian Way & North Venetian Drive",
+          "Venetian Way & Venetian Court",
+          "MacArthur Causeway & Watson Island",
+          "Gift Shop",
+          "Ichimura Miami Japanese Garden"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -80.241438,
+          25.793154
+        ]
+      },
+      "properties": {
+        "id": "anchor-hotspot-155",
+        "anchor_origin": "Parks (Miami River Rapids Mini Park)",
+        "intensity": 0.36,
+        "radius_m": 500,
+        "amenity_count": 9,
+        "categories": {
+          "schools": 0,
+          "parks": 1,
+          "transit": 7,
+          "healthcare": 0,
+          "retail": 1
+        },
+        "dominant": [
+          "transit",
+          "parks"
+        ],
+        "sample_names": [
+          "Chevron",
+          "Northwest 27th Avenue & Northwest 17th Street",
+          "Miami River Rapids Mini Park",
+          "Northwest 20th Street & Northwest 27th Avenue",
+          "Northwest 20th Street & Northwest 25th Avenue"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -80.233668,
+          25.785831
+        ]
+      },
+      "properties": {
+        "id": "anchor-hotspot-156",
+        "anchor_origin": "Parks (Miami Police Benevolent Association Park)",
+        "intensity": 0.36,
+        "radius_m": 500,
+        "amenity_count": 9,
+        "categories": {
+          "schools": 0,
+          "parks": 2,
+          "transit": 7,
+          "healthcare": 0,
+          "retail": 0
+        },
+        "dominant": [
+          "transit",
+          "parks"
+        ],
+        "sample_names": [
+          "NW 24 AV@NW 16 STRD",
+          "Northwest 24th Avenue @ Northwest 14th Street",
+          "Northwest 14th Street @ Northwest 23rd Avenue",
+          "Miami Police Benevolent Association Park",
+          "NW 14 ST@NW 22 AV"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -80.219449,
+          25.74065
+        ]
+      },
+      "properties": {
+        "id": "anchor-hotspot-157",
+        "anchor_origin": "Parks (Steele Mini Park)",
+        "intensity": 0.32,
+        "radius_m": 500,
+        "amenity_count": 8,
+        "categories": {
+          "schools": 0,
+          "parks": 1,
+          "transit": 6,
+          "healthcare": 1,
+          "retail": 0
+        },
+        "dominant": [
+          "transit",
+          "parks"
+        ],
+        "sample_names": [
+          "South Bayshore Drive & Crystal Court",
+          "South Bayshore Drive & Fair Isle Street",
+          "Steele Mini Park",
+          "Mercy Hospital",
+          "Halissee Street & South Bayshore Drive"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -80.238548,
+          25.804044
+        ]
+      },
+      "properties": {
+        "id": "anchor-hotspot-158",
+        "anchor_origin": "Parks (Melrose Park)",
+        "intensity": 0.32,
+        "radius_m": 500,
+        "amenity_count": 8,
+        "categories": {
+          "schools": 1,
+          "parks": 1,
+          "transit": 3,
+          "healthcare": 0,
+          "retail": 3
+        },
+        "dominant": [
+          "transit",
+          "retail"
+        ],
+        "sample_names": [
+          "Northwest 27th Avenue & Northwest 28th Street",
+          "Harbor Freight Tools",
+          "Dollar Tree",
+          "Northwest 27th Avenue & Northwest 33rd Street",
+          "Northwest 27th Avenue & Northwest 35th Street"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -80.260231,
+          25.764959
+        ]
+      },
+      "properties": {
+        "id": "anchor-hotspot-159",
+        "anchor_origin": "Healthcare (Navarro Discount Pharmacy)",
+        "intensity": 0.32,
+        "radius_m": 500,
+        "amenity_count": 8,
+        "categories": {
+          "schools": 0,
+          "parks": 0,
+          "transit": 6,
+          "healthcare": 1,
+          "retail": 1
+        },
+        "dominant": [
+          "transit",
+          "healthcare"
+        ],
+        "sample_names": [
+          "Southwest 8th Street & Southwest 43rd Avenue",
+          "Southwest 8th Street & Southwest 39th Avenue",
+          "Southwest 8th Street & Southwest 42nd Avenue",
+          "Southwest 42nd Avenue @ Southwest 4th Street",
+          "Southwest 42nd Avenue @ Southwest 5th Terrace"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -80.252272,
+          25.717879
+        ]
+      },
+      "properties": {
+        "id": "anchor-hotspot-160",
+        "anchor_origin": "Schools (Gulliver School)",
+        "intensity": 0.28,
+        "radius_m": 500,
+        "amenity_count": 7,
+        "categories": {
+          "schools": 2,
+          "parks": 1,
+          "transit": 4,
+          "healthcare": 0,
+          "retail": 0
+        },
+        "dominant": [
+          "transit",
+          "schools"
+        ],
+        "sample_names": [
+          "Gulliver School",
+          "Vanguard School",
+          "Southwest 37th Avenue & Crawford Avenue",
+          "Southwest 37th Avenue & Park Lane",
+          "Southwest 37th Avenue & El Prado Boulevard"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -80.258384,
+          25.712601
+        ]
+      },
+      "properties": {
+        "id": "anchor-hotspot-161",
+        "anchor_origin": "Schools (Saint Hugh School)",
+        "intensity": 0.28,
+        "radius_m": 500,
+        "amenity_count": 7,
+        "categories": {
+          "schools": 1,
+          "parks": 2,
+          "transit": 4,
+          "healthcare": 0,
+          "retail": 0
+        },
+        "dominant": [
+          "transit",
+          "parks"
+        ],
+        "sample_names": [
+          "Southwest 42nd Avenue & Hardee Road",
+          "Southwest 42nd Avenue & Kiaora Street",
+          "Merrie Christmas Park",
+          "Ingraham Highway & Battersea Avenue",
+          "Saint Hugh School"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -80.23866,
+          25.799265
+        ]
+      },
+      "properties": {
+        "id": "anchor-hotspot-162",
+        "anchor_origin": "Schools (Kinderland Preparatory School)",
+        "intensity": 0.28,
+        "radius_m": 500,
+        "amenity_count": 7,
+        "categories": {
+          "schools": 1,
+          "parks": 0,
+          "transit": 4,
+          "healthcare": 0,
+          "retail": 2
+        },
+        "dominant": [
+          "transit",
+          "retail"
+        ],
+        "sample_names": [
+          "Northwest 21st Terrace & Northwest 26th Avenue",
+          "Northwest 21st Terrace & Northwest 24th Avenue",
+          "Northwest 27th Avenue & Northwest 24th Street",
+          "Kinderland Preparatory School",
+          "Northwest 27th Avenue & Northwest 28th Street"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -80.256995,
+          25.720657
+        ]
+      },
+      "properties": {
+        "id": "anchor-hotspot-163",
+        "anchor_origin": "Parks (Grapeland Heights Park)",
+        "intensity": 0.28,
+        "radius_m": 500,
+        "amenity_count": 7,
+        "categories": {
+          "schools": 2,
+          "parks": 3,
+          "transit": 2,
+          "healthcare": 0,
+          "retail": 0
+        },
+        "dominant": [
+          "parks",
+          "schools"
+        ],
+        "sample_names": [
+          "Grand Avenue Park",
+          "Southwest 42nd Avenue & Poinciana Avenue",
+          "Carver High School",
+          "Water Plant Park",
+          "Grapeland Heights Park"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -80.316163,
+          25.765377
+        ]
+      },
+      "properties": {
+        "id": "anchor-hotspot-164",
+        "anchor_origin": "Schools (Kiddieland Child Care Center)",
+        "intensity": 0.2,
+        "radius_m": 500,
+        "amenity_count": 5,
+        "categories": {
+          "schools": 1,
+          "parks": 0,
+          "transit": 2,
+          "healthcare": 0,
+          "retail": 2
+        },
+        "dominant": [
+          "transit",
+          "retail"
+        ],
+        "sample_names": [
+          "Southwest 8th Street & Flagami Boulevard",
+          "Southwest 8th Street & Southwest 73rd Avenue",
+          "Sonia\u2019s Seafood",
+          "Circle K",
+          "Kiddieland Child Care Center"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -80.248333,
+          25.722222
+        ]
+      },
+      "properties": {
+        "id": "anchor-hotspot-165",
+        "anchor_origin": "Schools (Plymouth Preschool of Plymouth Congregational Church)",
+        "intensity": 0.2,
+        "radius_m": 500,
+        "amenity_count": 5,
+        "categories": {
+          "schools": 4,
+          "parks": 0,
+          "transit": 0,
+          "healthcare": 0,
+          "retail": 1
+        },
+        "dominant": [
+          "schools",
+          "retail"
+        ],
+        "sample_names": [
+          "Bryan Cares Preschool",
+          "Saint Hugh Church and School",
+          "Plymouth Preschool of Plymouth Congregational Church",
+          "Ransom Everglades School",
+          "Sushi by Scratch Restaurant"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -80.246111,
+          25.740833
+        ]
+      },
+      "properties": {
+        "id": "anchor-hotspot-166",
+        "anchor_origin": "Schools (Brito Miami Private School)",
+        "intensity": 0.2,
+        "radius_m": 500,
+        "amenity_count": 5,
+        "categories": {
+          "schools": 2,
+          "parks": 0,
+          "transit": 0,
+          "healthcare": 0,
+          "retail": 3
+        },
+        "dominant": [
+          "retail",
+          "schools"
+        ],
+        "sample_names": [
+          "Grove Liquors",
+          "BP Shop",
+          "Milam's Market",
+          "Brito Miami Private School",
+          "Miami Private School"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -80.231689,
+          25.724996
+        ]
+      },
+      "properties": {
+        "id": "anchor-hotspot-167",
+        "anchor_origin": "Parks (Dinner Key Picnic Islands)",
+        "intensity": 0.2,
+        "radius_m": 500,
+        "amenity_count": 5,
+        "categories": {
+          "schools": 0,
+          "parks": 2,
+          "transit": 1,
+          "healthcare": 0,
+          "retail": 2
+        },
+        "dominant": [
+          "parks",
+          "retail"
+        ],
+        "sample_names": [
+          "City Hall",
+          "Bayshore Club Bar & Grill",
+          "Grove Bay Grill",
+          "West Islands Park",
+          "Dinner Key Picnic Islands"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -80.226816,
+          25.74362
+        ]
+      },
+      "properties": {
+        "id": "anchor-hotspot-168",
+        "anchor_origin": "Healthcare (Interface Consulting and Psychological Services)",
+        "intensity": 0.2,
+        "radius_m": 500,
+        "amenity_count": 5,
+        "categories": {
+          "schools": 0,
+          "parks": 1,
+          "transit": 3,
+          "healthcare": 1,
+          "retail": 0
+        },
+        "dominant": [
+          "transit",
+          "parks"
+        ],
+        "sample_names": [
+          "Southwest 22nd Avenue & Tequesta Lane",
+          "Southwest 22nd Avenue & Southwest 24th Terrace",
+          "Southwest 22nd Avenue & Southwest 26th Street",
+          "Silver Bluff Mini Park",
+          "Interface Consulting and Psychological Services"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -80.155908,
+          25.735869
+        ]
+      },
+      "properties": {
+        "id": "anchor-hotspot-169",
+        "anchor_origin": "Parks",
+        "intensity": 0.16,
+        "radius_m": 500,
+        "amenity_count": 4,
+        "categories": {
+          "schools": 0,
+          "parks": 3,
+          "transit": 1,
+          "healthcare": 0,
+          "retail": 0
+        },
+        "dominant": [
+          "parks",
+          "transit"
+        ],
+        "sample_names": [
+          "Historic Virginia Key Beach Park"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -80.175718,
+          25.77763
+        ]
+      },
+      "properties": {
+        "id": "anchor-hotspot-170",
+        "anchor_origin": "Parks (Seamans Park)",
+        "intensity": 0.16,
+        "radius_m": 500,
+        "amenity_count": 4,
+        "categories": {
+          "schools": 0,
+          "parks": 1,
+          "transit": 3,
+          "healthcare": 0,
+          "retail": 0
+        },
+        "dominant": [
+          "transit",
+          "parks"
+        ],
+        "sample_names": [
+          "CruiseTerminal E",
+          "Caribbean Way at Port Miami South",
+          "North America Way at Port Miami North",
+          "Seamans Park"
+        ]
+      }
+    }
+  ],
+  "last_updated": "2026-05-14T05:10:11.574525Z",
+  "total_hotspots": 171
+}

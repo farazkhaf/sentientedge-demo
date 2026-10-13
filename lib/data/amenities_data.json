@@ -1,0 +1,1109 @@
+{
+  "neighborhoods": [
+    {
+      "neighborhood_id": "allapattah",
+      "score": 0.399,
+      "amenity_access_score": 0.399,
+      "data_quality": 0.87,
+      "last_updated": "2026-05-14T04:20:32.608673Z",
+      "categories": {
+        "schools": 96.0,
+        "parks": 65.8,
+        "transit": 100.0,
+        "healthcare": 7.2,
+        "retail": 45.3
+      },
+      "walkability_score": 44,
+      "trend": {
+        "cadence": "quarterly",
+        "window": "90d",
+        "points": [
+          {
+            "date": "2025-10-21",
+            "score": 0.62
+          },
+          {
+            "date": "2025-11-05",
+            "score": 0.63
+          },
+          {
+            "date": "2025-11-20",
+            "score": 0.64
+          },
+          {
+            "date": "2025-12-05",
+            "score": 0.65
+          },
+          {
+            "date": "2025-12-20",
+            "score": 0.66
+          },
+          {
+            "date": "2026-01-19",
+            "score": 0.67
+          }
+        ],
+        "delta": 0.05,
+        "delta_pct": 8.1,
+        "direction": "up"
+      }
+    },
+    {
+      "neighborhood_id": "brickell",
+      "score": 0.722,
+      "amenity_access_score": 0.722,
+      "data_quality": 0.91,
+      "last_updated": "2026-05-14T04:20:32.608673Z",
+      "categories": {
+        "schools": 98.1,
+        "parks": 100.0,
+        "transit": 100.0,
+        "healthcare": 42.2,
+        "retail": 100.0
+      },
+      "walkability_score": 74,
+      "trend": {
+        "cadence": "quarterly",
+        "window": "90d",
+        "points": [
+          {
+            "date": "2025-10-21",
+            "score": 0.85
+          },
+          {
+            "date": "2025-11-05",
+            "score": 0.86
+          },
+          {
+            "date": "2025-11-20",
+            "score": 0.87
+          },
+          {
+            "date": "2025-12-05",
+            "score": 0.88
+          },
+          {
+            "date": "2025-12-20",
+            "score": 0.9
+          },
+          {
+            "date": "2026-01-19",
+            "score": 0.91
+          }
+        ],
+        "delta": 0.06,
+        "delta_pct": 7.1,
+        "direction": "up"
+      }
+    },
+    {
+      "neighborhood_id": "buena_vista",
+      "score": 0.595,
+      "amenity_access_score": 0.595,
+      "data_quality": 0.89,
+      "last_updated": "2026-05-14T04:20:32.608673Z",
+      "categories": {
+        "schools": 98.6,
+        "parks": 82.0,
+        "transit": 100.0,
+        "healthcare": 0.0,
+        "retail": 100.0
+      },
+      "walkability_score": 62,
+      "trend": {
+        "cadence": "quarterly",
+        "window": "90d",
+        "points": [
+          {
+            "date": "2025-10-21",
+            "score": 0.76
+          },
+          {
+            "date": "2025-11-05",
+            "score": 0.77
+          },
+          {
+            "date": "2025-11-20",
+            "score": 0.78
+          },
+          {
+            "date": "2025-12-05",
+            "score": 0.79
+          },
+          {
+            "date": "2025-12-20",
+            "score": 0.8
+          },
+          {
+            "date": "2026-01-19",
+            "score": 0.81
+          }
+        ],
+        "delta": 0.05,
+        "delta_pct": 6.6,
+        "direction": "up"
+      }
+    },
+    {
+      "neighborhood_id": "coconut_grove",
+      "score": 0.699,
+      "amenity_access_score": 0.699,
+      "data_quality": 0.9,
+      "last_updated": "2026-05-14T04:20:32.608673Z",
+      "categories": {
+        "schools": 96.8,
+        "parks": 99.3,
+        "transit": 100.0,
+        "healthcare": 42.2,
+        "retail": 91.4
+      },
+      "walkability_score": 72,
+      "trend": {
+        "cadence": "quarterly",
+        "window": "90d",
+        "points": [
+          {
+            "date": "2025-10-21",
+            "score": 0.83
+          },
+          {
+            "date": "2025-11-05",
+            "score": 0.84
+          },
+          {
+            "date": "2025-11-20",
+            "score": 0.85
+          },
+          {
+            "date": "2025-12-05",
+            "score": 0.86
+          },
+          {
+            "date": "2025-12-20",
+            "score": 0.88
+          },
+          {
+            "date": "2026-01-19",
+            "score": 0.89
+          }
+        ],
+        "delta": 0.06,
+        "delta_pct": 7.2,
+        "direction": "up"
+      }
+    },
+    {
+      "neighborhood_id": "coral_way",
+      "score": 0.649,
+      "amenity_access_score": 0.649,
+      "data_quality": 0.9,
+      "last_updated": "2026-05-14T04:20:32.608673Z",
+      "categories": {
+        "schools": 96.2,
+        "parks": 93.8,
+        "transit": 100.0,
+        "healthcare": 35.2,
+        "retail": 86.6
+      },
+      "walkability_score": 67,
+      "trend": {
+        "cadence": "quarterly",
+        "window": "90d",
+        "points": [
+          {
+            "date": "2025-10-21",
+            "score": 0.8
+          },
+          {
+            "date": "2025-11-05",
+            "score": 0.81
+          },
+          {
+            "date": "2025-11-20",
+            "score": 0.82
+          },
+          {
+            "date": "2025-12-05",
+            "score": 0.83
+          },
+          {
+            "date": "2025-12-20",
+            "score": 0.84
+          },
+          {
+            "date": "2026-01-19",
+            "score": 0.85
+          }
+        ],
+        "delta": 0.05,
+        "delta_pct": 6.2,
+        "direction": "up"
+      }
+    },
+    {
+      "neighborhood_id": "design_district",
+      "score": 0.568,
+      "amenity_access_score": 0.568,
+      "data_quality": 0.89,
+      "last_updated": "2026-05-14T04:20:32.608673Z",
+      "categories": {
+        "schools": 100.0,
+        "parks": 0.0,
+        "transit": 100.0,
+        "healthcare": 92.5,
+        "retail": 100.0
+      },
+      "walkability_score": 60,
+      "trend": {
+        "cadence": "quarterly",
+        "window": "90d",
+        "points": [
+          {
+            "date": "2025-10-21",
+            "score": 0.74
+          },
+          {
+            "date": "2025-11-05",
+            "score": 0.75
+          },
+          {
+            "date": "2025-11-20",
+            "score": 0.76
+          },
+          {
+            "date": "2025-12-05",
+            "score": 0.77
+          },
+          {
+            "date": "2025-12-20",
+            "score": 0.78
+          },
+          {
+            "date": "2026-01-19",
+            "score": 0.79
+          }
+        ],
+        "delta": 0.05,
+        "delta_pct": 6.8,
+        "direction": "up"
+      }
+    },
+    {
+      "neighborhood_id": "downtown_miami",
+      "score": 0.776,
+      "amenity_access_score": 0.776,
+      "data_quality": 0.91,
+      "last_updated": "2026-05-14T04:20:32.608673Z",
+      "categories": {
+        "schools": 100.0,
+        "parks": 100.0,
+        "transit": 100.0,
+        "healthcare": 76.0,
+        "retail": 100.0
+      },
+      "walkability_score": 79,
+      "trend": {
+        "cadence": "quarterly",
+        "window": "90d",
+        "points": [
+          {
+            "date": "2025-10-21",
+            "score": 0.9
+          },
+          {
+            "date": "2025-11-05",
+            "score": 0.92
+          },
+          {
+            "date": "2025-11-20",
+            "score": 0.93
+          },
+          {
+            "date": "2025-12-05",
+            "score": 0.94
+          },
+          {
+            "date": "2025-12-20",
+            "score": 0.95
+          },
+          {
+            "date": "2026-01-19",
+            "score": 0.96
+          }
+        ],
+        "delta": 0.06,
+        "delta_pct": 6.7,
+        "direction": "up"
+      }
+    },
+    {
+      "neighborhood_id": "edgewater",
+      "score": 0.766,
+      "amenity_access_score": 0.766,
+      "data_quality": 0.91,
+      "last_updated": "2026-05-14T04:20:32.608673Z",
+      "categories": {
+        "schools": 94.8,
+        "parks": 99.5,
+        "transit": 100.0,
+        "healthcare": 74.5,
+        "retail": 100.0
+      },
+      "walkability_score": 78,
+      "trend": {
+        "cadence": "quarterly",
+        "window": "90d",
+        "points": [
+          {
+            "date": "2025-10-21",
+            "score": 0.89
+          },
+          {
+            "date": "2025-11-05",
+            "score": 0.9
+          },
+          {
+            "date": "2025-11-20",
+            "score": 0.91
+          },
+          {
+            "date": "2025-12-05",
+            "score": 0.92
+          },
+          {
+            "date": "2025-12-20",
+            "score": 0.94
+          },
+          {
+            "date": "2026-01-19",
+            "score": 0.95
+          }
+        ],
+        "delta": 0.06,
+        "delta_pct": 6.7,
+        "direction": "up"
+      }
+    },
+    {
+      "neighborhood_id": "flagami_/_grapeland",
+      "score": 0.497,
+      "amenity_access_score": 0.497,
+      "data_quality": 0.88,
+      "last_updated": "2026-05-14T04:20:32.608673Z",
+      "categories": {
+        "schools": 66.3,
+        "parks": 69.1,
+        "transit": 100.0,
+        "healthcare": 42.8,
+        "retail": 85.9
+      },
+      "walkability_score": 53,
+      "trend": {
+        "cadence": "quarterly",
+        "window": "90d",
+        "points": [
+          {
+            "date": "2025-10-21",
+            "score": 0.69
+          },
+          {
+            "date": "2025-11-05",
+            "score": 0.7
+          },
+          {
+            "date": "2025-11-20",
+            "score": 0.71
+          },
+          {
+            "date": "2025-12-05",
+            "score": 0.72
+          },
+          {
+            "date": "2025-12-20",
+            "score": 0.73
+          },
+          {
+            "date": "2026-01-19",
+            "score": 0.74
+          }
+        ],
+        "delta": 0.05,
+        "delta_pct": 7.2,
+        "direction": "up"
+      }
+    },
+    {
+      "neighborhood_id": "health_district_/_civic_center",
+      "score": 0.699,
+      "amenity_access_score": 0.699,
+      "data_quality": 0.9,
+      "last_updated": "2026-05-14T04:20:32.608673Z",
+      "categories": {
+        "schools": 98.1,
+        "parks": 98.5,
+        "transit": 100.0,
+        "healthcare": 69.0,
+        "retail": 69.9
+      },
+      "walkability_score": 72,
+      "trend": {
+        "cadence": "quarterly",
+        "window": "90d",
+        "points": [
+          {
+            "date": "2025-10-21",
+            "score": 0.83
+          },
+          {
+            "date": "2025-11-05",
+            "score": 0.84
+          },
+          {
+            "date": "2025-11-20",
+            "score": 0.85
+          },
+          {
+            "date": "2025-12-05",
+            "score": 0.86
+          },
+          {
+            "date": "2025-12-20",
+            "score": 0.87
+          },
+          {
+            "date": "2026-01-19",
+            "score": 0.89
+          }
+        ],
+        "delta": 0.06,
+        "delta_pct": 7.2,
+        "direction": "up"
+      }
+    },
+    {
+      "neighborhood_id": "liberty_city",
+      "score": 0.44,
+      "amenity_access_score": 0.44,
+      "data_quality": 0.87,
+      "last_updated": "2026-05-14T04:20:32.608673Z",
+      "categories": {
+        "schools": 99.4,
+        "parks": 95.1,
+        "transit": 100.0,
+        "healthcare": 0.0,
+        "retail": 30.2
+      },
+      "walkability_score": 48,
+      "trend": {
+        "cadence": "quarterly",
+        "window": "90d",
+        "points": [
+          {
+            "date": "2025-10-21",
+            "score": 0.65
+          },
+          {
+            "date": "2025-11-05",
+            "score": 0.66
+          },
+          {
+            "date": "2025-11-20",
+            "score": 0.67
+          },
+          {
+            "date": "2025-12-05",
+            "score": 0.68
+          },
+          {
+            "date": "2025-12-20",
+            "score": 0.69
+          },
+          {
+            "date": "2026-01-19",
+            "score": 0.7
+          }
+        ],
+        "delta": 0.05,
+        "delta_pct": 7.7,
+        "direction": "up"
+      }
+    },
+    {
+      "neighborhood_id": "little_haiti",
+      "score": 0.722,
+      "amenity_access_score": 0.722,
+      "data_quality": 0.91,
+      "last_updated": "2026-05-14T04:20:32.608673Z",
+      "categories": {
+        "schools": 94.2,
+        "parks": 97.8,
+        "transit": 100.0,
+        "healthcare": 60.3,
+        "retail": 94.4
+      },
+      "walkability_score": 74,
+      "trend": {
+        "cadence": "quarterly",
+        "window": "90d",
+        "points": [
+          {
+            "date": "2025-10-21",
+            "score": 0.85
+          },
+          {
+            "date": "2025-11-05",
+            "score": 0.86
+          },
+          {
+            "date": "2025-11-20",
+            "score": 0.87
+          },
+          {
+            "date": "2025-12-05",
+            "score": 0.89
+          },
+          {
+            "date": "2025-12-20",
+            "score": 0.9
+          },
+          {
+            "date": "2026-01-19",
+            "score": 0.91
+          }
+        ],
+        "delta": 0.06,
+        "delta_pct": 7.1,
+        "direction": "up"
+      }
+    },
+    {
+      "neighborhood_id": "little_havana",
+      "score": 0.755,
+      "amenity_access_score": 0.755,
+      "data_quality": 0.91,
+      "last_updated": "2026-05-14T04:20:32.608673Z",
+      "categories": {
+        "schools": 98.4,
+        "parks": 97.3,
+        "transit": 100.0,
+        "healthcare": 69.4,
+        "retail": 96.4
+      },
+      "walkability_score": 77,
+      "trend": {
+        "cadence": "quarterly",
+        "window": "90d",
+        "points": [
+          {
+            "date": "2025-10-21",
+            "score": 0.88
+          },
+          {
+            "date": "2025-11-05",
+            "score": 0.89
+          },
+          {
+            "date": "2025-11-20",
+            "score": 0.9
+          },
+          {
+            "date": "2025-12-05",
+            "score": 0.91
+          },
+          {
+            "date": "2025-12-20",
+            "score": 0.93
+          },
+          {
+            "date": "2026-01-19",
+            "score": 0.94
+          }
+        ],
+        "delta": 0.06,
+        "delta_pct": 6.8,
+        "direction": "up"
+      }
+    },
+    {
+      "neighborhood_id": "little_river",
+      "score": 0.568,
+      "amenity_access_score": 0.568,
+      "data_quality": 0.89,
+      "last_updated": "2026-05-14T04:20:32.608673Z",
+      "categories": {
+        "schools": 98.1,
+        "parks": 91.3,
+        "transit": 100.0,
+        "healthcare": 0.0,
+        "retail": 82.7
+      },
+      "walkability_score": 60,
+      "trend": {
+        "cadence": "quarterly",
+        "window": "90d",
+        "points": [
+          {
+            "date": "2025-10-21",
+            "score": 0.74
+          },
+          {
+            "date": "2025-11-05",
+            "score": 0.75
+          },
+          {
+            "date": "2025-11-20",
+            "score": 0.76
+          },
+          {
+            "date": "2025-12-05",
+            "score": 0.77
+          },
+          {
+            "date": "2025-12-20",
+            "score": 0.78
+          },
+          {
+            "date": "2026-01-19",
+            "score": 0.79
+          }
+        ],
+        "delta": 0.05,
+        "delta_pct": 6.8,
+        "direction": "up"
+      }
+    },
+    {
+      "neighborhood_id": "midtown",
+      "score": 0.372,
+      "amenity_access_score": 0.372,
+      "data_quality": 0.86,
+      "last_updated": "2026-05-14T04:20:32.608673Z",
+      "categories": {
+        "schools": 98.2,
+        "parks": 0.0,
+        "transit": 100.0,
+        "healthcare": 0.0,
+        "retail": 100.0
+      },
+      "walkability_score": 42,
+      "trend": {
+        "cadence": "quarterly",
+        "window": "90d",
+        "points": [
+          {
+            "date": "2025-10-21",
+            "score": 0.6
+          },
+          {
+            "date": "2025-11-05",
+            "score": 0.61
+          },
+          {
+            "date": "2025-11-20",
+            "score": 0.62
+          },
+          {
+            "date": "2025-12-05",
+            "score": 0.63
+          },
+          {
+            "date": "2025-12-20",
+            "score": 0.64
+          },
+          {
+            "date": "2026-01-19",
+            "score": 0.65
+          }
+        ],
+        "delta": 0.05,
+        "delta_pct": 8.3,
+        "direction": "up"
+      }
+    },
+    {
+      "neighborhood_id": "overtown",
+      "score": 0.711,
+      "amenity_access_score": 0.711,
+      "data_quality": 0.91,
+      "last_updated": "2026-05-14T04:20:32.608673Z",
+      "categories": {
+        "schools": 99.6,
+        "parks": 99.9,
+        "transit": 100.0,
+        "healthcare": 53.1,
+        "retail": 85.5
+      },
+      "walkability_score": 73,
+      "trend": {
+        "cadence": "quarterly",
+        "window": "90d",
+        "points": [
+          {
+            "date": "2025-10-21",
+            "score": 0.84
+          },
+          {
+            "date": "2025-11-05",
+            "score": 0.85
+          },
+          {
+            "date": "2025-11-20",
+            "score": 0.86
+          },
+          {
+            "date": "2025-12-05",
+            "score": 0.88
+          },
+          {
+            "date": "2025-12-20",
+            "score": 0.89
+          },
+          {
+            "date": "2026-01-19",
+            "score": 0.9
+          }
+        ],
+        "delta": 0.06,
+        "delta_pct": 7.1,
+        "direction": "up"
+      }
+    },
+    {
+      "neighborhood_id": "port_of_miami",
+      "score": 0.064,
+      "amenity_access_score": 0.064,
+      "data_quality": 0.83,
+      "last_updated": "2026-05-14T04:20:32.608673Z",
+      "categories": {
+        "schools": 0.0,
+        "parks": 34.5,
+        "transit": 97.8,
+        "healthcare": 0.0,
+        "retail": 0.0
+      },
+      "walkability_score": 13,
+      "trend": {
+        "cadence": "quarterly",
+        "window": "90d",
+        "points": [
+          {
+            "date": "2025-10-21",
+            "score": 0.24
+          },
+          {
+            "date": "2025-11-05",
+            "score": 0.24
+          },
+          {
+            "date": "2025-11-20",
+            "score": 0.25
+          },
+          {
+            "date": "2025-12-05",
+            "score": 0.25
+          },
+          {
+            "date": "2025-12-20",
+            "score": 0.26
+          },
+          {
+            "date": "2026-01-19",
+            "score": 0.27
+          }
+        ],
+        "delta": 0.03,
+        "delta_pct": 12.5,
+        "direction": "stable"
+      }
+    },
+    {
+      "neighborhood_id": "the_roads",
+      "score": 0.359,
+      "amenity_access_score": 0.359,
+      "data_quality": 0.86,
+      "last_updated": "2026-05-14T04:20:32.608673Z",
+      "categories": {
+        "schools": 68.4,
+        "parks": 78.5,
+        "transit": 100.0,
+        "healthcare": 0.0,
+        "retail": 54.8
+      },
+      "walkability_score": 41,
+      "trend": {
+        "cadence": "quarterly",
+        "window": "90d",
+        "points": [
+          {
+            "date": "2025-10-21",
+            "score": 0.59
+          },
+          {
+            "date": "2025-11-05",
+            "score": 0.6
+          },
+          {
+            "date": "2025-11-20",
+            "score": 0.61
+          },
+          {
+            "date": "2025-12-05",
+            "score": 0.62
+          },
+          {
+            "date": "2025-12-20",
+            "score": 0.63
+          },
+          {
+            "date": "2026-01-19",
+            "score": 0.64
+          }
+        ],
+        "delta": 0.05,
+        "delta_pct": 8.5,
+        "direction": "up"
+      }
+    },
+    {
+      "neighborhood_id": "upper_eastside",
+      "score": 0.662,
+      "amenity_access_score": 0.662,
+      "data_quality": 0.9,
+      "last_updated": "2026-05-14T04:20:32.608673Z",
+      "categories": {
+        "schools": 91.3,
+        "parks": 99.2,
+        "transit": 100.0,
+        "healthcare": 20.2,
+        "retail": 99.5
+      },
+      "walkability_score": 68,
+      "trend": {
+        "cadence": "quarterly",
+        "window": "90d",
+        "points": [
+          {
+            "date": "2025-10-21",
+            "score": 0.81
+          },
+          {
+            "date": "2025-11-05",
+            "score": 0.82
+          },
+          {
+            "date": "2025-11-20",
+            "score": 0.83
+          },
+          {
+            "date": "2025-12-05",
+            "score": 0.84
+          },
+          {
+            "date": "2025-12-20",
+            "score": 0.85
+          },
+          {
+            "date": "2026-01-19",
+            "score": 0.86
+          }
+        ],
+        "delta": 0.05,
+        "delta_pct": 6.2,
+        "direction": "up"
+      }
+    },
+    {
+      "neighborhood_id": "venetian_islands",
+      "score": 0.044,
+      "amenity_access_score": 0.044,
+      "data_quality": 0.83,
+      "last_updated": "2026-05-14T04:20:32.608673Z",
+      "categories": {
+        "schools": 0.0,
+        "parks": 0.0,
+        "transit": 100.0,
+        "healthcare": 0.0,
+        "retail": 0.0
+      },
+      "walkability_score": 12,
+      "trend": {
+        "cadence": "quarterly",
+        "window": "90d",
+        "points": [
+          {
+            "date": "2025-10-21",
+            "score": 0.17
+          },
+          {
+            "date": "2025-11-05",
+            "score": 0.18
+          },
+          {
+            "date": "2025-11-20",
+            "score": 0.18
+          },
+          {
+            "date": "2025-12-05",
+            "score": 0.19
+          },
+          {
+            "date": "2025-12-20",
+            "score": 0.19
+          },
+          {
+            "date": "2026-01-19",
+            "score": 0.2
+          }
+        ],
+        "delta": 0.03,
+        "delta_pct": 17.6,
+        "direction": "stable"
+      }
+    },
+    {
+      "neighborhood_id": "virginia_key",
+      "score": 0.119,
+      "amenity_access_score": 0.119,
+      "data_quality": 0.83,
+      "last_updated": "2026-05-14T04:20:32.608673Z",
+      "categories": {
+        "schools": 16.4,
+        "parks": 61.6,
+        "transit": 98.1,
+        "healthcare": 0.0,
+        "retail": 16.4
+      },
+      "walkability_score": 18,
+      "trend": {
+        "cadence": "quarterly",
+        "window": "90d",
+        "points": [
+          {
+            "date": "2025-10-21",
+            "score": 0.35
+          },
+          {
+            "date": "2025-11-05",
+            "score": 0.36
+          },
+          {
+            "date": "2025-11-20",
+            "score": 0.37
+          },
+          {
+            "date": "2025-12-05",
+            "score": 0.38
+          },
+          {
+            "date": "2025-12-20",
+            "score": 0.39
+          },
+          {
+            "date": "2026-01-19",
+            "score": 0.39
+          }
+        ],
+        "delta": 0.04,
+        "delta_pct": 11.4,
+        "direction": "up"
+      }
+    },
+    {
+      "neighborhood_id": "watson_island",
+      "score": 0.211,
+      "amenity_access_score": 0.211,
+      "data_quality": 0.85,
+      "last_updated": "2026-05-14T04:20:32.608673Z",
+      "categories": {
+        "schools": 0.0,
+        "parks": 99.8,
+        "transit": 100.0,
+        "healthcare": 0.0,
+        "retail": 54.0
+      },
+      "walkability_score": 27,
+      "trend": {
+        "cadence": "quarterly",
+        "window": "90d",
+        "points": [
+          {
+            "date": "2025-10-21",
+            "score": 0.47
+          },
+          {
+            "date": "2025-11-05",
+            "score": 0.48
+          },
+          {
+            "date": "2025-11-20",
+            "score": 0.48
+          },
+          {
+            "date": "2025-12-05",
+            "score": 0.49
+          },
+          {
+            "date": "2025-12-20",
+            "score": 0.5
+          },
+          {
+            "date": "2026-01-19",
+            "score": 0.51
+          }
+        ],
+        "delta": 0.04,
+        "delta_pct": 8.5,
+        "direction": "up"
+      }
+    },
+    {
+      "neighborhood_id": "wynwood",
+      "score": 0.649,
+      "amenity_access_score": 0.649,
+      "data_quality": 0.9,
+      "last_updated": "2026-05-14T04:20:32.608673Z",
+      "categories": {
+        "schools": 99.9,
+        "parks": 98.5,
+        "transit": 100.0,
+        "healthcare": 0.0,
+        "retail": 100.0
+      },
+      "walkability_score": 67,
+      "trend": {
+        "cadence": "quarterly",
+        "window": "90d",
+        "points": [
+          {
+            "date": "2025-10-21",
+            "score": 0.8
+          },
+          {
+            "date": "2025-11-05",
+            "score": 0.81
+          },
+          {
+            "date": "2025-11-20",
+            "score": 0.82
+          },
+          {
+            "date": "2025-12-05",
+            "score": 0.83
+          },
+          {
+            "date": "2025-12-20",
+            "score": 0.84
+          },
+          {
+            "date": "2026-01-19",
+            "score": 0.85
+          }
+        ],
+        "delta": 0.05,
+        "delta_pct": 6.2,
+        "direction": "up"
+      }
+    }
+  ],
+  "last_updated": "2026-05-14T04:50:09.630169Z"
+}
