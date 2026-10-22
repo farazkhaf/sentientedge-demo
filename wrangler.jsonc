@@ -10,7 +10,7 @@
     {
       "binding": "DB",
       "database_name": "sentientedge",
-      "database_id": "00000000-0000-0000-0000-000000000000",
+      "database_id": "dd966a26-3865-422d-a6f4-f36bfe92d02e",
       "migrations_dir": "migrations",
     },
   ],

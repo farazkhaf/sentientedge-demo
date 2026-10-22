@@ -4,6 +4,8 @@ SentientEdge is a desktop urban intelligence frontend for Miami, presenting a pr
 
 This repository contains the frontend application, its presentation APIs, optional snapshot-based AI assistant, and the data needed to run it locally.
 
+[Open the live workspace](https://sentientedge.busiytc3.workers.dev)
+
 ## Run locally
 
 Requires **Node.js 22.15 or newer**.
@@ -25,6 +27,8 @@ npm run demo:on      # Enable AI when credentials are configured
 ```
 
 These commands change persistent local database settings. An optional `DEMO_STATE` environment override takes precedence. Restart the server after changing environment variables; reload an open page after changing the demo state.
+
+For an authenticated Cloudflare deployment, use `npm run demo:remote:on`, `npm run demo:remote:pause`, or `npm run demo:remote:off` to change the deployed state without rebuilding. Local commands do not affect the deployed database.
 
 ```sh
 npm test
