@@ -320,8 +320,8 @@
   }
   .se-sheet-handle {
     position: relative;
-    height: 80px;
-    min-height: 80px;
+    height: 60px;
+    min-height: 60px;
     width: 100%;
     flex: none;
     display: flex;
@@ -330,7 +330,7 @@
     text-align: left;
     border: 0;
     background: var(--se-paper);
-    padding: 25px 18px 10px;
+    padding: 17px 16px 7px;
     color: var(--se-ink);
     touch-action: none;
     user-select: none;
@@ -338,7 +338,7 @@
   }
   .se-sheet-handle > i {
     position: absolute;
-    top: 8px;
+    top: 6px;
     left: calc(50% - 20px);
     width: 40px;
     height: 4px;
@@ -356,6 +356,17 @@
     white-space: nowrap;
     font-size: 15px;
     font-weight: 650;
+  }
+  .se-mobile-workspace[data-detail-kind="place"] .se-sheet-handle {
+    height: 76px;
+    min-height: 76px;
+  }
+  .se-mobile-workspace[data-detail-kind="place"] .se-sheet-handle strong {
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 2;
+    white-space: normal;
+    line-height: 1.25;
   }
   .se-sheet-handle small {
     font-size: 10px;
@@ -385,30 +396,7 @@
     min-width: 0;
   }
   .se-mobile-detail-content .se-context-header {
-    padding: 5px 18px 12px;
-  }
-  .se-mobile-detail-content .se-context-header h1 {
-    position: absolute;
-    width: 1px;
-    height: 1px;
-    padding: 0;
-    margin: -1px;
-    overflow: hidden;
-    clip-path: inset(50%);
-    white-space: nowrap;
-  }
-  .se-mobile-detail-content
-    .se-context-header:not(:has(.se-context-breadcrumb)),
-  .se-mobile-detail-content [aria-label="Close details panel"] {
     display: none;
-  }
-  .se-mobile-detail-content .se-context-header .se-eyebrow,
-  .se-mobile-detail-content .se-context-breadcrumb {
-    font-size: 9px;
-  }
-  .se-context-actions button {
-    min-width: 34px;
-    min-height: 36px;
   }
   .se-mobile-detail-content .se-profile-heading {
     display: none;
@@ -417,19 +405,33 @@
     font-size: 23px;
   }
   .se-mobile-detail-content .se-panel-tabs {
-    padding: 0 12px 12px;
+    display: flex;
+    flex: none;
+    flex-wrap: nowrap;
+    overflow-x: auto;
+    scrollbar-width: thin;
+    padding: 5px 12px;
     gap: 4px;
   }
-  .se-mobile-detail-content .se-panel-tabs button {
-    min-height: 39px;
+  .se-mobile-detail-content .se-panel-tabs button,
+  .se-mobile-detail-content
+    .se-panel-tabs.has-profile-tabs
+    button:nth-child(n + 4) {
+    flex: none;
+    white-space: nowrap;
+    min-height: 36px;
     font-size: 12px;
+    padding: 8px 12px;
   }
   .se-mobile-detail-content .se-context-scroll {
-    padding: 20px 18px 30px;
+    padding: 12px 18px 24px;
     overscroll-behavior-y: contain;
   }
+  .se-mobile-detail-content .se-narrative > .se-eyebrow {
+    margin-bottom: 6px;
+  }
   .se-mobile-detail-content .se-narrative h2 {
-    font-size: 24px;
+    font-size: 22px;
     line-height: 1.25;
   }
   .se-mobile-detail-content .se-narrative > p {
@@ -459,8 +461,12 @@
     overflow-wrap: anywhere;
   }
   .se-mobile-detail-content .se-context-back {
-    padding: 8px 18px;
-    min-height: 38px;
+    padding: 0 0 10px;
+    min-height: 30px;
+    margin-bottom: 12px;
+  }
+  .se-mobile-detail-content .se-place-location {
+    display: none;
   }
   .se-mobile-detail-content .se-panel-mode-switch {
     padding: 0 18px 12px;
@@ -689,26 +695,73 @@
     min-height: 40px;
   }
 
-  .se-mobile-detail-content .se-comparison > header {
-    padding: 4px 18px 12px;
+  .se-mobile-comparison-toolbar {
+    display: flex;
+    flex: none;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 12px 0 18px;
+    min-height: 36px;
+    border-bottom: 1px solid var(--se-line);
     gap: 8px;
   }
-  .se-mobile-detail-content .se-comparison h2 {
-    font-size: 19px;
+  .se-mobile-comparison-toolbar > span {
+    min-width: 0;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    font-size: 11px;
+    color: var(--se-muted);
   }
-  .se-mobile-detail-content .se-comparison h2 > svg {
-    display: none;
+  .se-mobile-comparison-toolbar > button {
+    flex: none;
+    width: 38px;
+    height: 36px;
+    display: grid;
+    place-items: center;
+    border: 0;
+    background: transparent;
+    color: var(--se-secondary);
   }
-  .se-mobile-detail-content .se-comparison-actions {
-    gap: 6px;
+  .se-mobile-comparison-setup {
+    flex: none;
+    padding: 10px 0 0;
   }
-  .se-mobile-detail-content .se-comparison-actions button {
+  .se-mobile-comparison-setup-actions {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    gap: 12px;
+  }
+  .se-mobile-comparison-setup-actions label {
+    flex: 1;
+    min-width: 0;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    padding: 0 8px;
+    background: var(--se-subtle);
+    border: 1px solid var(--se-line);
+    border-radius: 5px;
+    color: var(--se-secondary);
+  }
+  .se-mobile-comparison-setup-actions select {
+    min-width: 0;
+    width: 100%;
+    height: 38px;
+    background: transparent;
+    border: 0;
+    color: inherit;
+    font-size: 12px;
+  }
+  .se-mobile-comparison-setup-actions button {
+    flex: none;
     min-height: 36px;
-    min-width: 32px;
-  }
-  .se-mobile-detail-content .se-comparison-actions select {
-    width: 115px;
-    min-height: 32px;
+    border: 0;
+    padding: 0;
+    background: transparent;
+    color: var(--se-muted);
+    font-size: 11px;
   }
   .se-mobile-detail-content .se-comparison-scroll {
     padding: 0 14px 25px;
@@ -731,6 +784,7 @@
     align-items: start;
   }
   .se-mobile-detail-content .se-comparison-table thead button {
+    flex: none;
     min-width: 24px;
     min-height: 28px;
   }
@@ -764,7 +818,7 @@
     margin-bottom: 8px;
   }
   .se-mobile-comparison-pair {
-    padding: 10px 18px 12px;
+    padding: 6px 0 14px;
     border-bottom: 1px solid var(--se-line);
   }
   .se-mobile-comparison-pair > span {
@@ -860,15 +914,9 @@
   }
   .se-assistant-composer {
     padding: 14px 16px calc(13px + env(safe-area-inset-bottom, 0px));
-    grid-template-columns: minmax(0, 1fr) 42px;
   }
   .se-assistant-composer textarea {
     font-size: 16px;
-    min-height: 62px;
-  }
-  .se-assistant-composer > button {
-    width: 42px;
-    height: 44px;
   }
   .se-assistant-composer small {
     font-size: 10px;

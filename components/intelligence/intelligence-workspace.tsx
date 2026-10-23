@@ -133,6 +133,7 @@ export function IntelligenceWorkspace() {
     <AreaComparison compact={compact} />
   ) : selectedPlace ? (
     <PlaceDetailPanel
+      compact={compact}
       key={selectedPlace.properties.id}
       place={selectedPlace}
       back={() => {
@@ -357,6 +358,9 @@ export function IntelligenceWorkspace() {
           )}
           {compact ? (
             <MobileWorkspace
+              kind={
+                comparisonMode ? "comparison" : selectedPlace ? "place" : "area"
+              }
               map={mapContent}
               title={comparisonMode ? "Area comparison" : detailsLabel}
               score={

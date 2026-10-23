@@ -7,12 +7,25 @@ import {
 
 test("sheet anchors retain usable map space from short landscape to tall phones", () => {
   for (const height of [240, 310, 520, 680, 780, 1024]) {
-    const anchors = detailHeights(height);
-    assert.ok(
-      anchors.map < anchors.balanced && anchors.balanced < anchors.reading,
-    );
-    assert.ok(height - anchors.reading >= Math.min(128, height * 0.27) - 0.001);
-    assert.ok(anchors.map >= 60);
+    for (const peekHeight of [60, 76]) {
+      const anchors = detailHeights(height, peekHeight);
+      assert.ok(
+        anchors.map < anchors.balanced && anchors.balanced < anchors.reading,
+      );
+      assert.ok(
+        height - anchors.reading >= Math.min(128, height * 0.27) - 0.001,
+      );
+      assert.equal(anchors.map, peekHeight);
+      const midpoint = (anchors.map + anchors.balanced) / 2;
+      assert.equal(
+        nearestDetailAnchor(height, midpoint - 1, peekHeight),
+        "map",
+      );
+      assert.equal(
+        nearestDetailAnchor(height, midpoint + 1, peekHeight),
+        "balanced",
+      );
+    }
   }
 });
 

@@ -21,6 +21,7 @@ export function MobileWorkspace({
   score,
   anchor,
   onAnchorChange,
+  kind = "area",
 }: {
   map: ReactNode;
   children: ReactNode;
@@ -28,6 +29,7 @@ export function MobileWorkspace({
   score?: string;
   anchor: DetailAnchor;
   onAnchorChange: (anchor: DetailAnchor) => void;
+  kind?: "area" | "place" | "comparison";
 }) {
   const root = useRef<HTMLDivElement>(null);
   const drag = useRef<{
@@ -36,6 +38,7 @@ export function MobileWorkspace({
     current: number;
     height: number;
     moved: boolean;
+    peekHeight: number;
   } | null>(null);
   const suppressClick = useRef(false);
   const [height, setHeight] = useState(600);
@@ -47,7 +50,8 @@ export function MobileWorkspace({
     observer.observe(element);
     return () => observer.disconnect();
   }, []);
-  const reveal = detailHeights(height)[anchor];
+  const peekHeight = kind === "place" ? 76 : 60;
+  const reveal = detailHeights(height, peekHeight)[anchor];
   useEffect(() => {
     if (!drag.current)
       root.current?.style.setProperty("--se-detail-height", `${reveal}px`);
@@ -62,10 +66,14 @@ export function MobileWorkspace({
     root.current?.classList.remove("is-dragging");
     const next = cancelled
       ? anchor
-      : nearestDetailAnchor(current.height, current.current);
+      : nearestDetailAnchor(
+          current.height,
+          current.current,
+          current.peekHeight,
+        );
     root.current?.style.setProperty(
       "--se-detail-height",
-      `${detailHeights(current.height)[next]}px`,
+      `${detailHeights(current.height, current.peekHeight)[next]}px`,
     );
     onAnchorChange(next);
     suppressClick.current = current.moved || cancelled;
@@ -77,7 +85,12 @@ export function MobileWorkspace({
     onAnchorChange(detailAnchors[Math.max(0, Math.min(2, index + direction))]);
   };
   return (
-    <div ref={root} className="se-mobile-workspace" data-anchor={anchor}>
+    <div
+      ref={root}
+      className="se-mobile-workspace"
+      data-anchor={anchor}
+      data-detail-kind={kind}
+    >
       <div className="se-mobile-map-region">{map}</div>
       <section className="se-mobile-details" aria-label="Map details">
         <button
@@ -96,13 +109,14 @@ export function MobileWorkspace({
               current: reveal,
               height,
               moved: false,
+              peekHeight,
             };
             root.current?.classList.add("is-dragging");
           }}
           onPointerMove={(event) => {
             if (!drag.current) return;
             const current = drag.current;
-            const limits = detailHeights(current.height);
+            const limits = detailHeights(current.height, current.peekHeight);
             current.moved ||= Math.abs(event.clientY - current.y) > 5;
             current.current = Math.max(
               limits.map,
@@ -148,7 +162,9 @@ export function MobileWorkspace({
                   ? "Swipe down for the map"
                   : score
                     ? "Weighted profile · −1 to +1"
-                    : "Map & intelligence"}
+                    : kind === "place"
+                      ? "Place details"
+                      : "Map & intelligence"}
             </small>
           </span>
           {score && (

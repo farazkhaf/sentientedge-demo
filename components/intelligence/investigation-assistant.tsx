@@ -1,6 +1,6 @@
 "use client";
 import { useDataset } from "./dataset-provider";
-import { useEffect, useRef, useState } from "react";
+import { useEffect, useLayoutEffect, useRef, useState } from "react";
 import {
   ArrowUp,
   ChevronDown,
@@ -15,6 +15,16 @@ import type { InvestigationAction } from "@/lib/intelligence/assistant-contract"
 import type { InvestigationSession } from "./use-investigation";
 import { InvestigationArtifactView } from "./investigation-artifacts";
 import { EvidenceCard } from "./intelligence-panel";
+import { useCompactWorkspace } from "./use-compact-workspace";
+
+function resizeDraft(input: HTMLTextAreaElement | null) {
+  if (!input) return;
+  const lineHeight = parseFloat(getComputedStyle(input).lineHeight) || 24;
+  input.style.height = "0px";
+  input.style.height = `${Math.min(input.scrollHeight, lineHeight * 4)}px`;
+  input.style.overflowY =
+    input.scrollHeight > lineHeight * 4 ? "auto" : "hidden";
+}
 
 function AnswerText({
   text,
@@ -70,6 +80,7 @@ export function InvestigationAssistant({
   close?: () => void;
 }) {
   const { dataService, evidenceById } = useDataset();
+  const compact = useCompactWorkspace();
 
   const {
     selectedNeighborhood: selected,
@@ -82,6 +93,20 @@ export function InvestigationAssistant({
   const [recordId, setRecordId] = useState<string | null>(null);
   const end = useRef<HTMLDivElement>(null);
   const input = useRef<HTMLTextAreaElement>(null);
+  useLayoutEffect(() => resizeDraft(input.current), [draft]);
+  useEffect(() => {
+    const element = input.current;
+    if (!element) return;
+    let width = -1;
+    const observer = new ResizeObserver(([entry]) => {
+      if (entry.contentRect.width !== width) {
+        width = entry.contentRect.width;
+        resizeDraft(element);
+      }
+    });
+    observer.observe(element);
+    return () => observer.disconnect();
+  }, []);
   const comparing =
     appMode === "explore" &&
     comparisonMode &&
@@ -291,35 +316,45 @@ export function InvestigationAssistant({
         <label className="sr-only" htmlFor="se-question">
           Ask SentientEdge
         </label>
-        <textarea
-          id="se-question"
-          ref={input}
-          value={draft}
-          disabled={!session.available}
-          maxLength={2000}
-          rows={2}
-          placeholder={
-            selected
-              ? `Investigate ${name}…`
-              : "Ask about Miami or a neighborhood…"
-          }
-          onChange={(e) => setDraft(e.target.value)}
-          onKeyDown={(e) => {
-            if (e.key === "Enter" && !e.shiftKey) {
-              e.preventDefault();
-              submit();
+        <div className="se-composer-input">
+          <textarea
+            id="se-question"
+            ref={input}
+            value={draft}
+            maxLength={2000}
+            rows={1}
+            placeholder={
+              selected
+                ? `Investigate ${name}…`
+                : "Ask about Miami or a neighborhood…"
             }
-          }}
-        />
-        <button
-          type="submit"
-          disabled={!draft.trim() || session.pending || !session.available}
-          aria-label="Send question"
-        >
-          <ArrowUp size={18} />
-        </button>
+            onChange={(e) => setDraft(e.target.value)}
+            onKeyDown={(e) => {
+              if (
+                e.key === "Enter" &&
+                !e.shiftKey &&
+                !compact &&
+                !e.nativeEvent.isComposing
+              ) {
+                e.preventDefault();
+                submit();
+              }
+            }}
+          />
+          <div className="se-composer-actions">
+            <button
+              className="se-composer-send"
+              type="submit"
+              disabled={!draft.trim() || session.pending || !session.available}
+              aria-label="Send question"
+            >
+              <ArrowUp size={18} />
+            </button>
+          </div>
+        </div>
         <small>
-          Answers use the included workspace data. Shift + Enter for a new line.
+          Answers use the included workspace data.
+          {!compact && " Shift + Enter for a new line."}
         </small>
       </form>
     </section>
