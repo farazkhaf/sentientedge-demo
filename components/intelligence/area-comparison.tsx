@@ -1,12 +1,13 @@
 "use client";
 import { useDataset } from "./dataset-provider";
+import { useEffect, useState } from "react";
 import { GitCompareArrows, Plus, X } from "lucide-react";
 import { useAppStore } from "@/lib/store/app-store";
 
 import { currency, dimensions, signed } from "@/lib/intelligence/briefings";
 
 const colors = ["#4f8b85", "#b58c57", "#778ca9", "#a07c97"];
-export function AreaComparison() {
+export function AreaComparison({ compact = false }: { compact?: boolean }) {
   const { dataService, areaBriefing, recordsFor, permits } = useDataset();
 
   const {
@@ -18,7 +19,26 @@ export function AreaComparison() {
     activeLayers,
     layerWeights,
   } = useAppStore();
-  const areas = ids.map((id) => dataService.getAllDataForNeighborhood(id)!);
+  const [pair, setPair] = useState<string[]>([]);
+  useEffect(() => {
+    setPair((previous) =>
+      [
+        ...previous.filter((id) => ids.includes(id)),
+        ...ids.filter((id) => !previous.includes(id)),
+      ].slice(0, 2),
+    );
+  }, [ids]);
+  const validPair = pair.filter((id) => ids.includes(id));
+  const shownIds =
+    compact && ids.length > 2
+      ? [...validPair, ...ids.filter((id) => !validPair.includes(id))].slice(
+          0,
+          2,
+        )
+      : ids;
+  const areas = shownIds.map(
+    (id) => dataService.getAllDataForNeighborhood(id)!,
+  );
   const available = dataService
     .getAllNeighborhoods()
     .filter((a) => !ids.includes(a.id));
@@ -46,7 +66,7 @@ export function AreaComparison() {
           </h2>
         </div>
         <div className="se-comparison-actions">
-          {ids.length < 4 && (
+          {ids.length < (compact ? 2 : 4) && (
             <label>
               <Plus size={14} />
               <select
@@ -71,6 +91,46 @@ export function AreaComparison() {
           </button>
         </div>
       </header>
+      {compact && ids.length >= 2 && (
+        <div className="se-mobile-comparison-pair">
+          <span>
+            {ids.length > 2
+              ? `Viewing two of ${ids.length} selected areas`
+              : "Compare side by side"}
+          </span>
+          <div>
+            {shownIds.map((id, index) => (
+              <label key={index}>
+                Area {index === 0 ? "A" : "B"}
+                <select
+                  aria-label={`Comparison area ${index === 0 ? "A" : "B"}`}
+                  value={id}
+                  onChange={(event) => {
+                    const next = [...shownIds];
+                    next[index] = event.target.value;
+                    if (ids.length > 2) setPair(next);
+                    else
+                      useAppStore.setState({ comparisonNeighborhoods: next });
+                  }}
+                >
+                  {dataService
+                    .getAllNeighborhoods()
+                    .filter((area) => ids.length <= 2 || ids.includes(area.id))
+                    .map((area) => (
+                      <option
+                        key={area.id}
+                        value={area.id}
+                        disabled={shownIds[1 - index] === area.id}
+                      >
+                        {area.name}
+                      </option>
+                    ))}
+                </select>
+              </label>
+            ))}
+          </div>
+        </div>
+      )}
       {!areas.length ? (
         <div className="se-comparison-empty">
           <GitCompareArrows size={28} />

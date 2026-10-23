@@ -1,6 +1,7 @@
 /* Shared light analytics palette, including panels rendered outside the workspace. */
 .se-app,
 .se-assistant-dialog[data-slot="dialog-content"],
+.se-mobile-dialog,
 .se-snapshot-dialog {
   --se-ink: #18262b;
   --se-secondary: #46585f;

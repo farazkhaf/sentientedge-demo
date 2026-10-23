@@ -12,6 +12,12 @@ import {
   SlidersHorizontal,
 } from "lucide-react";
 import { useAppStore } from "@/lib/store/app-store";
+import {
+  Dialog,
+  DialogContent,
+  DialogHeader,
+  DialogTitle,
+} from "@/components/ui/dialog";
 
 import { currency, dimensions, signed } from "@/lib/intelligence/briefings";
 
@@ -159,6 +165,8 @@ export function IntelligenceMap({
   onPlaceSelect,
   openDetails,
   detailsLabel,
+  compact = false,
+  onOpenLayers,
 }: {
   mode: MapMode;
   place: HotspotFeature | null;
@@ -167,6 +175,8 @@ export function IntelligenceMap({
   onPlaceSelect: (place: HotspotFeature | null) => void;
   openDetails?: () => void;
   detailsLabel: string;
+  compact?: boolean;
+  onOpenLayers?: () => void;
 }) {
   const dataset = useDataset();
   const { dataService, hotspotData, permits } = dataset;
@@ -184,6 +194,8 @@ export function IntelligenceMap({
   const popup = useRef<maplibregl.Popup | null>(null);
   const [ready, setReady] = useState(false);
   const [failed, setFailed] = useState(false);
+  const [legendOpen, setLegendOpen] = useState(false);
+  const [resizeRevision, setResizeRevision] = useState(0);
   const showHotspots = mode === "places";
   const showPermits = mode === "permits";
   const {
@@ -194,8 +206,8 @@ export function IntelligenceMap({
     comparisonNeighborhoods,
     detailPanelOpen,
   } = useAppStore();
-  const interaction = useRef({ mode, place, visible, onPlaceSelect });
-  interaction.current = { mode, place, visible, onPlaceSelect };
+  const interaction = useRef({ mode, place, visible, compact, onPlaceSelect });
+  interaction.current = { mode, place, visible, compact, onPlaceSelect };
   const resetHover = useRef<() => void>(() => {});
   const cameraScope = useRef("");
 
@@ -398,15 +410,27 @@ export function IntelligenceMap({
       instance.on("mousemove", (e) => {
         const state = useAppStore.getState();
         const current = interaction.current;
-        if (!current.visible) {
+        if (
+          !current.visible ||
+          current.compact ||
+          !window.matchMedia("(hover: hover)").matches
+        ) {
           clearHover();
           return;
         }
         if (current.mode === "places") {
           const dot = !state.comparisonMode
-            ? instance.queryRenderedFeatures(e.point, {
-                layers: ["amenity-dots"],
-              })[0]
+            ? instance.queryRenderedFeatures(
+                current.compact
+                  ? [
+                      [e.point.x - 10, e.point.y - 10],
+                      [e.point.x + 10, e.point.y + 10],
+                    ]
+                  : e.point,
+                {
+                  layers: ["amenity-dots"],
+                },
+              )[0]
             : null;
           const nextId = dot?.properties.id as string | undefined;
           instance.getCanvas().style.cursor = nextId ? "pointer" : "";
@@ -494,9 +518,17 @@ export function IntelligenceMap({
         const current = interaction.current;
         const dot =
           current.mode === "places" && !state.comparisonMode
-            ? instance.queryRenderedFeatures(e.point, {
-                layers: ["amenity-dots"],
-              })[0]
+            ? instance.queryRenderedFeatures(
+                current.compact
+                  ? [
+                      [e.point.x - 10, e.point.y - 10],
+                      [e.point.x + 10, e.point.y + 10],
+                    ]
+                  : e.point,
+                {
+                  layers: ["amenity-dots"],
+                },
+              )[0]
             : null;
         if (dot) {
           const selected = (hotspotData.features as HotspotFeature[]).find(
@@ -517,19 +549,30 @@ export function IntelligenceMap({
         current.onPlaceSelect(null);
       });
       instance.fitBounds(cityBounds, {
-        padding: { top: 65, right: 35, bottom: 105, left: 35 },
+        padding: interaction.current.compact
+          ? { top: 16, right: 22, bottom: 20, left: 22 }
+          : { top: 65, right: 35, bottom: 105, left: 35 },
         duration: 0,
       });
       setReady(true);
     });
+    let resizeTimer: ReturnType<typeof setTimeout>;
     const observer = new ResizeObserver(() => {
       if (container.current?.clientWidth && container.current.clientHeight)
         instance.resize();
+      if (interaction.current.compact) {
+        clearTimeout(resizeTimer);
+        resizeTimer = setTimeout(
+          () => setResizeRevision((value) => value + 1),
+          180,
+        );
+      }
     });
     observer.observe(container.current);
     return () => {
       clearTimeout(timeout);
       observer.disconnect();
+      clearTimeout(resizeTimer);
       resetHover.current();
       resetHover.current = () => {};
       instance.remove();
@@ -620,21 +663,35 @@ export function IntelligenceMap({
   useEffect(() => {
     if (!ready || !map.current || !visible) return;
     map.current.resize();
-    const scope = comparisonMode
-      ? "comparison"
-      : place
-        ? `place:${place.properties.id}`
-        : (selectedNeighborhood ?? "miami");
+    const scope =
+      (comparisonMode
+        ? "comparison"
+        : place
+          ? `place:${place.properties.id}`
+          : (selectedNeighborhood ?? "miami")) +
+      (compact
+        ? `:${container.current?.clientWidth}:${container.current?.clientHeight}`
+        : "");
     if (cameraScope.current === scope) return;
     cameraScope.current = scope;
     if (place && !comparisonMode) return;
     const duration = window.matchMedia("(prefers-reduced-motion: reduce)")
       .matches
       ? 0
-      : 500;
+      : compact
+        ? 600
+        : 500;
+    const mobilePadding = {
+      top: Math.min(22, (container.current?.clientHeight ?? 200) * 0.12),
+      right: 24,
+      bottom: 20,
+      left: 24,
+    };
     if (comparisonMode) {
       map.current.fitBounds(cityBounds, {
-        padding: { top: 48, right: 30, bottom: 30, left: 30 },
+        padding: compact
+          ? mobilePadding
+          : { top: 48, right: 30, bottom: 30, left: 30 },
         duration,
       });
       return;
@@ -652,16 +709,28 @@ export function IntelligenceMap({
       };
       extend(feature.geometry.coordinates);
       map.current.fitBounds(bounds, {
-        padding: { top: 85, right: 55, bottom: 115, left: 55 },
+        padding: compact
+          ? mobilePadding
+          : { top: 85, right: 55, bottom: 115, left: 55 },
         maxZoom: 13.2,
         duration,
       });
     } else
       map.current.fitBounds(cityBounds, {
-        padding: { top: 65, right: 35, bottom: 105, left: 35 },
+        padding: compact
+          ? mobilePadding
+          : { top: 65, right: 35, bottom: 105, left: 35 },
         duration,
       });
-  }, [ready, selectedNeighborhood, comparisonMode, place, visible]);
+  }, [
+    ready,
+    selectedNeighborhood,
+    comparisonMode,
+    place,
+    visible,
+    compact,
+    resizeRevision,
+  ]);
 
   useEffect(() => {
     if (!ready || !map.current) return;
@@ -692,6 +761,94 @@ export function IntelligenceMap({
           : 450,
       });
   }, [ready, place, comparisonMode]);
+
+  const renderLegend = () => (
+    <div className="se-map-legend">
+      <div>
+        <strong>
+          {showPermits
+            ? "Permits · 30-day count"
+            : showHotspots
+              ? "Places & amenities"
+              : "Weighted profile index"}
+        </strong>
+        <button
+          title="Fit Miami"
+          aria-label="Fit Miami"
+          onClick={() =>
+            map.current?.fitBounds(cityBounds, {
+              padding: compact
+                ? { top: 16, right: 22, bottom: 20, left: 22 }
+                : { top: 65, right: 35, bottom: 105, left: 35 },
+              duration: window.matchMedia("(prefers-reduced-motion: reduce)")
+                .matches
+                ? 0
+                : compact
+                  ? 600
+                  : 500,
+            })
+          }
+        >
+          <Crosshair size={16} />
+        </button>
+      </div>
+      {showHotspots ? (
+        <div className="se-place-legend">
+          <div className="se-marker-key">
+            {markerCategories.map((category) => (
+              <span key={category.id}>
+                <i style={{ background: category.color }} />
+                {category.label}
+              </span>
+            ))}
+          </div>
+          <span>
+            Colors identify the anchor place.{" "}
+            {compact
+              ? "Tap a marker for nearby amenities."
+              : "Hover a marker for a preview; click for nearby amenities."}
+          </span>
+        </div>
+      ) : (
+        <>
+          <div className="se-legend-ramp">
+            {(showPermits
+              ? ["#e1dfeb", "#bbb9d5", "#938fb9", "#6f6a9d", "#4c4678"]
+              : ["#9d4c45", "#986f37", "#74817d", "#568369", "#35749b"]
+            ).map((color) => (
+              <i key={color} style={{ background: color }} />
+            ))}
+          </div>
+          <div className="se-legend-labels">
+            {showPermits ? (
+              <>
+                <span>0–19</span>
+                <span>20–49</span>
+                <span>50–99</span>
+                <span>100–149</span>
+                <span>150+</span>
+              </>
+            ) : (
+              <>
+                <span>−1</span>
+                <span>−0.6</span>
+                <span>−0.3 / +0.3</span>
+                <span>+0.6</span>
+                <span>+1</span>
+              </>
+            )}
+          </div>
+        </>
+      )}
+      <small>
+        {showPermits
+          ? "Neighborhood permit totals"
+          : showHotspots
+            ? `${hotspotData.features.length} recorded clusters`
+            : `${activeLayers.filter((l) => layerWeights[l] > 0).length} active dimensions · ${compact ? "adjust in Layers" : "adjust weights in the sidebar"}`}
+      </small>
+    </div>
+  );
 
   return (
     <div className={`se-map ${ready ? "is-ready" : "is-loading"}`}>
@@ -759,82 +916,48 @@ export function IntelligenceMap({
           Select up to four neighborhoods on the map
         </div>
       )}
-      <div className="se-map-legend">
-        <div>
-          <strong>
-            {showPermits
-              ? "Permits · 30-day count"
-              : showHotspots
-                ? "Places & amenities"
-                : "Weighted profile index"}
-          </strong>
-          <button
-            title="Fit Miami"
-            aria-label="Fit Miami"
-            onClick={() =>
-              map.current?.fitBounds(cityBounds, {
-                padding: { top: 65, right: 35, bottom: 105, left: 35 },
-                duration: 500,
-              })
-            }
-          >
-            <Crosshair size={16} />
-          </button>
-        </div>
-        {showHotspots ? (
-          <div className="se-place-legend">
-            <div className="se-marker-key">
-              {markerCategories.map((category) => (
-                <span key={category.id}>
-                  <i style={{ background: category.color }} />
-                  {category.label}
-                </span>
-              ))}
-            </div>
-            <span>
-              Colors identify the anchor place. Hover a marker for a preview;
-              click for nearby amenities.
-            </span>
+      {!compact && renderLegend()}
+      {compact && (
+        <>
+          <div className="se-mobile-mapbar" aria-label="Map controls">
+            <select
+              aria-label="Map display mode"
+              value={mode}
+              onChange={(event) => onModeChange(event.target.value as MapMode)}
+            >
+              <option value="profile">Profile</option>
+              <option value="places">Places</option>
+              <option value="permits">Permits</option>
+            </select>
+            <button onClick={onOpenLayers}>
+              <SlidersHorizontal size={15} />
+              Layers
+            </button>
+            <button onClick={() => setLegendOpen(true)}>
+              <Layers3 size={15} />
+              Legend
+            </button>
           </div>
-        ) : (
-          <>
-            <div className="se-legend-ramp">
-              {(showPermits
-                ? ["#e1dfeb", "#bbb9d5", "#938fb9", "#6f6a9d", "#4c4678"]
-                : ["#9d4c45", "#986f37", "#74817d", "#568369", "#35749b"]
-              ).map((color) => (
-                <i key={color} style={{ background: color }} />
-              ))}
-            </div>
-            <div className="se-legend-labels">
-              {showPermits ? (
-                <>
-                  <span>0–19</span>
-                  <span>20–49</span>
-                  <span>50–99</span>
-                  <span>100–149</span>
-                  <span>150+</span>
-                </>
-              ) : (
-                <>
-                  <span>−1</span>
-                  <span>−0.6</span>
-                  <span>−0.3 / +0.3</span>
-                  <span>+0.6</span>
-                  <span>+1</span>
-                </>
-              )}
-            </div>
-          </>
-        )}
-        <small>
-          {showPermits
-            ? "Neighborhood permit totals"
-            : showHotspots
-              ? `${hotspotData.features.length} recorded clusters`
-              : `${activeLayers.filter((l) => layerWeights[l] > 0).length} active dimensions · adjust weights in the sidebar`}
-        </small>
-      </div>
+          <Dialog open={legendOpen} onOpenChange={setLegendOpen}>
+            <DialogContent
+              className="se-mobile-dialog se-mobile-legend"
+              aria-describedby={undefined}
+            >
+              <DialogHeader>
+                <span className="se-eyebrow">Reading the map</span>
+                <DialogTitle>
+                  {showPermits
+                    ? "Building permits"
+                    : showHotspots
+                      ? "Places & amenities"
+                      : "Weighted profile"}
+                </DialogTitle>
+              </DialogHeader>
+              {renderLegend()}
+            </DialogContent>
+          </Dialog>
+        </>
+      )}
     </div>
   );
 }

@@ -12,8 +12,10 @@ import { dimensions } from "@/lib/intelligence/briefings";
 
 export function IntelligenceControls({
   onSelectArea,
+  compact = false,
 }: {
   onSelectArea?: (id: string) => void;
+  compact?: boolean;
 }) {
   const { dataService } = useDataset();
 
@@ -77,7 +79,7 @@ export function IntelligenceControls({
             Base profile
           </button>
         </div>
-        <details className="se-weight-controls" open>
+        <details className="se-weight-controls" open={!compact}>
           <summary>
             <SlidersHorizontal size={15} />
             <strong>Layer weights</strong>
