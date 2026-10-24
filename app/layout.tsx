@@ -4,6 +4,7 @@ import { Inter } from "next/font/google";
 import "./globals.css";
 import "./intelligence.css";
 import "maplibre-gl/dist/maplibre-gl.css";
+import "./mobile.css";
 
 const inter = Inter({ subsets: ["latin"] });
 

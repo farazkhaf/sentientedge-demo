@@ -21,9 +21,13 @@ import { CityPreview } from "./city-preview";
 export function IntelligenceHome({
   open,
   session,
+  compact = false,
+  onAsk,
 }: {
   open: (action: InvestigationAction) => void;
   session: InvestigationSession;
+  compact?: boolean;
+  onAsk?: () => void;
 }) {
   const { dataService, briefings, areaBriefing, recordsFor } = useDataset();
 
@@ -84,6 +88,13 @@ export function IntelligenceHome({
                 Explore the geographic workspace
                 <ArrowUpRight size={14} />
               </button>
+              {compact && (
+                <button className="se-home-mobile-ask" onClick={onAsk}>
+                  <Sparkles size={15} />
+                  Ask about Miami
+                  <ArrowUpRight size={13} />
+                </button>
+              )}
             </div>
             <CityPreview selected={null} open={() => go([])} />
           </div>
@@ -128,6 +139,7 @@ export function IntelligenceHome({
               className="se-home-ask"
               disabled={session.pending}
               onClick={() => {
+                if (compact) onAsk?.();
                 void session.send(
                   "Give me a Miami briefing with the supporting evidence.",
                 );
@@ -299,7 +311,7 @@ export function IntelligenceHome({
           </section>
         </div>
       </div>
-      <InvestigationAssistant session={session} open={open} />
+      {!compact && <InvestigationAssistant session={session} open={open} />}
     </div>
   );
 }

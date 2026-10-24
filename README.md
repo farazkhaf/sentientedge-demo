@@ -44,7 +44,7 @@ npm start
 - **Compare:** two to four neighborhoods with aligned indices, income, density, walkability, permit activity, and related briefings.
 - **Ask:** one contextual conversation with briefings, comparison tables, charts, timelines, source evidence, and map actions. Actions apply when clicked. The assistant searches the included data; it performs no live web research or automatic map commands.
 
-Saved areas and recent explorations persist in the browser. Conversations last for the current page session. The interface targets desktop analysis.
+Saved areas and recent explorations persist in the browser. Conversations last for the current page session. Desktop offers the full analytical canvas. On narrower screens, Home becomes a scrolling briefing, the map and details share three draggable positions, controls open in sheets, and comparisons show two selected areas at a time. The same assistant opens full-screen.
 
 ## Data and architecture
 

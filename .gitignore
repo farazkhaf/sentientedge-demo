@@ -40,3 +40,4 @@ worker-configuration.d.ts
 
 # Local coding-assistant instructions
 /AGENTS.md
+/CLAUDE.md

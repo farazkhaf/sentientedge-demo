@@ -17,23 +17,28 @@ export function PlaceDetailPanel({
   place,
   back,
   close,
+  compact = false,
 }: {
   place: HotspotFeature;
   back: () => void;
   close: () => void;
+  compact?: boolean;
 }) {
   const [copied, setCopied] = useState(false);
   const area = placeArea(place.geometry.coordinates);
   const maximum = Math.max(1, ...Object.values(place.properties.categories));
+  const backLink = (
+    <button className="se-context-back" onClick={back}>
+      <ArrowLeft size={13} />
+      {area ? area.name : "Miami overview"}
+    </button>
+  );
   return (
     <aside
       className="se-context-panel se-place-panel"
       aria-label="Selected place details"
     >
-      <button className="se-context-back" onClick={back}>
-        <ArrowLeft size={13} />
-        {area ? area.name : "Miami overview"}
-      </button>
+      {!compact && backLink}
       <header className="se-context-header">
         <div>
           <span className="se-eyebrow">Place intelligence</span>
@@ -50,6 +55,7 @@ export function PlaceDetailPanel({
         </div>
       </header>
       <div className="se-context-scroll">
+        {compact && backLink}
         <p className="se-place-location">
           <MapPin size={12} />
           Miami{area ? ` / ${area.name}` : ""}

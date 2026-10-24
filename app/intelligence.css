@@ -1,6 +1,7 @@
 /* Shared light analytics palette, including panels rendered outside the workspace. */
 .se-app,
 .se-assistant-dialog[data-slot="dialog-content"],
+.se-mobile-dialog,
 .se-snapshot-dialog {
   --se-ink: #18262b;
   --se-secondary: #46585f;
@@ -1598,6 +1599,10 @@
   flex: 1;
   padding: 0 24px 24px;
 }
+.se-comparison-scroll.is-empty {
+  display: flex;
+  flex-direction: column;
+}
 .se-comparison-table {
   width: 100%;
   border-collapse: collapse;
@@ -2744,45 +2749,63 @@
   flex-shrink: 0;
   padding: 16px 23px 13px;
   border-top: 1px solid var(--se-line);
-  display: grid;
-  grid-template-columns: 1fr 35px;
-  gap: 7px;
+  display: block;
   background: var(--se-paper);
+}
+.se-composer-input {
+  border: 1px solid var(--se-line);
+  border-radius: 16px;
+  background: var(--se-paper);
+  padding: 12px 12px 8px;
+  transition:
+    border-color 160ms ease,
+    box-shadow 160ms ease;
 }
 .se-assistant-composer textarea {
   resize: none;
-  border: 1px solid var(--se-line);
-  border-radius: 5px;
+  display: block;
+  border: 0;
+  outline: none;
+  border-radius: 0;
   background: var(--se-paper);
-  padding: 11px 12px;
+  padding: 0;
   width: 100%;
   color: var(--se-secondary);
-  font-size: 12px;
-  line-height: 1.6;
-  min-height: 64px;
+  font-size: 14px;
+  line-height: 24px;
+  min-height: 24px;
+  max-height: 96px;
+  scrollbar-width: thin;
+  scrollbar-color: var(--se-border-strong) transparent;
+}
+.se-assistant-composer textarea:focus-visible {
+  outline: none;
+}
+.se-composer-actions {
+  display: flex;
+  justify-content: flex-end;
+  margin-top: 4px;
 }
 .se-assistant-composer textarea::placeholder {
   color: var(--se-muted);
 }
-.se-assistant-composer > button {
-  align-self: end;
-  margin-bottom: 2px;
+.se-assistant-composer .se-composer-send {
   background: var(--se-accent);
   color: var(--se-paper);
   border: 0;
-  border-radius: 5px;
-  width: 35px;
-  height: 35px;
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
   display: flex;
   align-items: center;
   justify-content: center;
 }
 .se-assistant-composer small {
-  grid-column: 1/-1;
+  display: block;
   color: var(--se-muted);
   font-size: 9px;
   line-height: 1.5;
-  padding-top: 3px;
+  padding-top: 7px;
 }
 .se-cited-record {
   position: absolute;
@@ -3130,7 +3153,7 @@
   border-color: var(--se-line);
 }
 .se-finder:focus-within,
-.se-assistant-composer:focus-within textarea {
+.se-composer-input:focus-within {
   border-color: var(--se-accent-line);
   box-shadow: 0 0 0 3px #176a6710;
 }
@@ -3481,10 +3504,10 @@
   transform: translateX(-100%);
   animation: se-skeleton-sweep 1800ms ease-in-out infinite;
 }
-.se-assistant-composer > button:not(:disabled):hover {
+.se-composer-send:not(:disabled):hover {
   background: var(--se-accent-hover);
 }
-.se-assistant-composer > button:not(:disabled):active {
+.se-composer-send:not(:disabled):active {
   transform: translateY(1px);
 }
 .se-assistant-dialog[data-state="open"] {
